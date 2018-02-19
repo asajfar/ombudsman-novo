@@ -1,0 +1,979 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"overf",
+				"overflow"
+			],
+			[
+				"da",
+				"datum"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"col-",
+				"col-md-3"
+			],
+			[
+				"cuu",
+				"curPageURL"
+			],
+			[
+				"white",
+				"white-space\t(style.css)"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"iz",
+				"izlagaci-logo\t(style.css)"
+			],
+			[
+				"tar",
+				"target\tAttr"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"side-",
+				"side-tab"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"border-color",
+				"border-right-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"re",
+				"ready"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"j",
+				"justify"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"comment",
+				"commentDate\t(index.php)"
+			],
+			[
+				"members",
+				"membersNumber"
+			],
+			[
+				"me",
+				"membersNumber"
+			],
+			[
+				"memberL",
+				"memberLocation"
+			],
+			[
+				"tbl",
+				"tbl_comments"
+			],
+			[
+				"arr",
+				"array\t(class.user.php)"
+			],
+			[
+				"tbl_",
+				"tbl_members\t(class.user.php)"
+			],
+			[
+				"msg_obn",
+				"msg_obnova_clanstvo"
+			],
+			[
+				"msg_o",
+				"msg_obnova_clanstvo"
+			],
+			[
+				"msg_",
+				"msg_obnova_clanstvo"
+			],
+			[
+				"member-",
+				"member-home.php"
+			],
+			[
+				"user_",
+				"user_forgot"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"deo",
+				"deograda"
+			],
+			[
+				"member",
+				"memberName"
+			],
+			[
+				"member_m",
+				"member_mobile"
+			],
+			[
+				"member_l",
+				"member_location"
+			],
+			[
+				"member_",
+				"member_firstname"
+			],
+			[
+				"mem",
+				"memberName\t(member-home.php)"
+			],
+			[
+				"poruka",
+				"poruka_komentar"
+			],
+			[
+				"user",
+				"user_home"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"class",
+				"class='error-red"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"korisn",
+				"korisnicko-ime"
+			],
+			[
+				"tra",
+				"transition\tCSS - transition: ;"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"capc",
+				"captcaok"
+			],
+			[
+				"sess",
+				"sessioncaptcha"
+			],
+			[
+				"se",
+				"sessioncaptcha"
+			],
+			[
+				"e",
+				"echo\techo \"…\""
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"C",
+				"CyrLatIgnore"
+			],
+			[
+				"off",
+				"office@sbsns.rs"
+			],
+			[
+				"office",
+				"office@sbsns.rs\t(onama.php)"
+			],
+			[
+				"targ",
+				"target\tAttr"
+			],
+			[
+				"ta",
+				"taksi"
+			],
+			[
+				"ra",
+				"radovi"
+			],
+			[
+				"sao",
+				"saobracaj"
+			],
+			[
+				"pute",
+				"putevi"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"f",
+				"f7f7f7"
+			],
+			[
+				"eee",
+				"e0e0e0"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"anima",
+				"animation"
+			],
+			[
+				"Ser",
+				"serif"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"vi",
+				"visible\t(style.css)"
+			],
+			[
+				"h",
+				"href\tAttr"
+			],
+			[
+				"jo",
+				"jos-onama\t(style.css)"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"baz",
+				"baza_all.php"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"fi",
+				"firstname"
+			],
+			[
+				"delete",
+				"deleteValue"
+			],
+			[
+				"pos",
+				"pos\tposition: ${1:relative};"
+			],
+			[
+				"on",
+				"onClick\t(index.html)"
+			],
+			[
+				"baza",
+				"baza_all.php\t(edit.php)"
+			],
+			[
+				"uslov",
+				"uslovi-izlaganja.html"
+			],
+			[
+				"uslo",
+				"uslovi-izlaganja.html"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"seri",
+				"sans-serif"
+			],
+			[
+				"doctype",
+				"doctype\tHTML - HTML foundation"
+			],
+			[
+				"my",
+				"myusername"
+			],
+			[
+				"session_",
+				"session_register"
+			],
+			[
+				"SE",
+				"SELECT\t(baza_app.php)"
+			],
+			[
+				"mysqli_",
+				"mysqli_real_escape_string"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "case",
+		"selected_items":
+		[
+			[
+				"case",
+				"Convert Case: Lower Case"
+			],
+			[
+				"camp",
+				"Set Syntax: camlp4"
+			],
+			[
+				"caps",
+				"Convert Case: Upper Case"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"strong",
+				"Snippet: <strong>"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: input - month"
+			],
+			[
+				"alig",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"ali",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"Packa insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code"
+	],
+	"file_history":
+	[
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombudsman-project",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/index.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/style.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/js/script.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/hover.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/bootstrap.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Obrada/sidebar/elegant-responsive-sidebar-templates/assets/sidebar-advanced.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/kontakt.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Obrada/sidebar/elegant-responsive-sidebar-templates/sidebar-advanced.html",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Obrada/Image hover effects/imagehover.css-master/css/imagehover.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Obrada/hover effects/Hover-master/css/hover.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Obrada/searchbox/index.html",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Obrada/searchbox/style.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/include/meni.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/include/logo-baner.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/js/jquery.easing.1.3.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/js/plugins-scroll.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/configuration.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/ytp-regular-2.html",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/ytp-regular.html",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/grabbing.html",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/AjaxLoader.html",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/owl.carousel.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/owl.theme.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/icomoon.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/settings.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/style.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/images/controls.html",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/jquery.bxslider.css",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/magnific-popup.css",
+		"/C/Users/alen.sajfar/Desktop/predlog/index.html",
+		"/C/Users/alen.sajfar/Desktop/ombudsman-naslovna-draft.html",
+		"/C/Users/alen.sajfar/Desktop/index.html",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/alen.sajfar/Desktop/check/CHECKLIST.html",
+		"/C/Users/alen.sajfar/Desktop/cache.manifest",
+		"/C/Users/alen.sajfar/Desktop/CHECKLIST.html",
+		"/C/Users/alen.sajfar/Desktop/Potpis-NIS.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci-2017.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/css/style.css",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/index.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/lokacija.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/posetioci.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/profil-izlagaca.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/program.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/ts-exposr.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/uslovi-izlaganja.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlagaci.html",
+		"/C/Users/alen.sajfar/Desktop/index.xml",
+		"/C/Users/alen.sajfar/Desktop/sitemap.xml",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/index.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/visitors.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/sr/izlozba.html",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/dbconfig.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/login/index.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/login/class.user.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/panel/index.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/panel/posalji-vest.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/panel/export.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/panel/export-excel.php",
+		"/J/xampp/htdocs/sbsns.rs/savetdb/panel/table_all.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/clanstvo.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/uslovi.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/class.user.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/home.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/member-home.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/resetpass.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/verify.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/logout.php",
+		"/J/xampp/htdocs/sbsns.rs/sbsnsdb/dbconfig.php",
+		"/J/xampp/htdocs/sbsns.rs/kontakt.php",
+		"/J/xampp/htdocs/sbsns.rs/captcha.php",
+		"/J/xampp/htdocs/sbsns.rs/kampanje.php",
+		"/J/xampp/htdocs/sbsns.rs/servis.php",
+		"/J/xampp/htdocs/sbsns.rs/zahtevi.php",
+		"/J/xampp/htdocs/sbsns.rs/onama.php",
+		"/J/xampp/htdocs/sbsns.rs/index.php",
+		"/J/xampp/htdocs/sbsns.rs/vesti.php",
+		"/J/xampp/htdocs/sbsns.rs/js/script.js",
+		"/J/xampp/htdocs/sbsns.rs/include/meni.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/baza.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/baza_all.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/baza_app.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/conference.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-profile.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-terms.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/location.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/login.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/welcome.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/program_en.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/programme.html",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/search.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/successreg.html",
+		"/J/xampp/htdocs/sbsns.rs/js/bootstrap.js",
+		"/J/xampp/htdocs/sbsns.rs/include/logo-baner.php",
+		"/J/xampp/htdocs/sbsns.rs/arhiva.php",
+		"/J/xampp/htdocs/sbsns.rs/sednice.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/registration.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/index.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/plugins/datatables/jquery.dataTables.js",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/dist/css/skins/skin-red.css",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/index.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/css/style.css",
+		"/C/Users/alen.sajfar/Desktop/Biologija sesti - jelenabaclic2000@gmail.com - Gmail.html",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/posalji-vest.php",
+		"/C/Users/alen.sajfar/Desktop/2017-04-26_omb-racunari",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/login/index.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/sbsnsdb/clanstvo.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/index.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/komentari.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/korisnici.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/export-excel.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/export.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/sbsnsdb/uslovi.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/include/meni-db.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/servis.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/servis 2.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/arhiva.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/vesti.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/sednice.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/include/meni.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/login/class.user.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/export.php",
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/table.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
+			"J:\\xampp\\htdocs\\sbsns.rs\\js",
+			"J:\\xampp\\htdocs\\sbsns.rs\\js,J:\\xampp\\htdocs\\sbsns.rs\\css",
+			"J:\\xampp\\htdocs\\sbsns.rs\\js",
+			"J:\\xampp\\htdocs\\sbsns.rs\\css",
+			"J:\\xampp\\htdocs\\sbsns.rs\\js",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\sr",
+			"J:\\xampp\\htdocs\\sbsns.rs",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en\\ts-expo-db\\panel",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en\\js",
+			"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\en",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\savetdb\\",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\sbsnsdb\\",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\savetdb\\panel\\dist",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\sbsnsdb",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\js",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\css",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\js",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\css",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\js",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\css",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\Primeri\\Mariam\\themebond.com\\html\\mariam\\default\\css",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\Primeri\\Mariam\\themebond.com\\html\\mariam\\default\\js",
+			"D:\\OneDrive\\WEB Design\\Agencija za bezbednost\\HTML\\asdfg310\\js",
+			"C:\\Users\\alen.sajfar\\Desktop\\bezbednost"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"collapse",
+			"navbar-collapse",
+			"navbar-collapse collapse",
+			"5",
+			"ease",
+			"aweso",
+			"4",
+			"3",
+			"popup-2",
+			"1",
+			"0.5",
+			"gallery",
+			"0.3",
+			"podnas",
+			"data-animate",
+			"fadeInRight",
+			"h1",
+			"header3",
+			"navbar-fixed-top",
+			"header-top-line",
+			"clearfix",
+			"span",
+			"icon",
+			"import",
+			"naziv",
+			"tp",
+			"owl",
+			"bx",
+			"mfp",
+			"TS-EXPO",
+			"<ul class=\"dropdown\">\n              <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n              </li>\n              <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n              </li>\n            </ul>",
+			"<ul class=\"dropdown\">\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li> \n                </ul>",
+			"USKORO",
+			"international",
+			"internationa",
+			"inter",
+			"međunarodni",
+			">",
+			"",
+			"</p>",
+			"<p>",
+			"",
+			"2016",
+			"vest",
+			"POsalji",
+			"DataTable",
+			"$row",
+			"exe",
+			"submit-obnova",
+			"bs-example-tabs",
+			"bs-example",
+			"bs",
+			"role",
+			"data-example-id",
+			"bs-example-tab",
+			"tab-content",
+			"tab-pane",
+			"message",
+			"leftCol",
+			"navbar",
+			"clanovi",
+			"triggerAnimation",
+			"cnews",
+			"tp-banner",
+			"<li>\n                  <a class=\"twitter\" href=\"#\"><i class=\"fa fa-twitter\"></i></a>\n                </li>\n                <li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li>",
+			"<a class=\"twitter\" href=\"#\"><i class=\"fa fa-twitter\"></i></a>",
+			"<!",
+			"<li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li>",
+			"<!-- Tab sa strane ciji link vodi ka B2B stranici  -->\n\n  <div id=\"side-tab\">\n      <a class=\"b2b\" onmouseover=\"changeb2b(this)\" onmouseout=\"normalb2b(this)\" target=\"_blank\" href=\"http://trafficb2b2017.talkb2b.net/\"></a>\n  </div>\n\n  <!-- kraja taba  -->",
+			"facebook",
+			"Scroll",
+			"scroll",
+			"header-top-line",
+			"CyrLat",
+			"togg",
+			"modal",
+			"bs",
+			"modal",
+			"registracija",
+			"message",
+			"cnews",
+			"pdf",
+			"cnews",
+			"th",
+			"width",
+			"tabela",
+			"tabela1",
+			"id",
+			"css",
+			"data-column",
+			"square",
+			"Organiyatori",
+			"navbar",
+			"params",
+			"1.5",
+			"1.57",
+			")",
+			"index.html",
+			"registracija",
+			"test",
+			"testsite",
+			"test",
+			"testsite",
+			"fn",
+			"nTf",
+			"butto",
+			"class=\"active\"",
+			"tabela2",
+			"toggle-vis",
+			"tebela2",
+			"tabela1",
+			"$membersNumber",
+			"2",
+			"sql1",
+			"$sql1",
+			"buttons",
+			"msg",
+			"#regi",
+			"out",
+			"$msg",
+			"member_street",
+			"member_location",
+			"member_lastname",
+			"member_firstname",
+			"date",
+			"trn",
+			"fname",
+			"bi ste"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<ul class=\"dropdown\">\n<li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n              </li>\n              <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n              </li>\n              <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n              </li>\n            </ul>",
+			"<ul class=\"dropdown\">\n                  <li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n                  </li>\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li> \n                </ul>",
+			"<ul class=\"dropdown\">\n                  <li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n                  </li>\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li> \n                </ul>\n                  <a class=\"twitter\" href=\"https://twitter.com/ts_expo_ns\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a>\n                </li>\n                <!-- <li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li> -->",
+			"<li>\n                  <a class=\"twitter\" href=\"https://twitter.com/ts_expo_ns\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a>\n                </li>\n                <!-- <li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li> -->",
+			"<a class=\"twitter\" href=\"https://twitter.com/ts_expo_ns\"><i class=\"fa fa-twitter\"></i></a>",
+			"<!-- <li>\n                  <a class=\"google\" href=\"#\"><i class=\"fa fa-google-plus\"></i></a>\n                </li>\n                <li>\n                  <a class=\"skype\" href=\"#\"><i class=\"fa fa-skype\"></i></a>\n                </li> -->",
+			"<?php\n\n\t\t\t\t\t\t    $number = 6;\n\t\t\t\t\t\t    $template = \"savet3\";\n\t\t\t\t\t\t    $category = \"1\";\n\t\t\t\t\t\t    include(\"/home/uprava/public_html/testsite/cnews/show_news.php\");\n\n\t\t\t\t\t\t?>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ombudsman-project.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\ts-expo-tteesstt-project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
