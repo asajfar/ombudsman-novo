@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"hvr",
+				"hvr-sweep-to-right\t(index.php)"
+			],
+			[
 				"ease",
 				"ease-in-out"
 			],
@@ -553,10 +557,17 @@
 	},
 	"expanded_folders":
 	[
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code"
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css"
 	],
 	"file_history":
 	[
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
+		"/D/SkyDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombudsman-project",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/index.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/style.css",
@@ -680,15 +691,11 @@
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/servis 2.php",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/arhiva.php",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/vesti.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/sednice.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/include/meni.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/login/class.user.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/export.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/table.php"
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/sednice.php"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -892,7 +899,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -929,7 +936,7 @@
 	"project": "ombudsman-project.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

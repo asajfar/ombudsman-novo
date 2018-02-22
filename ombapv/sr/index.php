@@ -1,5 +1,5 @@
 <?php 
-	$page = "onama";
+	$page = "naslovna";
 ?>
 
 <!doctype html>
@@ -119,7 +119,218 @@
 				<?php include 'include/meni.php' ?>
 			</nav>
 		</header>
-		
+		<!-- End Header -->
+
+		<!-- slider 
+			================================================== -->
+		<div id="slider" class="slider1">
+			<!--
+			#################################
+				- THEMEPUNCH BANNER -
+			#################################
+			-->
+			<div class="tp-banner-container">
+				<div class="tp-banner" >
+					<ul>
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" >
+							<!-- MAIN IMAGE -->
+							<img src="upload/slide/ombudsman01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="20% 30%" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption lft large_bold_white customout"
+								data-x="0"
+								data-y="140"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="700"
+								data-start="1200"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 4; min-width: 500px; max-width: 500px; white-space: inherit; line-height: 55px;">КАКО ПОДНЕТИ ПРИТУЖБУ?
+							</div>
+							
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption lfl medium_thin_grey"
+								data-x="0"
+								data-y="260"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="1600"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14">
+							</div>
+							
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption lfb medium_thin_grey"
+								data-x="0"
+								data-y="280"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="2000"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14"><a href="vredi-li-zivota.php" class="btn btn-primary">САЗНАЈТЕ ВИШЕ</a>
+							</div>
+
+							
+						</li>
+						<!-- SLIDE  -->
+						<!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="500" > -->
+							<!-- MAIN IMAGE -->
+							<!-- <img src="upload/slide/01b.jpg"  alt="slidebg1b"  data-bgfit="cover" data-bgposition="0% 50%" data-bgrepeat="no-repeat"> -->
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<!-- <div class="tp-caption lft large_bold_white customout"
+								data-x="0"
+								data-y="180"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="700"
+								data-start="1200"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 4">Vredi li života?
+							</div> -->
+							
+							<!-- LAYER NR. 2 -->
+							<!-- <div class="tp-caption lfl medium_thin_grey"
+								data-x="0"
+								data-y="260"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="1600"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14">
+							</div> -->
+							
+							<!-- LAYER NR. 3 -->
+							<!-- <div class="tp-caption lfb medium_thin_grey"
+								data-x="0"
+								data-y="280"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="2000"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14"><a href="vredi-li-zivota.php" class="btn btn-primary">Saznajte više</a>
+							</div> -->
+
+							
+						</li>
+						<!-- SLIDE  -->
+						<!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="500" > -->
+							<!-- MAIN IMAGE -->
+							<!-- <img src="upload/slide/02.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="0% 30%" data-bgrepeat="no-repeat"> -->
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<!-- <div class="tp-caption lft large_bold_white customout text-center"
+								data-x="0"
+								data-y="180"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="700"
+								data-start="1200"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 4">Kiša menja sve!
+							</div> -->
+							
+							<!-- LAYER NR. 2 -->
+							<!-- <div class="tp-caption lfl medium_thin_grey"
+								data-x="0"
+								data-y="260"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="1600"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14">Prilagodi vožnju vremenskim prilikama. 
+							</div> -->
+
+							<!-- LAYER NR. 3 -->
+							<!-- <div class="tp-caption lfb medium_thin_grey"
+								data-x="0"
+								data-y="340"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="2000"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14"><a href="kisa-menja-sve.php" class="btn btn-primary">Pročitajte više</a>
+							</div> -->
+
+							
+						</li>
+						<!-- SLIDE  -->
+						<!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="500" > -->
+							<!-- MAIN IMAGE -->
+							<!-- <img src="upload/slide/03.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="O% 30%" data-bgrepeat="no-repeat"> -->
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<!-- <div class="tp-caption lft large_bold_white customout"
+								data-x="0"
+								data-y="180"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="700"
+								data-start="1200"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 4">Kad pijem ne vozim!
+							</div> -->
+							
+							<!-- LAYER NR. 2 -->
+							<!-- <div class="tp-caption lfl medium_thin_grey"
+								data-x="0"
+								data-y="260"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="1600"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14">Koliko te košta sledeće piće? 
+							</div> -->
+
+							<!-- LAYER NR. 3 -->
+							<!-- <div class="tp-caption lfb medium_thin_grey"
+								data-x="0"
+								data-y="340"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="2000"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14"><a href="kad-pijem-ne-vozim.php" class="btn btn-primary">Saznajte više</a>
+							</div> -->
+
+							
+						</li>
+					</ul>
+					<div class="tp-bannertimer"></div>
+				</div>
+			</div>
+		</div>
+		<!-- End slider -->
+
 		<!-- content 
 			================================================== -->
 		<div id="content">
@@ -181,41 +392,152 @@
 
 			<!-- vesti i sidebar
 				================================================== -->
-			<!-- articles-section
-				================================================== -->
-			<div class="section-content articles-section">
-				<div class="container">
-					<div class="zivot-box">
-						<div class="row">
-							<div class="col-md-8">
-								<div class="naslov-artikla">
-									<h2 id="naslov1">Шта је омбудсман?</h2>
-								</div>
-								<div class="article-content triggerAnimation animated fontaccess" data-animate="fadeInLeft">
-									<p class="fontaccess">Омбудсман је институција коју је шведски парламент увео 1809. године у циљу контроле извршне власти. Реч омбудсман у шведском језику означава особу која „има слуха за народ“. Први омбудсман је имао задатак да спречи да краљ и влада игноришу законе. Користио овлашћење да од извршне власти захтева извештаје о примени закона, као и овлашћење да покреће одговарајуће поступке ради утврђивања одговорности управних службеника.</p>
-									<p class="fontaccess">Покрајински заштитник грађана – омбудсман је независан и самосталан орган АП Војводине који штити права грађана и врши надзор над радом покрајинских органа управе, јавних предузећа и установа које врше управна и јавна овлашћења, а чији је оснивач АП Војводина,  у вези са њиховим поступањем у извршавању одлука и других правних аката АП Војводине.</p>
-									<p class="fontaccess">На основу нове Покрајинске скупштинске одлуке о покрајинском заштитнику грађана - омбудсману, покрајински заштитник грађана - омбудсман има четири заменика од којих се по један бира за области права националних мањина, права детета и равноправност полова.</p>
-									<p class="fontaccess">Одлука о успостављању институције Покрајинског омбудсмана донета је у децембру 2002. Први војвођански омбудсман изабран је 24. септембра 2003, са радом је започео у јануару 2004. године. Седиште институције је у Новом Саду.</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="right-menu triggerAnimation animated" data-animate="fadeInRight">
-									<div class="module-right-menu">
-										<ul>
-											<li><a class="taraba" href="#naslov1">Шта је омбудсман</a></li>
-											<li><a href="#" target="_blank">Надлежност</a></li>
-											<li><a href="#" target="_blank">Ко може да се обрати</a></li>
-											<li><a href="#" target="_blank">Поступак</a></li>
-											<li><a href="#" target="_blank">Када вам не можемо помоћи</a></li>
+			<div class="section-content services-section">
 
-										</ul>
-									</div>							
+				<div class="services-box1">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-9">
+								<div class="novo">
+									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
+										<!-- <a href=""><img src="" alt=""></a> -->
+										<?php
+									        $number = 4;
+									        $template = "vesti-naslovna";
+									    	$category = "1,2,3";
+									        include("/home4/ombudsma/public_html/ombudsmanapv.org/ombapv/cnews/show_news.php");
+									    ?>
+									</div>
+
+									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
+										<!-- <a href=""><img src="" alt=""></a> -->
+										<div class="vest">
+											<h4>Омбудсману похвале, студентима сертификати</h4>
+											<h6 class="datum">26. децембар 2017.</h6>
+											<p class="fontaccess">Зоран Павловић, покрајински заштитник грађана – омбудсман, уручио је данас студентима Факултета за правне и пословне студије „Лазар Вркатић“  сертификате о завршеној стручној пракси у области људских права. Током пет дана, колико је трајала пракса, запослени у институцији омбудсмана упознали су студенте са организацијом, надлежностима и радом Покрајинског заштитника грађана и омогућили им практичан рад на решавању притужби грађана...</p>
+											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
+										</div>
+									</div>
+
+									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
+										<!-- <a href=""><img src="" alt=""></a> -->
+										<div class="vest">
+											<h4>Даровита деца заслужују подршку</h4>
+											<h6 class="datum">26. децембар 2017.</h6>
+											<p class="fontaccess">Да ли просветни систем у Србији препознаје даровиту децу, да ли им и како излази у сусрет?<br>Одговоре на ова и друга питања нуди истраживање Покрајинског заштитника грађана - омбудсмана „Подршка ученицима са изузетним способностима у основним и средњим школама у АП Војводини“...</p>
+											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
+										</div>
+									</div>
+
+									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
+										<!-- <a href=""><img src="" alt=""></a> -->
+										<div class="vest">
+											<h4>Вода није само услов опстанка, него и просперитета</h4>
+											<h6 class="datum">19. децембар 2017.</h6>
+											<p class="fontaccess">Право на живот у здравој животној средини је Уставом Републике Србије загарантовано и веома важно егзистенцијално право, коме се у нашем друштву не придаје значај какав заслужује, истакнуто је на јуче одржаном проширеном колегијуму Покрајинског заштитника грађана – омбудсмана на тему “Право на живот и здравој животној средини”. У дискусији је истакнуто да вода није само услов нашег опстанка, него и просперитета...</p>
+											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
+										</div>
+									</div>
+
+									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
+										<!-- <a href=""><img src="" alt=""></a> -->
+										<div class="vest">
+											<h4>Колегијум о праву на живот у здравој животној средини</h4>
+											<h6 class="datum">15. децембар 2017.</h6>
+											<p class="fontaccess">раво на здраву животну средину једно је од основних права које је гарантовано Уставом Републике Србије. У остваривању тог права грађани се суочавају са мноштвом проблема. Приступ здравствено исправној пијаћој води није само један од актуалних проблема, него је проблем који ће у деценијама које долазе бити све озбиљнији. У Србији је све мање извора здраве пијаће воде. Процес загађења вода је дуготрајан и често невидљив, а последице њиховог коришћења су озбиљне, не само са здравственог, него и са становишта привредних активности...</p>
+											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
+										</div>
+									</div>									
+									
+
 								</div>
+								
+
+
+								<?php
+								    $number = 3;
+								    $template = "savet1";
+								    $category = "1";
+								    $PHP_SELF = 'vesti.php';
+								    include("/home/uprava/public_html/sbsns.rs/cnews/show_news.php");
+								?>
 							</div>
+							<div class="col-md-3">
+								<aside class="sidebar-advanced">
+
+									<div class="photo-stream">
+
+										<div class="gallery">
+											<a href="#"><img class="hvr-shrink" src="images/naslovna/ombudsman.jpg" alt="Ombudsman"/></a>
+										</div>
+										<h3>Проф. др Зоран Павловић <br><div class="funkcija">Покрајински заштитник грађана - омбудсман</div></h3>
+									</div>
+
+									<div class="company-info">
+
+										<h2>Поднесите притужбу</h2>
+
+										<p>Можете нам се обратити лично, телефоном, путем онлајн обрасца, поштом или имејлом.</p>
+
+										<div class="social-buttons">
+
+											<a data-popup-open="popup-1" href="#"><i class="fa fa-user hvr-float"></i></a>
+											<a data-popup-open="popup-2" href="#"><i class="fa fa-phone hvr-float"></i></a>
+											<a data-popup-open="popup-3" href="#"><i class="fa fa-check-square-o hvr-float"></i></a>
+											<a data-popup-open="popup-4" href="#"><i class="fa fa-envelope hvr-float"></i></a>
+											<a data-popup-open="popup-5" href="#"><i class="fa fa-at hvr-float"></i></a>
+
+
+										</div>
+
+									</div>
+
+									<div class="latest-blog-posts">
+
+										<h3><i class="fa fa-pie-chart"></i>Наша истраживања</h3>
+
+										<ul class="latest-posts">
+											<li><a href="#">Дечји и омладински листови на језицима националних мањина у АП Војводини. </a><span>2017</span></li>
+											<li><a href="#">Подршка ученицима са изузетним способностима у основним и средњим школама у АП Војводини. </a><span>2017</span></li>
+											<li><a href="#">Примена афирмативних мера у области основног образовања Рома и Ромкиња на територији АП Војводине. </a><span>2017</span></li>
+											<li><a href="#">Поступање институција у случајевима насиља у породици. </a><span>2016</span></li>
+										</ul>
+									</div>
+
+									<!-- <div class="our-newsletter">
+
+										<h3><i class="fas fa-chart-line"></i> Our newsletter</h3>
+
+										<form>
+											<p>Subscribe to our awesome newsletter!</p>
+											<input type="email" name="email" placeholder="email@example.com"/>
+											<button>Subscribe</button>
+										</form>
+
+									</div>
+
+									<div class="photo-stream">
+
+										<h3><i class="fa fa-picture-o"></i> Photo stream</h3>
+
+										<div class="gallery">
+											<a href="#"><img src="assets/images/spice.jpg" alt="Spice"/></a>
+											<a href="#"><img src="assets/images/sahale-wa.jpg" alt="Sahale-wa"/></a>
+
+											<p class="pagination">
+												<span>2 of 43</span>
+												<a href="#" class="previous"></a>
+												<a href="#" class="next"></a>
+											</p>
+										</div>
+									</div> -->
+
+								</aside>
+							</div>			
 						</div>
 					</div>
 				</div>
-			</div>
 			
 			<!-- links-section ======================================================================================== -->
 			<div class="section-content team-section">
@@ -431,16 +753,12 @@
 	});
 </script>
 
-
-<!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
+<!-- Skripta koja po ucitavanju stranice dodaje klasu hvr-sweep-to-right elementu .vest a. Ovo se radi yato sto jenemoguce ovu klasu dodati u templejtu u CuteNews-u ([full-link]Опширније...[/full-link])-->
 <script>
-	$(document).on('click', 'a.taraba', function(event){
-	    event.preventDefault();
-
-	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
+	$(document).ready(function() {
+	  $('.vest a').addClass('hvr-sweep-to-right');
 	});
 </script>
-
 
 
 </body>
