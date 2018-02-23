@@ -848,7 +848,7 @@ a.linkbtn {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     padding: 4px 10px;
-    font-size: 13px;
+    font-size: 12px;
     color: #888888;
     font-weight: 400;
     /* line-height: 24px; */
@@ -1009,6 +1009,33 @@ a.btn-modal:hover {
     text-align: left;
     /*border-top: 1px solid #e5e5e5;*/
 }
+
+/*---NASLOVNA----effect za sliku*/
+.slika-effect1 {
+ background-image: url(../images/trame.svg);
+    background-repeat: repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    opacity: 0.8;
+    /* position: absolute; */
+    /* background-color: #000; */
+    /* opacity: 1; */
+    /* width: 100%; */
+    /* left: 0; */
+    /* top: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* background-position: 50% 50%; */
+    /* background-repeat: no-repeat; */
+    z-index: 3;
+}
+
 
 /* NASLOVNA - LINKOVI pre footera ------------------------------------------------------------------------------------------------------------*/
 
@@ -7842,13 +7869,13 @@ footer .up-footer .footer-widget p {
 }
 
 footer .widget.footer-widget img {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 footer .up-footer .footer-widget ul.social-list {
   margin: 0;
   padding: 0;
-  margin-top: 55px;
+  margin-top: 25px;
 }
 footer .up-footer .footer-widget ul.social-list li {
   list-style: none;
@@ -8197,7 +8224,7 @@ footer .up-footer .flickr-widget ul li a:hover {
     width: 160px;
   }
   .footer-widget {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .footer-line {
     text-align: center;
@@ -8366,9 +8393,35 @@ footer .up-footer .flickr-widget ul li a:hover {
   .nslogo {
     border: none;
   }
+  .footer .widget.footer-widget img {
+    margin-top: 0px;
+  }
   .novo {
     padding-right: 0px;
   }
+  .popup-inner {
+    max-width: 410px;
+    top: 50%;
+  }
+  .popup-inner p a.zatvori {
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+  }
+  .popup-icon {
+    padding-right: 15px;
+    width: unset;
+    margin-top: 3px;
+  }
+  .popup-icon .fa {
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+  }
+  .popup-inner p {
+    text-align: left;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -8688,6 +8741,9 @@ footer .up-footer .flickr-widget ul li a:hover {
   .nslogo img {
     width: 350px;
   }
+  .navbar-toggle{
+    margin-top: 35px;
+  }
   #content {
     position: relative;
     top: 80px;
@@ -8752,5 +8808,56 @@ footer .up-footer .flickr-widget ul li a:hover {
   .naziv {
     font-size: 12px;
     line-height: 
+  }
+
+  .prostor {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .nslogo {
+    padding-bottom: 5px;
+  }
+  .nslogo img {
+    width: 280px;
+  }
+
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+
+  #content {
+    top: 10px;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .header-top-line {
+    display: none;
+  }
+  #content {
+    top: -65px;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 410px) {
+  .nslogo img {
+    width: 190px;
+  }
+  .navbar-toggle {
+    margin-top: 6px;
+  }
+  #content {
+    top: -82px;
+}
+}
+
+@media (max-width: 320px) {
+  .nslogo img {
+    width: 160px;
   }
 }

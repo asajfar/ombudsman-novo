@@ -129,6 +129,7 @@
 				- THEMEPUNCH BANNER -
 			#################################
 			-->
+			
 			<div class="tp-banner-container">
 				<div class="tp-banner" >
 					<ul>
@@ -136,6 +137,7 @@
 						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" >
 							<!-- MAIN IMAGE -->
 							<img src="upload/slide/ombudsman01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="20% 30%" data-bgrepeat="no-repeat">
+							<div class="slika-effect1"></div>
 							<!-- LAYERS -->
 
 							<!-- LAYER NR. 1 -->
@@ -610,7 +612,7 @@
 
 	<!-- POPUP nevidljivi prozori -->
 
-	<div class="popup" data-popup="popup-1" style="display: none; z-index: 25;">
+	<div class="popup" data-popup="popup-1" style="display: none; z-index: 1050;">
 		<div class="popup-inner">
 			<div>
 				<div class="popup-tekst"><h2>Поднесите притужбу лично!</h2><p>Булевар Михајла Пупина 25, Нови Сад<br>Зграда Воде Војводине (ДТД зграда)<br>Приземље-лево крило, канцеларија бр.4<br><br>Сваким радним даном, без заказивања, од 08 до 16 часова.</p>
@@ -618,12 +620,12 @@
 				<div id='mapkit-8288'><a href="#"><img src="images/naslovna/mapa-slika.jpg" alt="mapa"></a>
 				</div>
 			</div>
-			<p style="clear: both;"><a data-popup-close="popup-1" href="#">Затвори прозор</a></p>
+			<p style="clear: both;"><a class="zatvori" data-popup-close="popup-1" href="#">Затвори прозор</a></p>
 			<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
 		</div>
 	</div>
 
-	<div class="popup" data-popup="popup-2" style="display: none; z-index: 25;">
+	<div class="popup" data-popup="popup-2" style="display: none; z-index: 1050;">
 		<div class="popup-inner">
 			<div class="sadrzaj">
 				<div class="popup-icon">
@@ -635,12 +637,12 @@
 					Позовите нас радним даном од 08 до 16 часова.</p>
 				</div>
 			</div>
-			<p style="clear: both; margin-bottom: 0px";><a data-popup-close="popup-2" href="#">Затвори прозор</a></p>
+			<p style="clear: both; margin-bottom: 0px";><a class="zatvori" data-popup-close="popup-2" href="#">Затвори прозор</a></p>
 			<a class="popup-close" data-popup-close="popup-2" href="#">x</a>
 		</div>
 	</div>
 
-	<div class="popup" data-popup="popup-3" style="display: none; z-index: 25;">
+	<div class="popup" data-popup="popup-3" style="display: none; z-index: 1050;">
 		<div class="popup-inner">
 			<div class="sadrzaj">
 				<div class="popup-icon">
@@ -652,12 +654,12 @@
 					<a class="linkbtn hvr-sweep-to-right" href="https://goo.gl/forms/Dry7eNzlpeTnV9B72" target="_blank">ОНЛАЈН ОБРАЗАЦ</a>
 				</div>
 			</div>
-			<p style="clear: both; margin-bottom: 0px";><a data-popup-close="popup-3" href="#">Затвори прозор</a></p>
+			<p style="clear: both; margin-bottom: 0px";><a class="zatvori" data-popup-close="popup-3" href="#">Затвори прозор</a></p>
 			<a class="popup-close" data-popup-close="popup-3" href="#">x</a>
 		</div>
 	</div>
 
-	<div class="popup" data-popup="popup-4" style="display: none; z-index: 25;">
+	<div class="popup" data-popup="popup-4" style="display: none; z-index: 1050;">
 		<div class="popup-inner">
 			<div class="sadrzaj">
 				<div class="popup-icon">
@@ -665,15 +667,15 @@
 				</div>
 				<div class="phone-tekst">
 					<h2>ПОШАЉИТЕ ПРИТУЖБУ ПОШТОМ!</h2>
-					<p>Притужбу нам можете послати у било којем облику или користећи наш <a href="#">образац</a>. Наша адреса је:<br>Покрајински заштитник грађана - омбудсман<br>Булевар Михајла Пупина 25<br>21101 Нови Сад</p>
+					<p>Притужбу нам можете послати у било којем облику или користећи наш <a href="#">образац</a>.</p> <p>Наша адреса је:<br>Покрајински заштитник грађана - омбудсман<br>Булевар Михајла Пупина 25<br>21101 Нови Сад</p>
 				</div>
 			</div>
-			<p style="clear: both; margin-bottom: 0px";><a data-popup-close="popup-4" href="#">Затвори прозор</a></p>
+			<p style="clear: both; margin-bottom: 0px";><a class="zatvori" data-popup-close="popup-4" href="#">Затвори прозор</a></p>
 			<a class="popup-close" data-popup-close="popup-4" href="#">x</a>
 		</div>
 	</div>
 
-	<div class="popup" data-popup="popup-5" style="display: none; z-index: 25;">
+	<div class="popup" data-popup="popup-5" style="display: none; z-index: 1050;">
 		<div class="popup-inner">
 			<div class="sadrzaj">
 				<div class="popup-icon">
@@ -684,7 +686,7 @@
 					<p>Притужбу и прилоге нам можете послати путем електронске поруке на нашу имејл адресу <span class="CyrLatIgnore" style="color: #ec155a">predstavke@ombudsmanapv.org</span>. Притужбе се oбрaђуjу прeмa рeдoслeду приjeмa, бeз oбзирa нa нaчин њихoвoг пoднoшeњa.</p>
 				</div>
 			</div>
-			<p style="clear: both; margin-bottom: 0px";><a data-popup-close="popup-5" href="#">Затвори прозор</a></p>
+			<p style="clear: both; margin-bottom: 0px";><a class="zatvori" data-popup-close="popup-5" href="#">Затвори прозор</a></p>
 			<a class="popup-close" data-popup-close="popup-5" href="#">x</a>
 		</div>
 	</div>
