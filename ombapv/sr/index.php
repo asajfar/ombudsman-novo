@@ -402,7 +402,7 @@
 
 							<div class="col-md-9">
 								<div class="novo">
-									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
+									<div class="triggerAnimation animated" data-animate="fadeInRight">
 										<!-- <a href=""><img src="" alt=""></a> -->
 										<?php
 									        $number = 4;
@@ -412,58 +412,17 @@
 									    ?>
 									</div>
 
-									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
-										<!-- <a href=""><img src="" alt=""></a> -->
+									<!-- <div class="artikal triggerAnimation animated" data-animate="fadeInRight">
 										<div class="vest">
 											<h4>Омбудсману похвале, студентима сертификати</h4>
 											<h6 class="datum">26. децембар 2017.</h6>
 											<p class="fontaccess">Зоран Павловић, покрајински заштитник грађана – омбудсман, уручио је данас студентима Факултета за правне и пословне студије „Лазар Вркатић“  сертификате о завршеној стручној пракси у области људских права. Током пет дана, колико је трајала пракса, запослени у институцији омбудсмана упознали су студенте са организацијом, надлежностима и радом Покрајинског заштитника грађана и омогућили им практичан рад на решавању притужби грађана...</p>
 											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
 										</div>
-									</div>
-
-									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
-										<!-- <a href=""><img src="" alt=""></a> -->
-										<div class="vest">
-											<h4>Даровита деца заслужују подршку</h4>
-											<h6 class="datum">26. децембар 2017.</h6>
-											<p class="fontaccess">Да ли просветни систем у Србији препознаје даровиту децу, да ли им и како излази у сусрет?<br>Одговоре на ова и друга питања нуди истраживање Покрајинског заштитника грађана - омбудсмана „Подршка ученицима са изузетним способностима у основним и средњим школама у АП Војводини“...</p>
-											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
-										</div>
-									</div>
-
-									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
-										<!-- <a href=""><img src="" alt=""></a> -->
-										<div class="vest">
-											<h4>Вода није само услов опстанка, него и просперитета</h4>
-											<h6 class="datum">19. децембар 2017.</h6>
-											<p class="fontaccess">Право на живот у здравој животној средини је Уставом Републике Србије загарантовано и веома важно егзистенцијално право, коме се у нашем друштву не придаје значај какав заслужује, истакнуто је на јуче одржаном проширеном колегијуму Покрајинског заштитника грађана – омбудсмана на тему “Право на живот и здравој животној средини”. У дискусији је истакнуто да вода није само услов нашег опстанка, него и просперитета...</p>
-											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
-										</div>
-									</div>
-
-									<div class="artikal triggerAnimation animated" data-animate="fadeInRight">
-										<!-- <a href=""><img src="" alt=""></a> -->
-										<div class="vest">
-											<h4>Колегијум о праву на живот у здравој животној средини</h4>
-											<h6 class="datum">15. децембар 2017.</h6>
-											<p class="fontaccess">раво на здраву животну средину једно је од основних права које је гарантовано Уставом Републике Србије. У остваривању тог права грађани се суочавају са мноштвом проблема. Приступ здравствено исправној пијаћој води није само један од актуалних проблема, него је проблем који ће у деценијама које долазе бити све озбиљнији. У Србији је све мање извора здраве пијаће воде. Процес загађења вода је дуготрајан и често невидљив, а последице њиховог коришћења су озбиљне, не само са здравственог, него и са становишта привредних активности...</p>
-											<a href="vesti.php" class="hvr-sweep-to-right">Опширније...</a>
-										</div>
-									</div>									
-									
+									</div> -->									
 
 								</div>
 								
-
-
-								<?php
-								    $number = 3;
-								    $template = "savet1";
-								    $category = "1";
-								    $PHP_SELF = 'vesti.php';
-								    include("/home/uprava/public_html/sbsns.rs/cnews/show_news.php");
-								?>
 							</div>
 							<div class="col-md-3">
 								<aside class="sidebar-advanced">

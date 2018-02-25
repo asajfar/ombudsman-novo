@@ -126,7 +126,11 @@ p {
   font-size: 24px
 }
 
-/*VESTI na naslovnoj*/
+/*-------------------------------------------VESTI na naslovnoj-------------------------------------------------------*/
+
+.fontaccess {
+  overflow: hidden;
+}
 
 h6.datum{
   margin-top: -5px;
@@ -161,7 +165,17 @@ h6.datum{
   color: #fff;
 }
 
-/* Sweep To Right - Button - effect */
+.vest img {
+  float: left;
+  /*border: 1px solid black;*/
+  margin-right: 8px;
+  width: 180px;
+  margin-top: 5px;
+  padding: 4px;
+  box-shadow: 0px 0px 10px -2px #a2a2a2;
+}
+
+/* -------------------------------------------------------Sweep To Right - Button - effect ------------------------------------------------------*/
 .hvr-sweep-to-right {
   display: inline-block;
   vertical-align: middle;

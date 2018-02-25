@@ -122,7 +122,7 @@
 		
 		<!-- content 
 			================================================== -->
-		<div id="content">
+		<div id="content" style="margin-top: 46px;">
 
 
 			<!-- pristupacnost 
