@@ -430,7 +430,7 @@
 									<div class="photo-stream">
 
 										<div class="gallery">
-											<a href="#"><img class="hvr-shrink" src="images/naslovna/ombudsman.jpg" alt="Ombudsman"/></a>
+											<a href="ombudsman-i-zamenici.php"><img class="hvr-shrink" src="images/naslovna/ombudsman.jpg" alt="Ombudsman"/></a>
 										</div>
 										<h3>Проф. др Зоран Павловић <br><div class="funkcija">Покрајински заштитник грађана - омбудсман</div></h3>
 									</div>

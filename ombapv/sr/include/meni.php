@@ -45,7 +45,7 @@
 			<li class="drop"><a <?php if($page == 'onama'): ?> class="active"<?php endif ?> href="#">О НАМА</a>
 				<ul class="drop-down">
                     <li><a href="institucija-i-postupak.php">О ИНСТИТУЦИЈИ И ПОСТУПКУ</a></li>
-                    <li><a href="#">ОМБУДСМАН И ЗАМЕНИЦИ</a></li>
+                    <li><a href="ombudsman-i-zamenici.php">ОМБУДСМАН И ЗАМЕНИЦИ</a></li>
 					<li><a href="#">ОРГАНИЗАЦИЈА И СИСТЕМАТИЗАЦИЈА</a></li>
                 </ul>
 			</li>

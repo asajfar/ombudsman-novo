@@ -1073,19 +1073,24 @@ i.fa.big-icon:hover {
   -o-transition: All 0.3s ease;
 }
 
-/* INSTITUCIJA I POSTUPAK ------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------INSTITUCIJA I POSTUPAK -------------------------------------------*/
 
 #content {
   /*margin-top: 46px;*/
 }
 
+.deo-teksta {
+  margin-bottom: 30px;
+}
+
 .naslov-artikla h2 {
   margin-top: 0px;
-  border-left: 33px solid #ed155c;
+  border-left: 3px solid #ed155c;
   display: inline-block;
   padding-left: 5px;
 }
 
+/* --------------------------------------------------------------RIGHT MENU-------------------------------------------------------*/
 .right-menu {
   margin-left: 25px;
   border-left: 8px solid #ed145b;
@@ -1112,12 +1117,20 @@ i.fa.big-icon:hover {
   border-bottom: none;
 }
 
+.module-right-menu ul li img {
+  height: 40px;
+  float: left;
+ /* border: 1px solid #198ba2;*/
+  margin: 0px 8px;
+  box-shadow: 0 0 10px 1px black;
+}
+
 .module-right-menu ul li a {
   display: block;
   font-size: 14px;
   color: #e0e0e0;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   margin: 0;
   padding: 0px 25px;
   transition: all 0.2s ease-in-out;
@@ -1134,6 +1147,54 @@ i.fa.big-icon:hover {
   text-decoration: none;
 }
 
+
+/* ---------------------------------------------- OMBUDSMAN I ZAMENICI----------------------------------- */
+
+.ombudsman-slika {
+  padding-top: 5px;
+}
+
+.ombudsman {
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-bottom: 1px dashed lightgrey;
+}
+
+.ombudsman-slika img {
+  width: 100%;
+  padding: 4px;
+  box-shadow: 0px 0px 10px -2px #2f5377;
+}
+
+.ombudsman-slika a{
+  display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.ombudsman-slika i.fa.fa-angle-double-down {
+  color: #cecece;
+  font-weight: 100;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.ombudsman-slika i.fa.fa-angle-double-down:hover {
+  color: #ec165b;
+  font-weight: 100;
+}
+
+.ombudsman-text h2 {
+  margin-top: 0px;
+}
+
+.ombudsman-text h3 {
+  border-left: 3px solid #ed155c;
+  padding-left: 5px;
+}
 
 /*RETURN TO TOP BUTTON ---------------------------------------------------------------------------------*/
 
@@ -1653,7 +1714,7 @@ h1#zivot2 {
 
 .zivot-box {
   padding: 30px 0;
-  border-bottom: 1px solid #dddddd;
+  /*border-bottom: 1px solid #dddddd*/;
 }
 
 .zivotimg {
