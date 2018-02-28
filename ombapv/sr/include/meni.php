@@ -4,7 +4,7 @@
 		<div class="navbar-collapse collapse">
 		<ul class="nav navbar-nav navbar-left">
             <li class="drop"><a <?php if($page == 'naslovna'): ?> class="active"<?php endif ?> href="index.php">НАСЛОВНА</a></li>                            
-			<li class="drop"><a <?php if($page == 'obratite'): ?> class="active"<?php endif ?> href="obratite.php">ОБРАТИТЕ НАМ СЕ</a>
+			<li class="drop"><a <?php if($page == 'obratite'): ?> class="active"<?php endif ?> href="obratite-nam-se.php">ОБРАТИТЕ НАМ СЕ</a>
 				<!-- <ul class="drop-down">
                     <li><a href="onama.php">O nama</a></li>
                     <li><a href="arhiva.php">Vesti</a></li>

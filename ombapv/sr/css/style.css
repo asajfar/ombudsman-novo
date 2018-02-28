@@ -810,7 +810,7 @@ span.cn-current-page-news {
 }
 
 
-/*CSS za POPUP--------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------CSS za POPUP------------------------------------------------------------*/
 
 /*Tekst*/
 
@@ -929,7 +929,7 @@ background:rgba(0,0,0,1);
 text-decoration:none;
 }
 
-/* CSS za malu mapu u popup-u ----------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------CSS za malu mapu u popup-u -----------------------------------------------*/
 #mapkit-8288 {
   height:200px;
   width:330px;
@@ -1075,10 +1075,6 @@ i.fa.big-icon:hover {
 
 /* -------------------------------------------------------------INSTITUCIJA I POSTUPAK -------------------------------------------*/
 
-#content {
-  /*margin-top: 46px;*/
-}
-
 .deo-teksta {
   margin-bottom: 30px;
 }
@@ -1090,10 +1086,11 @@ i.fa.big-icon:hover {
   padding-left: 5px;
 }
 
-/* --------------------------------------------------------------RIGHT MENU-------------------------------------------------------*/
+/* ----------------------------------RIGHT MENU--------------------------------------*/
 .right-menu {
   margin-left: 25px;
   border-left: 8px solid #ed145b;
+  margin-bottom: 50px;
 }
 
 .module-right-menu ul{
@@ -1150,6 +1147,10 @@ i.fa.big-icon:hover {
 
 /* ---------------------------------------------- OMBUDSMAN I ZAMENICI----------------------------------- */
 
+.row.sticky-parent-element {
+  margin-top: 30px;
+}
+
 .ombudsman-slika {
   padding-top: 5px;
 }
@@ -1196,6 +1197,49 @@ i.fa.big-icon:hover {
   padding-left: 5px;
 }
 
+/* ---------------------------------------------------------ОБРАТИТЕ НАМ СЕ----------------------------------------------------------- */
+
+.naglasen-text-box {
+  background-color: #ed145b;
+  padding: 10px;
+}
+
+.naglasen-text-box p{
+  margin: 0px;
+  color: #fff;
+}
+
+.tabovi i.fa {
+  margin-right: 5px;
+}
+
+.tabovi a {
+    color: #545454;
+}
+
+.tabovi a:hover {
+    color: #ed135b;
+}
+
+.tabovi li.active > a, .tabovi li.active > a:hover, .tabovi li.active > a:focus {
+  color: #ed135b;
+}
+
+/* mala mapa*/
+#map {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 235px;
+  box-shadow: 0 0 4px 0px black;
+  margin: 25px 0px 0px 0px;
+}
+
+.small-map-info-window {
+  width: 185px;
+}
+
+
 /*RETURN TO TOP BUTTON ---------------------------------------------------------------------------------*/
 
 
@@ -1203,6 +1247,10 @@ i.fa.big-icon:hover {
 
 
 /* ----------------------------------- O NAMA -----------------in-out----------------------------------*/
+
+.naslovna-content {
+  position: relative;
+}
 
 .about-content p{
   text-align: justify;
@@ -1713,7 +1761,7 @@ h1#zivot2 {
 }
 
 .zivot-box {
-  padding: 30px 0;
+  /*padding: 30px 0;*/
   /*border-bottom: 1px solid #dddddd*/;
 }
 
@@ -8497,6 +8545,10 @@ footer .up-footer .flickr-widget ul li a:hover {
     text-align: left;
   }
 
+.right-menu.sidebar {
+  display: none;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -8518,9 +8570,13 @@ footer .up-footer .flickr-widget ul li a:hover {
   .navbar-nav li ul.drop-down li a {
     color: #434343;
   }
-  #content {
-    position: relative;
+
+  .naslovna-content {
     top: 110px;
+  }
+
+  .postupak-content {
+    margin-top: 110px !important;
   }
 }
 
@@ -8819,15 +8875,19 @@ footer .up-footer .flickr-widget ul li a:hover {
   .navbar-toggle{
     margin-top: 35px;
   }
-  #content {
-    position: relative;
+  .postupak-content {
+    margin-top: 80px !important;
+  }
+  .naslovna-content {
     top: 80px;
   }
 }
 
 @media (max-width: 532px) {
-  #content {
-    position: relative;
+  .postupak-content {
+    margin-top: 116px !important;
+  }
+  .naslovna-content {
     top: 116px;
   }
 }
@@ -8901,8 +8961,11 @@ footer .up-footer .flickr-widget ul li a:hover {
     margin-top: 18px;
   }
 
-  #content {
-    top: 10px;
+  .postupak-content {
+    margin-top: 10px !important;
+  }
+  .naslovna-content {
+    top: 9px;
   }
 
 }
@@ -8911,8 +8974,11 @@ footer .up-footer .flickr-widget ul li a:hover {
   .header-top-line {
     display: none;
   }
-  #content {
-    top: -65px;
+  .postupak-content {
+    margin-top: -65px !important;
+  }
+  .naslovna-content {
+    top: -66px;
   }
   p {
     text-align: left;
@@ -8926,13 +8992,25 @@ footer .up-footer .flickr-widget ul li a:hover {
   .navbar-toggle {
     margin-top: 6px;
   }
-  #content {
-    top: -82px;
-}
+  .postupak-content {
+    margin-top: -82px !important;
+  }
+  .naslovna-content {
+    top: -84px;
+  }
 }
 
 @media (max-width: 320px) {
   .nslogo img {
     width: 160px;
+  }
+  .navbar {
+    min-height: 40px;
+  }  
+  .postupak-content {
+    margin-top: -88px !important;
+  }
+  .naslovna-content {
+    top: -90px;
   }
 }

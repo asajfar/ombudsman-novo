@@ -335,7 +335,7 @@
 
 		<!-- content 
 			================================================== -->
-		<div id="content">
+		<div class="naslovna-content" id="content">
 
 
 			<!-- pristupacnost 

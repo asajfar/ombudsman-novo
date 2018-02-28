@@ -123,7 +123,7 @@
 		
 		<!-- content 
 			================================================== -->
-		<div id="content" style="margin-top: 46px;">
+		<div class="postupak-content" id="content" style="margin-top: 46px;">
 
 
 			<!-- pristupacnost 
@@ -187,6 +187,12 @@
 			<div class="section-content articles-section">
 				<div class="container">
 					<div class="zivot-box">
+						<div class="row">
+							<div class="col-md-12">
+								<p class="fontaccess">Покрајинског омбудсмана бира Скупштина Аутономне Покрајине Војводине двотрећинском већином гласова укупног броја посланика, док заменике омбудсмана бира простом већином гласова укупног броја посланика, на предлог омбудсмана. Кандидата за омбудсмана може предложити најмање 30 посланика или скупштински одбор надлежан за питања организације и рада управе. Мандат омбудсмана траје шест година и на исту функцију омбудсман може бити биран највише два пута узастопно.</p>
+								<p class="fontaccess">Покрајински омбудсман има четири заменика, од којих три специјализована који се бирају за област права националних мањина, права детета и равноправност полова, док је један заменик задужен за област опште надлежности. Најмање по један од заменика бира се из реда мање заступљеног пола и припадника националних мањина. Мандат заменика омбудсмана траје шест година и на исту функцију заменик може бити биран највише два пута узастопно.</p>
+							</div>
+						</div>
 						<div class="row sticky-parent-element">
 							<div class="col-md-8">
 								<div class="ombudsman">
@@ -262,6 +268,7 @@
 
 										</ul>
 									</div>							
+								</div>							
 								</div>
 							</div>
 						</div>
@@ -354,7 +361,7 @@
 			 //Ovaj deo bira element sa klasom .sidebar i mora da se doda parent element inace nece da radi
 			$('.sidebar').stick_in_parent({
 				parent: '.sticky-parent-element',
-				offset_top: 421
+				offset_top: 250
 			});
 
 			//Ovaj deo skripte omogucava da element ne nestane kada dodje do dna parent elementa, vec tu onda krece normalno na gore sa stranicom	
@@ -366,35 +373,7 @@
 			    $(this).parent().css('position', 'relative');
 			})
 		});
-	</script>	
-
-	<!-- SLIDER REVOLUTION SCRIPT INITIALISATION -->
-	<!-- LOOK THE DOCUMENTATION FOR MORE INFORMATIONS -->
-
-	<script type="text/javascript">
-
-		var revapi;
-
-		jQuery(document).ready(function() {
-
-			   revapi = jQuery('.tp-banner').revolution(
-				{
-					delay:12000,
-					startwidth:1140,
-					startheight:480,
-					hideThumbs:10,
-					fullWidth:"on",
-					forceFullWidth:"on",
-					onHoverStop:"on",
-					navigationType:"none",
-					soloArrowLeftHOffset:30,
-					soloArrowRightHOffset:30
-				});
-
-		});
-
 	</script>
-	<!-- END REVOLUTION SLIDER -->
 
 	<!-- Skripta za aktivaciju linkova #lat i #cyr -->
 	<script>
@@ -410,24 +389,6 @@
 <!-- Skripta za formu -->
 <script type="text/javascript">
   document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
-</script>
-
-<!-- Skripta za popup prozore -->
-<script type="text/javascript">
-	$(function() {
-	//----- OPEN
-	$('[data-popup-open]').on('click', function(e)  {
-	var targeted_popup_class = jQuery(this).attr('data-popup-open');
-	$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
-	e.preventDefault();
-	});
-	//----- CLOSE
-	$('[data-popup-close]').on('click', function(e)  {
-	var targeted_popup_class = jQuery(this).attr('data-popup-close');
-	$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
-	e.preventDefault();
-	});
-	});
 </script>
 
 
