@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ve",
+				"vesti-slika"
+			],
+			[
 				"class",
 				"class\tAttr"
 			],
@@ -577,13 +585,15 @@
 	],
 	"file_history":
 	[
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style2.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index2.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/obratite-nam-se.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/map.js",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/ombudsman-i-zamenici.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.sticky-kit.min.js",
 		"/D/SkyDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
@@ -702,9 +712,7 @@
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/sbsnsdb/clanstvo.php",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/index.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/komentari.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/korisnici.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/export-excel.php"
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/komentari.php"
 	],
 	"find":
 	{
@@ -753,6 +761,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"igno",
+			"fonta",
+			"naslovna",
 			".nav-tabs",
 			"63",
 			"}\n",
@@ -877,10 +888,7 @@
 			"toggle-vis",
 			"tebela2",
 			"tabela1",
-			"$membersNumber",
-			"2",
-			"sql1",
-			"$sql1"
+			"$membersNumber"
 		],
 		"highlight": true,
 		"in_selection": false,

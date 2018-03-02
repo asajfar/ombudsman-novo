@@ -406,7 +406,7 @@
 										<!-- <a href=""><img src="" alt=""></a> -->
 										<?php
 									        $number = 4;
-									        $template = "vesti-naslovna-2";
+									        $template = "vesti-naslovna";
 									    	$category = "1,2,3";
 									        include("/home4/ombudsma/public_html/ombudsmanapv.org/ombapv/cnews/show_news.php");
 									    ?>
@@ -454,14 +454,16 @@
 
 									</div>
 
-									<div class="radno-vreme">
+									<div class="latest-blog-posts">
 
-										<h3>Радно време</h3>
-										<p style="font-weight: bold">Пон-Пет: 08.00 - 16.00</p>
-										<p>Булевар Михајла Пупина 25<br>Зграда Воде Војводине (Бивша ДТД)<br>21101 Нови Сад</p>
-										<p><i class="fa fa-phone"></i>021/487-41-44<br><i class="fa fa-phone"></i>021/55-77-27<br><i class="fa fa-fax"></i>021/487-41-44</p>
-										<p style="padding-right: 10px;" class="CyrLatIgnore"><i class="fa fa-envelope-o "></i>office@ombudsmanapv.org</p>										
+										<h3><i class="fa fa-pie-chart"></i>Наша истраживања</h3>
 
+										<ul class="latest-posts">
+											<li><a href="#">Дечји и омладински листови на језицима националних мањина у АП Војводини. </a><span>2017</span></li>
+											<li><a href="#">Подршка ученицима са изузетним способностима у основним и средњим школама у АП Војводини. </a><span>2017</span></li>
+											<li><a href="#">Примена афирмативних мера у области основног образовања Рома и Ромкиња на територији АП Војводине. </a><span>2017</span></li>
+											<li><a href="#">Поступање институција у случајевима насиља у породици. </a><span>2016</span></li>
+										</ul>
 									</div>
 
 									<!-- <div class="our-newsletter">
@@ -715,26 +717,7 @@
 <!-- Skripta koja po ucitavanju stranice dodaje klasu hvr-sweep-to-right elementu .vest a. Ovo se radi yato sto jenemoguce ovu klasu dodati u templejtu u CuteNews-u ([full-link]Опширније...[/full-link])-->
 <script>
 	$(document).ready(function() {
-	  $('.vest a').addClass('vesti-slika');
-	});
-</script>
-	
-
-<!-- Skripta koja uzima href od jednog a elementa i daje ga drugom. Oba elementa se formiraju u CuteNews temolate i oba se nalaze pod klasom artikal zbog cega je bilo bitno da se link od kojeg se prepisuje pozicionira iznad linka kojem se daje nova vrednost  -->
-
-<!-- Ipak ovo nije resilo problem jer se ucitavaju 4 vesti tako da onda sve cetiri slike vode ka istoj vesti. Ovo je na kraju reseno sto je u template okolo div-a u kjem se nalazi slika postavljeno [full-link]<div class="vest-sa-slikom">{short-story}</div>[/full-link]-->
-<!-- <script>
-	$(function() {
-   		var a_href = $(this).find('.opsirnije a').attr('href');
-		console.log(a_href);
-		$("a.vesti-slika").attr("href", a_href);
-	});
-</script> -->
-
-<!-- Skripta koja po ucitavanju stranice dodaje klasu hvr-sweep-to-right elementu .opsirnije a. Ovo se radi zato sto je nemoguce ovu klasu dodati u templejtu u CuteNews-u ([full-link]Опширније...[/full-link])-->
-<script>
-	$(document).ready(function() {
-	  $('.opsirnije a').addClass('hvr-sweep-to-right');
+	  $('.vest a').addClass('hvr-sweep-to-right');
 	});
 </script>
 
