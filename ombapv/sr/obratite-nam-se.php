@@ -189,16 +189,13 @@
 							<div class="col-md-8">
 								<div class="deo-teksta">
 									<div class="naglasen-text-box">
-										<p>
+										<p class="fontaccess">
 											Покрајинском заштитнику грађана - омбудсману можете се обратити лично, телефоном, путем онлајн обрасца, поштом или имејлом. Покрајинском заштитнику грађана -  омбудсману подноси се притужба на темељу које се у институцији отвара Ваш предмет под одређеним бројем. Предмет служи као основ за даљње поступање, тј. за вођење истраге.
 										</p>
 									</div>
 								</div>
 								<div class="deo-teksta">
 									<div class="tabovi">
-										<div class="naslov-artikla">
-											<h4>Обратите нам се на један од ових начина:</h4>
-										</div>
 
 										<ul class="nav nav-tabs">
 										  	<li class="active"><a data-toggle="tab" href="#licno"><i class="fa fa-user"></i>Лично</a></li>
@@ -211,9 +208,9 @@
 										<div class="tab-content">
 										  	<div id="licno" class="tab-pane fade in active">
 										    	<div>
-													<div class="row">
+													<div class="row tab-sadrzaj">
 														<div class="col-md-6">
-															<h2>Поднесите притужбу лично!</h2><p>Булевар Михајла Пупина 25, Нови Сад<br>Зграда Воде Војводине (ДТД зграда)<br>Приземље-лево крило, канцеларија бр.4<br><br>Сваким радним даном, без заказивања, од 08 до 16 часова.</p>
+															<h2>Поднесите притужбу лично!</h2><p class="fontaccess">Булевар Михајла Пупина 25, Нови Сад<br>Зграда Воде Војводине (ДТД зграда)<br>Приземље-лево крило, канцеларија бр.4<br><br>Сваким радним даном, без заказивања, од 08 до 16 часова.</p>
 														</div>
 														<div class="col-md-6">
 															<div id="map"></div>
@@ -224,38 +221,89 @@
 										  
 
 										  	<div id="telefonom" class="tab-pane fade">
-										    	<h3>Menu 1</h3>
-										    	<p>Some content in menu 1.</p>
+										    	<div>
+													<div class="row tab-sadrzaj">
+														<div class="col-md-12">
+															<h2>Позовите нас телефоном!</h2>
+															<p class="fontaccess">Сваког радног дана, од 08 до 16 часова, можете нас позвати на ове телефонске бројеве:</p>
+															<h4><i class="fa fa-phone"></i>021/487-41-44<br><i class="fa fa-phone"></i>021/55-77-27<br></h4>
+														</div>
+													</div>
+												</div>
 										  	</div>
 										  	<div id="postom" class="tab-pane fade">
-										    	<h3>Menu 1</h3>
-										    	<p>Some content in menu 1.</p>
+										    	<div>
+													<div class="row tab-sadrzaj">
+														<div class="col-md-12">
+															<h2>Пишите нам!</h2>
+															<p class="fontaccess">Притужбу нам можете послати поштом у било којем облику или користећи наш <a href="#">образац</a>.</p> <p class="fontaccess">Наша адреса је:</p><p class="left-border-red-thin fontaccess">Покрајински заштитник грађана - омбудсман<br>Булевар Михајла Пупина 25<br>21101 Нови Сад</p>
+														</div>
+													</div>
+												</div>
 										  	</div>
 										  	<div id="onlajn" class="tab-pane fade">
-											    <h3>Menu 2</h3>
-											    <p>Some content in menu 2.</p>
+											    <div>
+													<div class="row tab-sadrzaj">
+														<div class="col-md-12">
+															<h2>Попуните онлајн образац!</h2>
+															<p class="fontaccess">Ваша притужба се директно прослеђује на нашу електронску адресу. Притужбе се oбрaђуjу прeмa рeдoслeду приjeмa, бeз oбзирa нa нaчин њихoвoг пoднoшeњa.</p>
+															<a class="linkbtn hvr-sweep-to-right" href="https://goo.gl/forms/Dry7eNzlpeTnV9B72" target="_blank">ОНЛАЈН ОБРАЗАЦ</a>
+														</div>
+													</div>
+												</div>
 										  	</div>
 										  	<div id="imejl" class="tab-pane fade">
-											    <h3>Menu 2</h3>
-											    <p>Some content in menu 2.</p>
+											    <div>
+													<div class="row tab-sadrzaj">
+														<div class="col-md-12">
+															<h2>Пошаљите прутужбу електронском поштом!</h2>
+															<p class="fontaccess">Притужбу и прилоге, ако их има, нам можете послати путем електронске поруке на нашу имејл адресу <span class="CyrLatIgnore" style="color: #ec155a">predstavke@ombudsmanapv.org</span>. <br>Притужбе се oбрaђуjу прeмa рeдoслeду приjeмa, бeз oбзирa нa нaчин њихoвoг пoднoшeњa.</p>
+														</div>
+													</div>
+												</div>
 										  	</div>
 										</div>
 									</div>
-								</div>																
+								</div>
+								<div class="deo-teksta">
+									<div class="naslov-artikla">
+										<h2>Поступак Покрајинског заштитника грађана - омбудсмана</h2>
+									</div>
+									<div class="article-content triggerAnimation animated fontaccess" data-animate="fadeInLeft">
+										<p class="fontaccess">Након обраћања грађанина притужбом (лично, обичном или електронском поштом), уколико је поступање по притужби у надлежности Покрајинског заштитника грађана - омбудсмана, а притужба поднета у року од једне године од дана учињене повреде, неправилности или од доношења последњег акта у спорној ствари, Покрајински заштитник грађана - омбудсман поступа по притужби. Покрајински заштитник грађана - омбудсман обавештава о покретању поступка подносиоца и орган управе на чији се рад притужба односи, тражећи од органа управе да се у року од 15 дана од дана изјасни о наводима из притужбе.</p>
+										<p class="fontaccess">Уколико подносилац притужбе то тражи, омбудсман је дужан да сачува тајност његових/њених личних података.</p>
+										<p class="fontaccess">Током трајања поступка истраге омбудсман може позивати на разговор и узимати усмене или писмене изјаве и додатна објашњења од свих лица запослених у органима управе, подносиоца притужбе, сведока, вештака и других грађана који располажу информацијама о околностима случаја. Има право да тражи од органа управе све податке и обавештења, као и непосредан увид у списе, документацију и збирке података којима ови органи располажу, укључујући државну, службену, пословну и професионалну тајну. Омбудсман има слободан приступ свим просторијама у којима се обављају послови органа управе, а у било које време и без посебне најаве може посетити све здравствене установе у којима се врши обавезно психијатријско лечење.</p>
+										<p class="fontaccess">Омбудсман доноси одлуку о обустави поступка, ако по завршетку истраге нађе да нема повреде људских права, нити неправилног поступања органа и ако утврди да је орган управе, на чије се поступање притужба односила, већ током истраге отклонио повреду људских права. О обустави поступка обавештава подносиоца притужбе и орган управе на чије се поступање притужба односила.</p>
+										<p class="fontaccess">Ако омбудсман након завршетка истраге утврди да је повређено неко људско право или је учињена неправилност у раду, органу управе упућује мишљење, предлог или препоруку о томе како да се неправилност или њене последице отклоне. О упућеној препоруци обавештава и подносиоца представке.</p>
+										<p class="fontaccess">Органи управе којима је омбудсман упутио/ла своје мишљење, предлог или препоруку, дужни су да у року од 15 дана обавесте омбудсмана о мерама које су предузели.</p>
+										<p class="fontaccess">Поред тога што поступа по притужби лица које сматра да су му актом или радњом органа управе повређена људска права Покрајински заштитник грађана - омбудсман може изузетно поступити и по сопственој иницијативи на основу сазнања и других извора, ако оцени да је вероватно да постоји или је постојала повреда људских права од стране органа управе.</p>
+									</div>
+								</div>															
 							</div>
 							<div class="col-md-4">
-								<div class="sidebar right-menu triggerAnimation animated" data-animate="fadeInRight">
-									<div class="module-right-menu">
-										<ul>
-											<li><a class="taraba" href="#sta-je-ombudsman">Шта је омбудсман</a></li>
-											<li><a class="taraba" href="#nadleznosti" target="_blank">Надлежност</a></li>
-											<li><a class="taraba" href="#ko-moze-da-se-obrati" target="_blank">Ко може да се обрати</a></li>
-											<li><a class="taraba" href="#postupak" target="_blank">Поступак</a></li>
-											<li><a class="taraba" href="#nema-pomoci" target="_blank">Када вам не можемо помоћи</a></li>
 
-										</ul>
-									</div>							
+								
+								<div class="sidebar right-documents triggerAnimation animated" data-animate="fadeInRight">
+									<div class="module-right-documents">
+										<div class="naslov-documents">
+											ПРЕУЗМИТЕ ОБРАЗАЦ
+										</div>
+										<div class="images-documents">
+											<div class="image1">
+												<a href="#"><img class="hvr-grow" src="images/sidebar/docx.png" alt="Microsoft Word Icon"></a>
+											</div>
+											<div class="image2">
+												<a href="#"><img class="hvr-grow" src="images/sidebar/pdf.png" alt="Adobe PDF Icon"></a>
+											</div>
+										</div>
+										<div class="link-right">
+											<ul>
+												<li><a href="institucija-i-postupak.php">О омбудсману и поступку притужбе</a></li>	
+											</ul>
+										</div>											
+									</div>
 								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -379,13 +427,13 @@
 </script>
 
 <!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
-<script>
+<!-- <script>
 	$(document).on('click', 'a.taraba', function(event){
 	    event.preventDefault();
 
 	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
 	});
-</script>
+</script> -->
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH69OL6vjpkKbseiOwQ7P1AmFv-KBq0iU"></script>
 <script src="js/map.js"></script>

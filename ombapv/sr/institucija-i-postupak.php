@@ -364,6 +364,15 @@
 		});
 	</script>
 
+	<!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
+<script>
+	$(document).on('click', 'a.taraba', function(event){
+	    event.preventDefault();
+
+	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
+	});
+</script>
+
 	<!-- Skripta za aktivaciju linkova #lat i #cyr -->
 	<script>
 		$.CyrLatConverter({
@@ -378,15 +387,6 @@
 <!-- Skripta za formu -->
 <script type="text/javascript">
   document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
-</script>
-
-<!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
-<script>
-	$(document).on('click', 'a.taraba', function(event){
-	    event.preventDefault();
-
-	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
-	});
 </script>
 
 
