@@ -408,7 +408,7 @@
 									        $number = 4;
 									        $template = "vesti-naslovna-2";
 									    	$category = "1,2,3";
-									        include("/home4/ombudsma/public_html/ombudsmanapv.org/ombapv/cnews/show_news.php");
+									        include("../cnews/show_news.php");
 									    ?>
 									</div>
 

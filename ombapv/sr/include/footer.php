@@ -8,7 +8,7 @@
 					<div class="widget footer-widget text-widget">
 						<h2>О НАМА</h2>
 						<p>Покрајински заштитник грађана - омбудсман је независан и самосталан орган Аутономне покрајине Војводине, институција која се стара о заштити и унапређивању људских права и слобода.</p>
-						<img src="images/naslovna/logoombfooter" alt="logo">
+						<img src="images/naslovna/logoombfooter.png" alt="logo">
 					</div>
 				</div>
 
