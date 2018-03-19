@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"module-",
+				"module-right-documents\t(style.css)"
+			],
+			[
+				"module",
+				"module-right-documents\t(style.css)"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
 				"fonta",
 				"fontaccess\t(style.css)"
 			],
@@ -122,10 +174,6 @@
 			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"btn",
@@ -360,10 +408,6 @@
 				"e0e0e0"
 			],
 			[
-				"lis",
-				"list-style"
-			],
-			[
 				"siz",
 				"font-size"
 			],
@@ -470,43 +514,11 @@
 			[
 				"ce",
 				"center"
-			],
-			[
-				"seri",
-				"sans-serif"
-			],
-			[
-				"doctype",
-				"doctype\tHTML - HTML foundation"
-			],
-			[
-				"my",
-				"myusername"
-			],
-			[
-				"session_",
-				"session_register"
-			],
-			[
-				"SE",
-				"SELECT\t(baza_app.php)"
-			],
-			[
-				"mysqli_",
-				"mysqli_real_escape_string"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/alen.sajfar/Desktop/Export panorame/Sajam.html",
-			"settings":
-			{
-				"buffer_size": 6604,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -592,20 +604,26 @@
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include"
 	],
 	"file_history":
 	[
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.html",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/footer.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
+		"/C/Users/alen.sajfar/Desktop/Export panorame/Sajam.html",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/obratite-nam-se.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style2.css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index2.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/map.js",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/ombudsman-i-zamenici.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.sticky-kit.min.js",
 		"/D/SkyDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
@@ -718,16 +736,11 @@
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/dist/css/skins/skin-red.css",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/index.php",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/css/style.css",
-		"/C/Users/alen.sajfar/Desktop/Biologija sesti - jelenabaclic2000@gmail.com - Gmail.html",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/panel/posalji-vest.php",
-		"/C/Users/alen.sajfar/Desktop/2017-04-26_omb-racunari",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/savetdb/login/index.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/sbsnsdb/clanstvo.php",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php"
+		"/C/Users/alen.sajfar/Desktop/Biologija sesti - jelenabaclic2000@gmail.com - Gmail.html"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -772,6 +785,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ease",
+			"map",
+			"25",
+			"transition",
+			"ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>,<number>,<number>,<number>)",
+			"float",
+			"<i",
+			"<i>",
 			"fontaccess",
 			"color",
 			"igno",
@@ -891,15 +912,7 @@
 			"registracija",
 			"test",
 			"testsite",
-			"test",
-			"testsite",
-			"fn",
-			"nTf",
-			"butto",
-			"class=\"active\"",
-			"tabela2",
-			"toggle-vis",
-			"tebela2"
+			"test"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -924,113 +937,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/alen.sajfar/Desktop/Export panorame/Sajam.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								115
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1040,7 +948,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 35.0
 	},
 	"layout":
 	{

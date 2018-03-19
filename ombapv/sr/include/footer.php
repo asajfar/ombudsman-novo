@@ -112,4 +112,27 @@
 
 </script>
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#262626"
+    },
+    "button": {
+      "background": "#ed145b",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Na našim web stranicama koristimo tzv. kolačiće (cookies), kako bismo korisnicima osigurali funkcionalnost i jednostavnost korišćenja. Ovim putem dajete svoj pristanak za korišćenje kolačića.",
+    "dismiss": "Prihvatam!",
+    "link": "Više informacija"
+  }
+})});
+</script>
+
 <?php  ?>

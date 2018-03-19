@@ -177,7 +177,7 @@
 								data-easing="Back.easeInOut"
 								data-endspeed="400"
 								data-endeasing="Back.easeIn"
-								style="z-index: 14"><a href="vredi-li-zivota.php" class="btn btn-primary">САЗНАЈТЕ ВИШЕ</a>
+								style="z-index: 14"><a href="obratite-nam-se.php" class="btn btn-primary">САЗНАЈТЕ ВИШЕ</a>
 							</div>
 
 							
@@ -408,6 +408,7 @@
 									        $number = 4;
 									        $template = "vesti-naslovna-2";
 									    	$category = "1,2,3";
+									    	$PHP_SELF = 'vest-one.php';
 									        include("../cnews/show_news.php");
 									    ?>
 									</div>
