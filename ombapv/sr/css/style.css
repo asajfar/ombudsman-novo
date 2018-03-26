@@ -137,7 +137,7 @@ p {
   padding-bottom: 15px;
   border-bottom: 1px dotted #0000002b;
   margin-bottom: 15px;
-  min-height: 340px;
+  min-height: 345px;
 }
 
 .fontaccess {
@@ -181,7 +181,13 @@ h6.datum{
   width: 100%;
   margin-top: 5px;
   padding: 4px;
-  box-shadow: 0px 0px 10px -2px #a2a2a2;
+  box-shadow: 0px -3px 30px -13px #a2a2a2;
+  border: 1px solid #e2e2e2;
+  transition: ease-in-out 0.25s;
+}
+
+.vest img:hover {
+  filter: brightness(60%);
 }
 
 .vest-sa-slikom {
@@ -311,20 +317,60 @@ h6.datum{
 }
 
 span.cn-current-page-news {
-    display: inline-block;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    color: #fff;
-    font-size: 13px;
-    padding: 8px 13px;
-    border: 1px solid #a21f1e;
-    min-width: 32px;
-    text-align: center;
-    background-color: #a21f1e;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 6px;
+  border: 1px solid #ed145b;
+  /* min-width: 32px; */
+  text-align: center;
+  background-color: #ed145b;
+  line-height: 10px;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
 }
+
+a.cn-page-news {
+  color: #305277;
+  text-decoration: none;
+  font-weight: 400;
+  -webkit-transition: ease-in-out .25s;
+     -moz-transition: ease-in-out .25s;
+      -ms-transition: ease-in-out .25s;
+       -o-transition: ease-in-out .25s;
+          transition: ease-in-out .25s;
+}
+
+a.cn-page-news:hover {
+  text-decoration: none;
+  color: #305277;
+  opacity: 0.5;
+}
+
+a.cn-next-news, a.cn-previous-news {
+  color: #305277;
+  font-weight: 400;
+  -webkit-transition: ease-in-out .25s;
+     -moz-transition: ease-in-out .25s;
+      -ms-transition: ease-in-out .25s;
+       -o-transition: ease-in-out .25s;
+          transition: ease-in-out .25s;
+}
+
+a.cn-next-news:hover, a.cn-previous-news:hover {
+  text-decoration: none;
+  opacity: 0.50;
+  color: #305277;
+}
+
 
 .introvesti {
   background: url(../images/back/road.jpg) repeat-x;
@@ -1387,7 +1433,7 @@ p.left-border-red-thin {
 
 /* ---------------------------------------------------------------------VEST------------------------------------------------------------------------------- */
 .vest-zaglavlje {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .vest-info {
@@ -1490,6 +1536,12 @@ p.left-border-red-thin {
 .single-vest-content img {
   width: 100%;
   margin-bottom: 20px;
+  border: 1px solid #e2e2e2;
+  padding: 2px;
+}
+
+.single-vest-content {
+  margin: 0 0 40px;
 }
 
 .social-list a {
@@ -1531,12 +1583,14 @@ h1.single-vest-naslov {
 }
 
 .najnovije-vesti-naslov {
-	border-left: 3px solid #E91E63;
-    color: #305278;
-    font-weight: 600;
-    line-height: 1.1em;
-    margin-bottom: 10px;
-    font-size: 16px;
+  border-left: 3px solid #E91E63;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.1em;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #305277;
+  padding: 7px;
 }
 
 .najnovije-vesti-naslov span {
@@ -1571,6 +1625,113 @@ ul.najnovije-vesti-lista li a {
 	display: inline-block;
 	font-weight: 100;
 }
+
+
+/* -------------------------------------------------------- VESTI_ALL--------------------------------------------------------------------------*/
+
+h3.sve-vesti-header {
+  background-color: #305277;
+  /*margin-left: 15px;*/
+  padding: 7px;
+  color: #fbfbfb;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  line-height: 1.1em;
+  font-size: 16px;
+  font-weight: 600;
+  border-left: 3px solid #E91E63;
+}
+
+.sve-vesti-vest-sa-slikom {
+  display: inline-block;
+}
+
+.sve-vesti-vest img {
+  float: left;
+  /* border: 1px solid black; */
+  margin-right: 8px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 4px;
+  box-shadow: 0px 1px 20px -3px #a2a2a2;
+  filter: brightness(90%);
+  transition: ease-in-out 0.25s;
+}
+
+.sve-vesti-vest img:hover {
+  filter: brightness(60%);
+}
+
+.sve-vesti-artikal {
+  /* margin-top: 30px; */
+  padding-bottom: 15px;
+  /*border-bottom: 1px dotted #0000002b;*/
+  margin-bottom: 15px;
+  min-height: 345px;
+  padding-left: 0px;
+}
+
+.sve-vesti-vest-zaglavlje {
+  position: absolute;
+  top: 26px;
+  padding-left: 26px;
+}
+
+.naslov-vesti h4 {
+  color: #2a2c2f;
+  transition: ease-in-out 0.25s;
+}
+
+.naslov-vesti h4:hover {
+    color: #676767;
+}
+
+.sve-vesti-vest-kategorija {
+  font-size: 15px;
+  line-height: 1em;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: 600;
+  background-color: white;
+  padding: 4px 5px 2px 5px;
+  color: #305278;
+}
+
+.sve-vesti-naslov-vesti {
+  position: absolute;
+  bottom: 36px;
+  padding-left: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.43137254901960786);
+  margin-left: 6px;
+  margin-right: 19px;
+  /* width: 95%; */
+  padding-right: 25px;
+}
+
+.sve-vesti-naslov-vesti h4 {
+  line-height: 28px;
+    font-size: 24px;
+}
+
+h6.sve-vesti-datum {
+  margin-top: -5px;
+  color: #000000;
+  font-weight: 400;
+  background-color: white;
+  padding: 5px;
+  display: inline-block;
+}
+
+.sve-vesti-pagination p {
+  text-align: center;
+}
+
+
 
 
 /**************************************** KONTAKT ***************************************************/

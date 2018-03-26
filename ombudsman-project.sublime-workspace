@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ce",
+				"center"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
 				"module-",
 				"module-right-documents\t(style.css)"
 			],
@@ -506,14 +514,6 @@
 			[
 				"cu",
 				"cursor"
-			],
-			[
-				"sty",
-				"style\tAttr"
-			],
-			[
-				"ce",
-				"center"
 			]
 		]
 	},
@@ -605,22 +605,36 @@
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include"
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js"
 	],
 	"file_history":
 	[
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.html",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/arhiva.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
+		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/vesti.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/footer.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox2 3.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox2 4.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox 2.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox2.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox2 2.js",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/info.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/generator.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/fill.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/stretch.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
 		"/C/Users/alen.sajfar/Desktop/Export panorame/Sajam.html",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/obratite-nam-se.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style2.css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index2.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/map.js",
@@ -723,24 +737,11 @@
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/login.php",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/welcome.php",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/program_en.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/programme.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/search.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/successreg.html",
-		"/J/xampp/htdocs/sbsns.rs/js/bootstrap.js",
-		"/J/xampp/htdocs/sbsns.rs/include/logo-baner.php",
-		"/J/xampp/htdocs/sbsns.rs/arhiva.php",
-		"/J/xampp/htdocs/sbsns.rs/sednice.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/registration.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/index.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/plugins/datatables/jquery.dataTables.js",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/panel/dist/css/skins/skin-red.css",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/index.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/ts-expo-db/login/css/style.css",
-		"/C/Users/alen.sajfar/Desktop/Biologija sesti - jelenabaclic2000@gmail.com - Gmail.html"
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/programme.html"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -785,6 +786,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sve-vesti",
+			"fonta",
+			"margin-left",
+			"10px\">",
+			"5",
+			"<li>",
+			"Close",
+			"counterText:",
+			"Image",
+			"\"Next",
+			"next",
+			"Image",
+			"next",
+			"NEXT",
+			"of",
+			"Image",
 			"ease",
 			"map",
 			"25",
@@ -896,23 +913,7 @@
 			"cnews",
 			"th",
 			"width",
-			"tabela",
-			"tabela1",
-			"id",
-			"css",
-			"data-column",
-			"square",
-			"Organiyatori",
-			"navbar",
-			"params",
-			"1.5",
-			"1.57",
-			")",
-			"index.html",
-			"registracija",
-			"test",
-			"testsite",
-			"test"
+			"tabela"
 		],
 		"highlight": true,
 		"in_selection": false,

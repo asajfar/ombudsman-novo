@@ -96,7 +96,7 @@
 	<script type="text/javascript" src="js/waypoint.min.js"></script>
 
 	<!-- <link rel="stylesheet" type="text/css" href="css/YTPlayer.css" media="screen"> -->
-	<script type="text/javascript" src="js/script.js"></script>
+	
 	<script type="text/javascript" src="js/cyrlatconverter_ignore_list_rs.js"></script>
 	<script type="text/javascript" src="js/cyrlatconverter.js"></script>
 
@@ -177,33 +177,15 @@
 						<div class="row sticky-parent-element-1">
 							<div class="col-md-8">
 								
-								<div class="vest-main-content">
-									<div class="row vest-zaglavlje">
-										<div class="col-md-12">
-											<div class="vest-info">
-												<h3 class="vest-kategorija"><a href="#">KATEGOORIJA</a></h3>
-												<div class="vest-datum">|<span class="vest-datum-datum">DATUM</span></div>
-											</div>
-										</div>
-									</div>
-									<div class="row vest-naslov">
-										<div class="col-md-12">
-											<h1 class="single-vest-naslov">Покрајински омбудсман уручио председнику Скупштине АПВ Годишњи извештај о раду</h1>
-										</div>
-									</div>
-									<div class="row vest-sadrzaj">
-										<div class="col-md-12">
-											<div class="single-vest-content">
-												<img src="images/vesti/predaja-izvestaja-0.JPG" alt="">
-												<p class="fontaccess">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, maiores, ullam! Ut dolorem velit adipisci labore soluta natus fugiat autem, perspiciatis. Optio veniam iure sunt hic fugit illum enim facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, maiores, ullam! Ut dolorem velit adipisci labore soluta natus fugiat autem, perspiciatis. Optio veniam iure sunt hic fugit illum enim facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, maiores, ullam! Ut dolorem velit adipisci labore soluta natus fugiat autem, perspiciatis. Optio veniam iure sunt hic fugit illum enim facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, maiores, ullam! Ut dolorem velit adipisci labore soluta natus fugiat autem, perspiciatis. Optio veniam iure sunt hic fugit illum enim facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, maiores, ullam! Ut dolorem velit adipisci labore soluta natus fugiat autem, perspiciatis. Optio veniam iure sunt hic fugit illum enim facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, maiores, ullam! Ut dolorem velit adipisci labore soluta natus fugiat autem, perspiciatis. Optio veniam iure sunt hic fugit illum enim facilis.</p>
-											</div>
-										</div>
-									</div>
-								</div>	
-																						
+								<?php
+								    $template = "vesti-naslovna-2";
+								    $QUERY_STRING = "$_GET('id')";
+								    include("../cnews/show_news.php");
+								?>	
+
 							</div>
 							<div class="col-md-4">								
-								<div class="sidebar right-documents triggerAnimation animated" data-animate="fadeInRight">
+								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
 										<div class="col-md-12 najnovije-vesti-modul">
 											<div class="najnovije-vesti-naslov">
@@ -211,11 +193,16 @@
 											</div>
 											<div class="najnovije-vesti-links">
 												<ul class="najnovije-vesti-lista">
-													<li><a href="#">Покрајински омбудсман уручио председнику Скупштине АПВ Годишњи извештај о раду</a></li>
-													<li><a href="#">Oкругли сто о делотворној заступљености националних мањина</a></li>
-													<li><a href="#">Покрајински заштитник грађана у посети сонти</a></li>
-													<li><a href="#">Са сваким дететом 15 минута читања дневно</a></li>
-													<li><a href="#">Омбудсману повале, студентима сертификати</a></li>
+																										
+													<?php
+												        $static = TRUE;
+												        $number = 5;
+												        $template = "sidebar-najnovije-vesti";
+												    	$category = "1,2,3";
+												    	$PHP_SELF = 'vest-one.php';
+												        include("../cnews/show_news.php");
+												    ?>
+
 												</ul>
 											</div>
 										</div>
@@ -352,6 +339,15 @@
 <script>
 	$.CyrLatConverter('L2C');
 </script>
+
+<!-- Skripta koja po ucitavanju stranice dodaje elementu .single-vest-content p klasu fontaccess. Ovo se radi zato sto bi u suprotnom korisnik koji unoisi vest morao sam ya svaki paragraf dodavati ovu klasu. SKRIPTA script.js se PRESELILA IZ HEADERA ISPOD OVE SKRIPTE JER SE U NJOJ NALAZI KOD ZA SMANJIVANJE I POVECAVANJE FONTOVA U PARAGRAFU SA KLASOM FONTACCESS. Prvo mora da se doda klasa a tek onda da se izvrsi skripta za resize fontova.-->
+<script>
+	$(document).ready(function() {
+	  $('.single-vest-content p').addClass('fontaccess');
+	});
+</script>
+
+<script type="text/javascript" src="js/script.js"></script>
 
 <!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
 <!-- <script>

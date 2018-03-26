@@ -405,7 +405,7 @@
 									<div class="triggerAnimation animated" data-animate="fadeInRight">
 										<!-- <a href=""><img src="" alt=""></a> -->
 										<?php
-									        $number = 4;
+									        $number = 6;
 									        $template = "vesti-naslovna-2";
 									    	$category = "1,2,3";
 									    	$PHP_SELF = 'vest-one.php';

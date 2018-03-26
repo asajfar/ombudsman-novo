@@ -22,7 +22,7 @@
 					<li><a href="android.php">Android aplikacije</a></li>
 				</ul> -->
 			</li>
-            <li class="drop"><a <?php if($page == 'vesti'): ?> class="active"<?php endif ?> href="vesti.php">ВЕСТИ</a></li>
+            <li class="drop"><a <?php if($page == 'vesti'): ?> class="active"<?php endif ?> href="vesti_all.php">ВЕСТИ</a></li>
             <li class="drop"><a <?php if($page == 'istrazivanja'): ?> class="active"<?php endif ?> href="istrazivanja.php">ИСТРАЖИВАЊА</a></li>
             <li class="drop"><a <?php if($page == 'dokumenti'): ?> class="active"<?php endif ?> href="#">ДОКУМЕНТИ</a>
 				<ul class="drop-down">
