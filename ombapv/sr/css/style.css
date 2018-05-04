@@ -69,6 +69,33 @@ p {
 /*-------------------------------------------------------*/
 /* 0. Alenov CSS
 /*-------------------------------------------------------*/
+
+/*b2b-prituzba-fixno-sa-strane*/
+#side-tab a.b2b {
+  background: url(../images/b2btab/B2Bbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border: 1px solid #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  right: 0px;
+  top: 250px;
+  height: 106px;
+  width: 70px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 9999;
+  display: block;
+  -webkit-transition: width 2s;
+  transition: width 1s;
+}
+
+
 .navbar-brand > img {
     display: none;
 }
@@ -135,7 +162,7 @@ p {
   .artikal {
   /* margin-top: 30px; */
   padding-bottom: 15px;
-  border-bottom: 1px dotted #0000002b;
+  /*border-bottom: 1px dotted #0000002b;*/
   margin-bottom: 15px;
   min-height: 345px;
 }
@@ -151,7 +178,8 @@ h6.datum{
 }
 
 .novo {
-  padding-right: 80px;
+  padding-right: 0px;
+  margin-top: -5px;
 }
 
 .opsirnije a {
@@ -887,6 +915,187 @@ a.cn-next-news:hover, a.cn-previous-news:hover {
   .sidebar-advanced .photo-stream {
     /*display: none;*/
   }
+}
+
+
+/* ------------------------------------------------------CSS za SEARCH MODAL------------------------------------------------------------*/
+
+body.search-open {
+  overflow: hidden;
+}
+
+.search-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background: none;
+  border: 0;
+  font-size: 1em;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  outline: none;
+  line-height: 7px;
+}
+.search-close:hover {
+  background: #D62839;
+}
+
+@media only screen and (min-width: 64.063em)
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+
+@media only screen and (min-width: 40.063em)
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+
+.small-12 {
+    width: 100%;
+}
+
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+
+.column, .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left;
+}
+
+.search-box.search-elem {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all .3s  ease-in-out;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.search-box.search-elem .inner {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-box.search-elem label {
+  color: white;
+  font-weight: 300;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+.search-box.search-elem button.submit {
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 9px;
+  height: 70px;
+  padding: 10px 3em;
+  background: #ed145b;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: white;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0;
+  border-color: #007095;
+  transition: background-color 300ms ease-out;
+}
+.search-box.search-elem button.submit[disabled] {
+  background: #ccc;
+  color: #32213A;
+}
+.search-box.search-elem input[type="text"] {
+  border: 0;
+  border-bottom: 2px solid black;
+  padding: 20px;
+  height: 72px;
+  font-size: 32px;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  transition: border 0.3s;
+  -webkit-appearance: none;
+  /* border-radius: 0; */
+  background-color: #FFFFFF;
+  /* font-family: inherit; */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  /* font-size: 0.875rem; */
+  margin: 0 0 1rem 0;
+  /* padding: 0.5rem; */
+  /* height: 2.3125rem; */
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* transition: box-shadow 0.45s, border-color 0.45s ease-in-out; */
+}
+.search-box.search-elem input[type="text"]:focus {
+  border: 0;
+  outline: none;
+  border-bottom: solid 2px #ed145b;
+  box-shadow: none;
+}
+.search-box.search-elem label.placeholder {
+  position: absolute;
+  top: 10px;
+  left: 2rem;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  color: #999;
+  transition: all .3s;
+}
+.search-box.search-elem label.placeholder.move-up {
+  top: -25px;
+  color: white;
+  font-size: 1em;
+}
+
+.search-box.search-elem.search-open {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.search-btn {
+  text-transform: uppercase;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 0.875rem;
+  padding: 0 10px;
+  display: inline-block;
+}
+.search-btn:hover {
+  color: #00A896;
 }
 
 
@@ -1730,6 +1939,69 @@ h6.sve-vesti-datum {
 .sve-vesti-pagination p {
   text-align: center;
 }
+
+
+/*-------------------------------------------------------------- ISTRAZIVANJA --------------------------------------------------------------------------------*/
+
+.artikal-istrazivanje {
+  /* margin-top: 30px; */
+  padding-bottom: 15px;
+  padding-left: 0px;
+  /*border-bottom: 1px dotted #0000002b;*/
+  margin-bottom: 15px;
+  min-height: 345px;
+}
+
+h3.sva-istrazivanja-header {
+  background-color: #305277;
+  /* margin-left: 15px; */
+  padding: 7px;
+  color: #fbfbfb;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  line-height: 1.1em;
+  font-size: 16px;
+  font-weight: 600;
+  border-left: 3px solid #E91E63;
+  text-transform: uppercase;
+}
+
+.istrazivanje-sa-slikom {
+  display: inline-block;
+}
+
+.istrazivanje img {
+  float: left;
+  /* border: 1px solid black; */
+  margin-right: 8px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 4px;
+  box-shadow: 0px -3px 30px -13px #a2a2a2;
+  border: 1px solid #e2e2e2;
+  transition: ease-in-out 0.25s;
+}
+
+.istrazivanje img:hover {
+    filter: brightness(60%);
+}
+
+.naslov-istrazivanje h4 {
+  color: #2a2c2f;
+  transition: ease-in-out 0.25s;
+  text-transform: unset;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.naslov-istrazivanje h4:hover {
+    color: #ed145b;
+}
+
+
+
 
 
 
@@ -6163,7 +6435,7 @@ a.next-link:hover {
 }
 .services-box1,
 .services-box2 {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .services-box1 .services-post,
 .services-box2 .services-post {
@@ -8614,6 +8886,7 @@ footer .up-footer .flickr-widget ul li a:hover {
   }
 
   .naslovna-content {
+    position: relative;
     top: 110px;
   }
 
@@ -8912,6 +9185,22 @@ footer .up-footer .flickr-widget ul li a:hover {
   #container.blog-nav {
     padding-top: 0px;
   }
+  .sve-vesti-naslov-vesti h4 {
+    line-height: 1.2em;
+    font-size: 1.6em;
+  }
+  .sve-vesti-naslov-vesti {
+    position: unset;
+    color: #333333;
+    margin-left: 6px;
+    background-color: unset;
+    padding-right: 0px;
+    margin-right: 0px;
+    bottom: unset;
+    padding-left: 0px;
+  }
+  
+
 }
 
 @media (max-width: 635px) {
@@ -8975,6 +9264,16 @@ footer .up-footer .flickr-widget ul li a:hover {
   }
   .portfolio-page .portfolio-box.fullscreen .work-post {
     width: 100%;
+  }
+
+  .artikal {
+    min-height: 300px;
+  }
+
+  #mapkit-8288 {
+    width: 275px;
+    float: left;
+    overflow: hidden;
   }
 }
 

@@ -50,6 +50,7 @@
                 </ul>
 			</li>
 			<li class="drop"><a <?php if($page == 'kontakt'): ?> class="active"<?php endif ?> href="kontakt.php">КОНТАКТ</a></li>
+			<li class="drop"><a <?php if($page == 'search'): ?> class="active"<?php endif ?> href="#" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i> TRAŽI</a></li>
 			<!-- <li>
 				<a href="#" class="open-search"><i class="icon-search2"></i></a>
 				<form class="form-search">
@@ -63,4 +64,82 @@
 	</div>
 	</div>
 </div>
+<div class="search-box search-elem">
+  <button class="search-close">x</button>
+  <div class="inner row">
+    <div class="small-12 columns">
+      <form target="_blank" action="http://www.google.com/search" method="GET">
+	      <label class="placeholder" for="search-field">Тражи</label>
+	      <input type="hidden" name="q" value="site:http://ombudsmanapv.org">
+	      <input type="text" id="search-field" name="q">
+	      <button class="submit" type="submit">Тражи</button>
+      </form>
+    </div>
+  </div>
+ </div>
 <?php  ?>
+
+<!-- SKRIPTA ZA SEARCH MODAL -->
+<script>
+	(function ($) {	
+
+	$.fn.searchBox = function(ev) {
+
+		var $searchEl = $('.search-elem');
+		var $placeHolder = $('.placeholder');
+		var $sField = $('#search-field');
+
+		if ( ev === "open") {
+			$searchEl.addClass('search-open')
+		};
+
+		if ( ev === 'close') {
+			$searchEl.removeClass('search-open'),
+			$placeHolder.removeClass('move-up'),
+			$sField.val(''); 
+		};
+
+		var moveText = function(){
+			$placeHolder.addClass('move-up');
+		}
+
+		$sField.focus(moveText);
+		$placeHolder.on('click', moveText);
+		
+		$('.submit').prop('disabled', true);
+		$('#search-field').keyup(function() {
+	        if($(this).val() != '') {
+	           $('.submit').prop('disabled', false);
+	        }
+	    });
+	}	
+
+}(jQuery));
+
+$(document).keydown(function(evt){
+    if ((evt.ctrlKey) && (evt.keyCode==70)){
+        $(this).searchBox('open');
+	      e.preventDefault();
+    }
+});
+
+$('.search-btn').on('click', function(e){
+	$(this).searchBox('open');
+	e.preventDefault();
+});
+
+$('.search-close').on('click', function(){
+	$(this).searchBox('close');
+});
+
+$(document).keyup(function(event){
+	if (event.keyCode == 27){
+		$(this).searchBox('close');
+	  e.preventDefault();
+	}
+});
+
+
+</script>
+
+<!-- КРАЈ SKRIPTЕ ZA SEARCH MODAL -->

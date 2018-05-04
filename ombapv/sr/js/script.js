@@ -784,13 +784,13 @@ $(document).ready(function () {
 	var max=24;	
 	
 	//grab the default font size
-	var reset = $('p').css('fontSize'); 
-	
+	var reset = $('p').css('fontSize');
+
 	//font resize these elements
-	var elm = $('p.fontaccess, p.ending');  
+	var elm = $('p.fontaccess, p.ending, h4.fontaccessh4');  
 	
 	//set the default font size and remove px from the value
-	var size = str_replace(reset, 'px', ''); 
+	var size = str_replace(reset, 'px', '');
 	
 	//Increase font size
 	$('a.fontSizePlus').click(function() {

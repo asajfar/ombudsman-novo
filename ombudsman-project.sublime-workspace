@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"met",
+				"method\tAttr"
+			],
+			[
+				"padd",
+				"padd-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
 				"ce",
 				"center"
 			],
@@ -22,10 +38,6 @@
 			[
 				"li",
 				"line-height"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"lis",
@@ -146,10 +158,6 @@
 			[
 				"border-",
 				"border-bottom"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"iz",
@@ -506,14 +514,6 @@
 			[
 				"uslov",
 				"uslovi-izlaganja.html"
-			],
-			[
-				"uslo",
-				"uslovi-izlaganja.html"
-			],
-			[
-				"cu",
-				"cursor"
 			]
 		]
 	},
@@ -604,17 +604,20 @@
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js"
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css"
 	],
 	"file_history":
 	[
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/pretraga.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/arhiva.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
@@ -641,8 +644,6 @@
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/ombudsman-i-zamenici.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.sticky-kit.min.js",
 		"/D/SkyDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombudsman-project",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/index.php",
@@ -734,10 +735,7 @@
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-profile.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/exhibitors-terms.html",
 		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/location.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/login.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/php/welcome.php",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/program_en.html",
-		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/programme.html"
+		"/D/OneDrive/WEB Design/tsexpo.rs/tteesstt/en/login.php"
 	],
 	"find":
 	{
@@ -786,6 +784,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"тражи",
+			"close",
 			"sve-vesti",
 			"fonta",
 			"margin-left",
@@ -911,9 +911,7 @@
 			"cnews",
 			"pdf",
 			"cnews",
-			"th",
-			"width",
-			"tabela"
+			"th"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -975,6 +973,10 @@
 	},
 	"menu_visible": true,
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
