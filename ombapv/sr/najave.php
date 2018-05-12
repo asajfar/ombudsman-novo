@@ -2,60 +2,13 @@
 	$page = "vesti";
 ?>
 
-<!-- Preuzimanje naslova vesti u promenljivu $title -->
-<?php
-	include_once '../cnews/cn_api.php';
-	$entry = cn_api_get_entry();
-
-	if ($entry['t']) 
-	{
-	     // ........
-	     $header_title = $entry['t'];
-	     $str = $entry['s'];
-	     $rawdesc = $entry['f'];
-	     
-	function get_string_between($string, $start, $end){
-	    $string = " ".$string;
-	    $ini = strpos($string,$start);
-	    if ($ini == 0) return "";
-	    $ini += strlen($start);
-	    $len = strpos($string,$end,$ini) - $ini;
-	    return substr($string,$ini,$len);
-	}
-
-	function stripBBCode($text_to_search) {
-	 $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
-	 $replace = '';
-	 return preg_replace($pattern, $replace, $text_to_search);
-	}
-
-	$rawdesc2 = stripBBCode($rawdesc);
-
-	$pattern = "/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i";
-	$replacement = "";
-	$sdesc = preg_replace($pattern, $replacement, $rawdesc2);
-	$fdesc = strip_tags($sdesc);
-
-	$image = get_string_between($str, "[img]", "[/img]");
-
-
-	      $title = "<title>".$header_title."</title>\n";
-	      
-	} else {
-	      
-	       $title = "<title>Vesti</title>\n";
-	    }
- ?>
-
 <!doctype html>
-
 
 <html lang="sr" class="no-js">
 
 <head>
-	<!-- Postavljanje title taga -->
-	<?php echo $title ?>
-
+	
+	<title>ИЗВЕШТАЈИ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА ОМБУДСМАН</title>
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex, nofollow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -174,19 +127,86 @@
 			<div class="section-content articles-section">
 				<div class="container">
 					<div class="zivot-box">
+						
 						<div class="row sticky-parent-element-1">
+							
 							<div class="col-md-8">
-								<div class="sve-vesti">
-									<h3 class="sve-vesti-header">VESTI</h3>
-									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
-								    	$category = "1,2,3";
-								    	
-								        include("../cnews/show_news.php");
-								    ?>
-								</div>								
+								<div class="row col-md-12">
+									<ul class="najave-timeline">
+										<li class="najave-timeline-item">
+											<div class="col-md-3 najava-datum-kolona">
+												<div class="najava-datum">
+													<span class="line"></span>
+													<div>
+														<div class="najava-datum-text">
+															<span class="najava-datum-text-text">11.05.2018. </span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-9 najava-text-kolona">
+												<div class="naslov-najave">
+													<h3>Конференција о језику, култури и идентитету</h3>
+												</div>
+												<div class="text-najave">
+													<p>Рад на заштити и унапређењу права припадника националних мањина једна је од кључних области рада Покрајинског заштитника грађана – омбудсмана.</p>
+													<p>У жељи да допринесе јавном дијалогу о актуалним темама и питањима друштвене интеграције националних мањина, као и да омогући размену сазнања и искустава са представницима мањинских самоуправа из суседних земаља, Покрајински омбудсман ће 12. и 13. априла у Новом Саду организовати међународну конференцију на тему „Језик, култура и идентитет“.</p>
+													<p>Организовањем конференције, Покрајински омбудсман жели да укаже на значај и важност очувања националног идентитета, нарочито у вишејезичном и мултикултуралном окружењу, да утиче на повећање капацитета националних савета националних мањина, као и да укаже на потребу очувања и неговања контаката са сународницима у матичној земљи.</p>
+
+													<p>На конференцији ће, поред домаћих, учествовати и представници мањинских самоуправа из Хрватске, Румуније, Мађарске.</p>
+
+													<p>Рад конференције одвијаће се у великој Сали скупштине АП Војводине.</p>
+
+													<p>Агенду скупа можете погледати у прилогу.</p>
+												</div>
+												<div class="attach-najave">
+													<div class="download" style="margin-bottom:20px;">
+														<a href="../sr/doc/dokumenti/Pso_o_Pokrajinskom_zastitniku_gradjana-ombudsmanu.pdf" target="_blank">Преузмите документ <span class="CyrLatIgnore">:: pdf :: 1.5MB</span> <span class="strelice">&gt;&gt;&gt;</span></a>
+													</div>													
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="row col-md-12">
+									<ul class="najave-timeline">
+										<li class="najave-timeline-item poslednja-najava">
+											<div class="col-md-3 najava-datum-kolona">
+												<div class="najava-datum">
+													<span class="line"></span>
+													<div>
+														<div class="najava-datum-text">
+															<span class="najava-datum-text-text">11.05.2018. </span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-9 najava-text-kolona">
+												<div class="naslov-najave">
+													<h3>Конференција о језику, култури и идентитету</h3>
+												</div>
+												<div class="text-najave">
+													<p>Рад на заштити и унапређењу права припадника националних мањина једна је од кључних области рада Покрајинског заштитника грађана – омбудсмана.</p>
+													<p>У жељи да допринесе јавном дијалогу о актуалним темама и питањима друштвене интеграције националних мањина, као и да омогући размену сазнања и искустава са представницима мањинских самоуправа из суседних земаља, Покрајински омбудсман ће 12. и 13. априла у Новом Саду организовати међународну конференцију на тему „Језик, култура и идентитет“.</p>
+													<p>Организовањем конференције, Покрајински омбудсман жели да укаже на значај и важност очувања националног идентитета, нарочито у вишејезичном и мултикултуралном окружењу, да утиче на повећање капацитета националних савета националних мањина, као и да укаже на потребу очувања и неговања контаката са сународницима у матичној земљи.</p>
+
+													<p>На конференцији ће, поред домаћих, учествовати и представници мањинских самоуправа из Хрватске, Румуније, Мађарске.</p>
+
+													<p>Рад конференције одвијаће се у великој Сали скупштине АП Војводине.</p>
+
+													<p>Агенду скупа можете погледати у прилогу.</p>
+												</div>
+												<div class="attach-najave">
+													<div class="download" style="margin-bottom:20px;">
+														<a href="../sr/doc/dokumenti/Pso_o_Pokrajinskom_zastitniku_gradjana-ombudsmanu.pdf" target="_blank">Преузмите документ <span class="CyrLatIgnore">:: pdf :: 1.5MB</span> <span class="strelice">&gt;&gt;&gt;</span></a>
+													</div>													
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>				
 							</div>
+							
 							<div class="col-md-4">								
 								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
@@ -228,6 +248,9 @@
 								</div>
 							</div>
 						</div>
+
+
+
 					</div>
 				</div>
 			</div>

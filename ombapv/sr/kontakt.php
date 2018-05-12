@@ -1,61 +1,14 @@
 <?php 
-	$page = "vesti";
+	$page = "kontakt";
 ?>
 
-<!-- Preuzimanje naslova vesti u promenljivu $title -->
-<?php
-	include_once '../cnews/cn_api.php';
-	$entry = cn_api_get_entry();
-
-	if ($entry['t']) 
-	{
-	     // ........
-	     $header_title = $entry['t'];
-	     $str = $entry['s'];
-	     $rawdesc = $entry['f'];
-	     
-	function get_string_between($string, $start, $end){
-	    $string = " ".$string;
-	    $ini = strpos($string,$start);
-	    if ($ini == 0) return "";
-	    $ini += strlen($start);
-	    $len = strpos($string,$end,$ini) - $ini;
-	    return substr($string,$ini,$len);
-	}
-
-	function stripBBCode($text_to_search) {
-	 $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
-	 $replace = '';
-	 return preg_replace($pattern, $replace, $text_to_search);
-	}
-
-	$rawdesc2 = stripBBCode($rawdesc);
-
-	$pattern = "/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i";
-	$replacement = "";
-	$sdesc = preg_replace($pattern, $replacement, $rawdesc2);
-	$fdesc = strip_tags($sdesc);
-
-	$image = get_string_between($str, "[img]", "[/img]");
-
-
-	      $title = "<title>".$header_title."</title>\n";
-	      
-	} else {
-	      
-	       $title = "<title>Vesti</title>\n";
-	    }
- ?>
-
 <!doctype html>
-
 
 <html lang="sr" class="no-js">
 
 <head>
-	<!-- Postavljanje title taga -->
-	<?php echo $title ?>
-
+	
+	<title>КОНТАКТ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА ОМБУДСМАН</title>
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex, nofollow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -162,75 +115,59 @@
 			================================================== -->
 		<div class="postupak-content" id="content" style="margin-top: 46px;">
 
-
-			<!-- pristupacnost 
-			================================================== -->
+			<!-- map-section ================================================== -->
+			<div class="section-content map-section">
+				<div class="container-map">
+					<div class="zivot-box">						
+						<div class="row col-md-12 kontakt-map">
+							<iframe src="https://snazzymaps.com/embed/70781" width="100%" height="450px" style="border:none;"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
 			
+			<!-- kontakt-podaci-section ================================================== -->
 
-			<!-- vesti i sidebar
-				================================================== -->
-			<!-- articles-section
-				================================================== -->
-			<div class="section-content articles-section">
+			<div class="section-content aricles-section kontakt-section">
 				<div class="container">
-					<div class="zivot-box">
-						<div class="row sticky-parent-element-1">
-							<div class="col-md-8">
-								<div class="sve-vesti">
-									<h3 class="sve-vesti-header">VESTI</h3>
-									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
-								    	$category = "1,2,3";
-								    	
-								        include("../cnews/show_news.php");
-								    ?>
-								</div>								
-							</div>
-							<div class="col-md-4">								
-								<div class="sidebar right-documents">
-									<div class="najnovije-vesti-right">
-										<div class="col-md-12 najnovije-vesti-modul">
-											<div class="najnovije-vesti-naslov">
-												<span>NAJNOVIJE VESTI</span>
-											</div>
-											<div class="najnovije-vesti-links">
-												<ul class="najnovije-vesti-lista">
-																										
-													<?php
-												        $static = TRUE;
-												        $number = 5;
-												        $template = "sidebar-najnovije-vesti";
-												    	$category = "1,2,3";
-												    	$PHP_SELF = 'vest-one.php';
-												        include("../cnews/show_news.php");
-												    ?>
-
-												</ul>
-											</div>
-										</div>
-										<div class="col-md-12 sidebar-social-resize">
-											<div class="vest-social a2a_kit a2a_kit_size_32 a2a_default_style">
-												<ul class="social-list">
-													<li><a class="a2a_button_facebook" href="#"><i class="fa fa-facebook-official hvr-grow"></i></a></li>
-													<li><a class="a2a_button_twitter" href="#"><i class="fa fa-twitter-square hvr-grow"></i></a></li>
-													<li><a class="a2a_button_google_gmail" href="#"><i class="fa fa-envelope-square hvr-grow"></i></a></li>
-												</ul>
-												<ul class="font-sizer">
-													<li><a href="#" class="fontSizeMinus" title="Смањи фонт" style="color: #000; cursor: pointer;">A-</a></li>
-													<li><a class="fontReset" title="Ресетуј фонт" style="color: #000; cursor: pointer;">А</a></li>
-													<li><a href="#" class="fontSizePlus" title="Повећај фонт" style="color: #000; cursor: pointer;">А+</a></li>
-												</ul>
-											</div>
-											<script async src="https://static.addtoany.com/menu/page.js"></script>
-										</div>
-									</div>
+					<div class="zivot-box">						
+						<div class="row col-md-12 kontakt-podaci">
+							<div class="col-md-4 kontakt-adresa">
+								<div class="naslov-upitnici">
+									<span>АДРЕСА</span>								
 								</div>
+								
+								<ul class="information-list">
+									<li><i class="fa fa-map-marker"></i><span>Булевар Михајла Пупина 25 <br> 21101 Нови Сад, Србија</span></li>
+									<li><i class="fa fa-envelope"></i><span class="CyrLatIgnore"> office@ombudsmanapv.org</span></li>
+									<li><i class="fa fa-globe"></i><span class="CyrLatIgnore"> www.ombudsmanapv.org</span>
+								</ul>						
+							</div>
+							<div class="col-md-4 kontakt-telefon">
+								<div class="naslov-upitnici">
+									<span>ТЕЛЕФОНИ</span>								
+								</div>
+								<ul class="information-list">
+									<li><i class="fa fa-phone"></i><span>021/487-41-44 <br> 021/557-727</span></li>
+								</ul>
+							</div>
+							<div class="col-md-4 kontakt-prituzba">
+								<div class="naslov-upitnici">
+									<span>ДРУШТВЕНЕ МРЕЖЕ</span>								
+								</div>
+									<ul class="information-list">
+										<li><i class="fa fa-facebook"></i><span><a class="CyrLatIgnore" href="https://www.facebook.com/ombudsmanapv/" target="_blank">ombudsmanapv</a></span></li>
+									<li><i class="fa fa-twitter"></i><span> <a class="CyrLatIgnore" href="https://twitter.com/ombudsmanapv" target="_blank">ombudsmanapv</a></span></li>
+									<li><i class="fa fa-instagram"></i><span> <a class="CyrLatIgnore" href="https://www.instagram.com/ombudsmanapv/" target="_blank">ombudsmanapv</a></span></li>
+									</ul>
+									
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
 			
 			<!-- links-section ======================================================================================== -->
 			<div class="section-content team-section">

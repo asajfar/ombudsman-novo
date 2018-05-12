@@ -1,51 +1,6 @@
 <?php 
-	$page = "vesti";
+	$page = "dokumenti";
 ?>
-
-<!-- Preuzimanje naslova vesti u promenljivu $title -->
-<?php
-	include_once '../cnews/cn_api.php';
-	$entry = cn_api_get_entry();
-
-	if ($entry['t']) 
-	{
-	     // ........
-	     $header_title = $entry['t'];
-	     $str = $entry['s'];
-	     $rawdesc = $entry['f'];
-	     
-	function get_string_between($string, $start, $end){
-	    $string = " ".$string;
-	    $ini = strpos($string,$start);
-	    if ($ini == 0) return "";
-	    $ini += strlen($start);
-	    $len = strpos($string,$end,$ini) - $ini;
-	    return substr($string,$ini,$len);
-	}
-
-	function stripBBCode($text_to_search) {
-	 $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
-	 $replace = '';
-	 return preg_replace($pattern, $replace, $text_to_search);
-	}
-
-	$rawdesc2 = stripBBCode($rawdesc);
-
-	$pattern = "/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i";
-	$replacement = "";
-	$sdesc = preg_replace($pattern, $replacement, $rawdesc2);
-	$fdesc = strip_tags($sdesc);
-
-	$image = get_string_between($str, "[img]", "[/img]");
-
-
-	      $title = "<title>".$header_title."</title>\n";
-	      
-	} else {
-	      
-	       $title = "<title>Vesti</title>\n";
-	    }
- ?>
 
 <!doctype html>
 
@@ -53,9 +8,7 @@
 <html lang="sr" class="no-js">
 
 <head>
-	<!-- Postavljanje title taga -->
-	<?php echo $title ?>
-
+	<title>УПИТНИЦИ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА - ОМБУДСМАН</title>
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex, nofollow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -176,36 +129,52 @@
 					<div class="zivot-box">
 						<div class="row sticky-parent-element-1">
 							<div class="col-md-8">
-								<div class="sve-vesti">
-									<h3 class="sve-vesti-header">VESTI</h3>
-									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
-								    	$category = "1,2,3";
-								    	
-								        include("../cnews/show_news.php");
-								    ?>
-								</div>								
+								<div class="row akt">
+									<div class="akt-naziv">
+										<h3 class="akt-naziv-header">УПИТНИЦИ</h3>
+									</div>
+								</div>
+								<div class="row akt">
+									<div class="akt-linija">
+										<h3 class="akt-linija-header"></h3>
+									</div>
+								</div>
+								<div class="row informator">
+									<div class="informator-tekst">
+										<p>Упитници који се користе у истраживањима Покрајинског заштитника грађана - омбудсмана.</p>
+										<p>У случају да је у току истраживања из неког разлога потребна доступност упитника, они се могу преузети на овој страници.</p>
+									</div>
+								</div>
+								<div class="naslov-upitnici">
+									<span>Упитници - Насиље у породици - 2017</span>									
+								</div>
+								<div class="download-upitnici">
+									<ul>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_policiju.pdf" target="_blank">Упитник за полицију</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_sudove_krivicni_zakonik.pdf" target="_blank">Упитник за судове - кривични законик</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_sudove_porodicni_zakon.pdf" target="_blank">Упитник за судове - породични закон</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_sudove_za_prekrsaje.pdf" target="_blank">Упитник за судове за прекршаје</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_centre_za_socijalni_rad_I.pdf" target="_blank">Упитник за центре за социјални рад 1</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_centre_za_socijalni%20rad_II.pdf" target="_blank">Упитник за центре за социјални рад 2</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_domove_zdravlja_I.pdf" target="_blank">Упитник за домове здравља 1</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_domove_zdravlja_II.pdf" target="_blank">Упитник за домове здравља 2</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik_za_tuzilastva.pdf" target="_blank">Упитник за тужилаштва</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-md-4">								
 								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
 										<div class="col-md-12 najnovije-vesti-modul">
 											<div class="najnovije-vesti-naslov">
-												<span>NAJNOVIJE VESTI</span>
+												<span>DOKUMENTI</span>
 											</div>
 											<div class="najnovije-vesti-links">
 												<ul class="najnovije-vesti-lista">
-																										
-													<?php
-												        $static = TRUE;
-												        $number = 5;
-												        $template = "sidebar-najnovije-vesti";
-												    	$category = "1,2,3";
-												    	$PHP_SELF = 'vest-one.php';
-												        include("../cnews/show_news.php");
-												    ?>
-
+													<li><a href="akt.php">Оснивачки акт</a></li>
+													<li><a href="izvestaji.php">Извештаји</a></li>
+													<li><a href="informator.php">Информатор о раду</a></li>
+													<li class="active"><a class="isdisabled" href="upitnici.php">Упитници</a></li>
 												</ul>
 											</div>
 										</div>

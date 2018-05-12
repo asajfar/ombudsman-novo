@@ -114,8 +114,8 @@
 						</div>
 					</div>
 				</div>	
-				<?php include 'include/logo-baner.php' ?>
-				<?php include 'include/meni.php' ?>
+				<?php include 'include/logo-baner.php'; ?>
+				<?php include 'include/meni.php'; ?>
 			</nav>
 		</header>
 		
@@ -143,35 +143,6 @@
 								<div>
 									<img src="" alt="">
 								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="pretraga">
-								<!-- SVG za formu -->
-								<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
-								  <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-search-11" viewBox="0 0 40 40">
-								    <path d="M15.553 31.106c8.59 0 15.553-6.963 15.553-15.553S24.143 0 15.553 0 0 6.963 0 15.553s6.963 15.553 15.553 15.553zm0-3.888c6.443 0 11.665-5.222 11.665-11.665 0-6.442-5.222-11.665-11.665-11.665-6.442 0-11.665 5.223-11.665 11.665 0 6.443 5.223 11.665 11.665 11.665zM27.76 31.06c-.78-.78-.778-2.05.004-2.833l.463-.463c.783-.783 2.057-.78 2.834-.003l8.168 8.17c.782.78.78 2.05-.003 2.832l-.463.463c-.783.783-2.057.78-2.833.003l-8.17-8.167z"
-								    fill-rule="evenodd" />
-								  </symbol>
-								  <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-clear-3" viewBox="0 0 20 20">
-								    <path d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z" fill-rule="evenodd" />
-								  </symbol>
-								</svg>
-								<form novalidate="novalidate" onsubmit="return false;" class="searchbox sbx-custom">
-								  <div role="search" class="sbx-google__wrapper">
-								    <input type="search" name="search" placeholder="Претрага" autocomplete="off" required="required" class="sbx-custom__input">
-								    <button type="submit" title="Претражите" class="sbx-custom__submit">
-								      	<svg role="img" aria-label="Search">
-								        	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sbx-icon-search-11"></use>
-								      	</svg>
-								    </button>
-								    <button type="reset" title="Clear the search query." class="sbx-custom__reset">
-								      	<svg role="img" aria-label="Reset">
-								        	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sbx-icon-clear-3"></use>
-								      	</svg>
-								    </button>
-								  </div>
-								</form>
 							</div>
 						</div>
 					</div>
@@ -374,7 +345,7 @@
 
 		<!-- footer 
 			================================================== -->
-		<?php include 'include/footer.php' ?>
+		<?php include 'include/footer.php'; ?>
 
 		<!-- End footer -->
 	</div>

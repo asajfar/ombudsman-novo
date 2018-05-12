@@ -1,5 +1,5 @@
 <?php 
-	$page = "vesti";
+	$page = "dokumenti";
 ?>
 
 <!-- Preuzimanje naslova vesti u promenljivu $title -->
@@ -43,7 +43,7 @@
 	      
 	} else {
 	      
-	       $title = "<title>Vesti</title>\n";
+	       $title = "<title>ОСНИВАЧКИ АКТ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА - ОМБУДСМАН</title>\n";
 	    }
  ?>
 
@@ -176,36 +176,45 @@
 					<div class="zivot-box">
 						<div class="row sticky-parent-element-1">
 							<div class="col-md-8">
-								<div class="sve-vesti">
-									<h3 class="sve-vesti-header">VESTI</h3>
-									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
-								    	$category = "1,2,3";
-								    	
-								        include("../cnews/show_news.php");
-								    ?>
-								</div>								
+								<div class="row akt">
+									<div class="akt-naziv">
+										<h3 class="akt-naziv-header">ОСНИВАЧКИ АКТ</h3>
+									</div>
+								</div>
+								<div class="row akt">
+									<div class="akt-linija">
+										<h3 class="akt-linija-header"></h3>
+									</div>
+								</div>
+								<div class="row akt">
+									<div class="akt-slika triggerAnimation animated fadeInRight" data-animate="fadeInRight">
+										<a href="../sr/doc/dokumenti/Pso_o_Pokrajinskom_zastitniku_gradjana-ombudsmanu.pdf" target="_blank">
+											<img class="akt-slika-img" src="../sr/images/dokumenti/osnivacki-akt.jpg" alt="foto-akt-o-osnivanju">
+											<div class="middle">
+												<div class="akt-slika-text">
+													<img src="../sr/images/dokumenti/pdf-icon.png" alt="pdf icon">
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="download">
+									<a href="../sr/doc/dokumenti/Pso_o_Pokrajinskom_zastitniku_gradjana-ombudsmanu.pdf" target="_blank">Preuzmite dokument <span class="CyrLatIgnore">:: pdf :: 1.5MB</span> <span class="strelice">>>></span></a>
+								</div>
 							</div>
 							<div class="col-md-4">								
 								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
 										<div class="col-md-12 najnovije-vesti-modul">
 											<div class="najnovije-vesti-naslov">
-												<span>NAJNOVIJE VESTI</span>
+												<span>DOKUMENTI</span>
 											</div>
 											<div class="najnovije-vesti-links">
 												<ul class="najnovije-vesti-lista">
-																										
-													<?php
-												        $static = TRUE;
-												        $number = 5;
-												        $template = "sidebar-najnovije-vesti";
-												    	$category = "1,2,3";
-												    	$PHP_SELF = 'vest-one.php';
-												        include("../cnews/show_news.php");
-												    ?>
-
+													<li class="active"><a class="isdisabled" href="akt.php">Оснивачки акт</a></li>
+													<li><a href="izvestaji.php">Извештаји</a></li>
+													<li><a href="informator.php">Информатор о раду</a></li>
+													<li><a href="upitnici.php">Упитници</a></li>
 												</ul>
 											</div>
 										</div>

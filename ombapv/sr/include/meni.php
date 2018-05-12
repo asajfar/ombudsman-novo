@@ -22,7 +22,11 @@
 					<li><a href="android.php">Android aplikacije</a></li>
 				</ul> -->
 			</li>
-            <li class="drop"><a <?php if($page == 'vesti'): ?> class="active"<?php endif ?> href="vesti_all.php">ВЕСТИ</a></li>
+            <li class="drop"><a <?php if($page == 'vesti'): ?> class="active"<?php endif ?> href="vesti_all.php">ВЕСТИ</a>
+            	<ul class="drop-down">
+            		<li><a href="najave.php">НАЈАВЕ ДОГАЂАЈА</a></li>
+				</ul>
+			</li>
             <li class="drop"><a <?php if($page == 'istrazivanja'): ?> class="active"<?php endif ?> href="istrazivanja.php">ИСТРАЖИВАЊА</a></li>
             <li class="drop"><a <?php if($page == 'dokumenti'): ?> class="active"<?php endif ?> href="#">ДОКУМЕНТИ</a>
 				<ul class="drop-down">
@@ -46,7 +50,6 @@
 				<ul class="drop-down">
                     <li><a href="institucija-i-postupak.php">О ИНСТИТУЦИЈИ И ПОСТУПКУ</a></li>
                     <li><a href="ombudsman-i-zamenici.php">ОМБУДСМАН И ЗАМЕНИЦИ</a></li>
-					<li><a href="#">ОРГАНИЗАЦИЈА И СИСТЕМАТИЗАЦИЈА</a></li>
                 </ul>
 			</li>
 			<li class="drop"><a <?php if($page == 'kontakt'): ?> class="active"<?php endif ?> href="kontakt.php">КОНТАКТ</a></li>

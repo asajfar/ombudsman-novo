@@ -1,5 +1,5 @@
 <?php 
-	$page = "vesti";
+	$page = "dokumenti";
 ?>
 
 <!-- Preuzimanje naslova vesti u promenljivu $title -->
@@ -43,7 +43,7 @@
 	      
 	} else {
 	      
-	       $title = "<title>Vesti</title>\n";
+	       $title = "<title>ИНФОРМАТОР :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА - ОМБУДСМАН</title>\n";
 	    }
  ?>
 
@@ -176,36 +176,66 @@
 					<div class="zivot-box">
 						<div class="row sticky-parent-element-1">
 							<div class="col-md-8">
-								<div class="sve-vesti">
-									<h3 class="sve-vesti-header">VESTI</h3>
-									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
-								    	$category = "1,2,3";
-								    	
-								        include("../cnews/show_news.php");
-								    ?>
-								</div>								
+								<div class="row akt">
+									<div class="akt-naziv">
+										<h3 class="akt-naziv-header">INFORMATOR O RADU</h3>
+									</div>
+								</div>
+								<div class="row akt">
+									<div class="akt-linija">
+										<h3 class="akt-linija-header"></h3>
+									</div>
+								</div>
+								<div class="row informator">
+									<div class="informator-naslov">
+										<h4>ИНФОРМАТОР О РАДУ ПОКРАЈИНСКОГ ЗАШТИТНИКА ГРАЂАНА</h4>
+										<h5>ажуриран 19.01.2018. године</h5>
+									</div>
+									<div class="informator-tekst">
+										<p>Информатор о раду Покрајинског заштитника грађана - омбудсмана садржи податке значајне за рад Покрајинског заштитника грађана - омбудсмана у области остваривања, заштите и унапређења људских права на територији АП Војводине, као и за начине остваривања права заинтересованих лица на приступ информацијама од јавног значаја. Сврха његовог објављивања је информисање јавности о документима и информацијама којима располаже Покрајински заштитник грађана - омбудсман у оквиру својих надлежности.</p>
+										<p>Информатор о раду Покрајинског заштитника грађана - омбудсмана објављује се у складу са чланом 39. Закона о слободном приступу индормацијама од јавног значаја ("Службени гласник РС", број 120/04, 54/07, 104/2009, 36/2010) и Упутством за објављивање информатора о раду државног органа ("Службени гласник РС", број 57/05).</p>
+										<p>Информатор се објављује у електронској верзији на Интернет презентацији Покрајинског заштитника грађана - омбудсмана, а на захтев заинтересованог лица текст Информатора се може бесплатно преснимити или одштампати.</p>
+									</div>
+								</div>
+								<div class="row informator-podaci">
+									<h4>ОСНОВНИ ПОДАЦИ О ДРЖАВНОМ ОРГАНУ И ИНФОРМАТОРУ</h4>
+									<p><span class="boldirano">Назив органа: </span>Покрајински заштитник грађана - омбудсман</p>
+									<p><span class="boldirano">Адреса седишта: </span>Булевар Михајла Пупина 25, 21101 Нови Сад</p>
+									<p><span class="boldirano">Матични број: </span>08797030</p>
+									<p><span class="boldirano">Порески идентификациони број: </span>103746241</p>
+									<p><span class="boldirano">Адреса за пријем поднесака: </span>Булевар Михајла Пупина 25, 21101 Нови Сад</p>
+									<p><span class="boldirano">Адреса за пријем електронских поднесака: </span><span class="CyrLatIgnore">predstavke@ombudsmanapv.org</span></p>
+								</div>
+								<div class="row akt">
+									<div class="akt-slika triggerAnimation animated fadeInRight" data-animate="fadeInRight">
+										<a href="../sr/doc/dokumenti/INFORMATOR_PZG_azuriran_19-01-2018.pdf" target="_blank">
+											<img class="akt-slika-img" src="../sr/images/dokumenti/informator.jpg" alt="foto-informator-o-radu">
+											<div class="middle">
+												<div class="akt-slika-text">
+													<img src="../sr/images/dokumenti/pdf-icon.png" alt="pdf icon">
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="download">
+									<a href="../sr/doc/dokumenti/INFORMATOR_PZG_azuriran_19-01-2018.pdf" target="_blank">Preuzmite dokument <span class="CyrLatIgnore">:: .pdf :: 3.2MB</span> <span class="strelice">>>></span></a>
+									<a href="../sr/doc/dokumenti/INFORMATOR_PZG_azuriran_19-01-2018.docx" target="_blank">Preuzmite dokument <span class="CyrLatIgnore">:: .doc :: 1.2MB</span> <span class="strelice">>>></span></a>
+								</div>
 							</div>
 							<div class="col-md-4">								
 								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
 										<div class="col-md-12 najnovije-vesti-modul">
 											<div class="najnovije-vesti-naslov">
-												<span>NAJNOVIJE VESTI</span>
+												<span>DOKUMENTI</span>
 											</div>
 											<div class="najnovije-vesti-links">
 												<ul class="najnovije-vesti-lista">
-																										
-													<?php
-												        $static = TRUE;
-												        $number = 5;
-												        $template = "sidebar-najnovije-vesti";
-												    	$category = "1,2,3";
-												    	$PHP_SELF = 'vest-one.php';
-												        include("../cnews/show_news.php");
-												    ?>
-
+													<li><a href="akt.php">Оснивачки акт</a></li>
+													<li><a href="izvestaji.php">Извештаји</a></li>
+													<li class="active"><a class="isdisabled" href="informator.php">Информатор о раду</a></li>
+													<li><a href="upitnici.php">Упитници</a></li>
 												</ul>
 											</div>
 										</div>

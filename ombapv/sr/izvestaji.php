@@ -1,61 +1,14 @@
 <?php 
-	$page = "vesti";
+	$page = "dokumenti";
 ?>
 
-<!-- Preuzimanje naslova vesti u promenljivu $title -->
-<?php
-	include_once '../cnews/cn_api.php';
-	$entry = cn_api_get_entry();
-
-	if ($entry['t']) 
-	{
-	     // ........
-	     $header_title = $entry['t'];
-	     $str = $entry['s'];
-	     $rawdesc = $entry['f'];
-	     
-	function get_string_between($string, $start, $end){
-	    $string = " ".$string;
-	    $ini = strpos($string,$start);
-	    if ($ini == 0) return "";
-	    $ini += strlen($start);
-	    $len = strpos($string,$end,$ini) - $ini;
-	    return substr($string,$ini,$len);
-	}
-
-	function stripBBCode($text_to_search) {
-	 $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
-	 $replace = '';
-	 return preg_replace($pattern, $replace, $text_to_search);
-	}
-
-	$rawdesc2 = stripBBCode($rawdesc);
-
-	$pattern = "/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i";
-	$replacement = "";
-	$sdesc = preg_replace($pattern, $replacement, $rawdesc2);
-	$fdesc = strip_tags($sdesc);
-
-	$image = get_string_between($str, "[img]", "[/img]");
-
-
-	      $title = "<title>".$header_title."</title>\n";
-	      
-	} else {
-	      
-	       $title = "<title>Vesti</title>\n";
-	    }
- ?>
-
 <!doctype html>
-
 
 <html lang="sr" class="no-js">
 
 <head>
-	<!-- Postavljanje title taga -->
-	<?php echo $title ?>
-
+	
+	<title>ИЗВЕШТАЈИ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА ОМБУДСМАН</title>
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex, nofollow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -176,36 +129,57 @@
 					<div class="zivot-box">
 						<div class="row sticky-parent-element-1">
 							<div class="col-md-8">
-								<div class="sve-vesti">
-									<h3 class="sve-vesti-header">VESTI</h3>
-									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
-								    	$category = "1,2,3";
-								    	
-								        include("../cnews/show_news.php");
-								    ?>
-								</div>								
+								<div class="row akt">
+									<div class="akt-naziv">
+										<h3 class="akt-naziv-header">ГОДИШЊИ ИЗВЕШТАЈИ</h3>
+									</div>
+								</div>
+								<div class="row akt">
+									<div class="akt-linija">
+										<h3 class="akt-linija-header"></h3>
+									</div>
+								</div>
+								<div class="row informator">
+									<div class="informator-tekst">
+										<p>Годишњи извештај је документ који Покрајински заштитник грађана - омбудсман сваке године подноси скупштини АПВ. Извештај се скупштини АПВ упућује до 31. марта текуће године и односи се на претходну календарску годину. Садржај извештаја, рокови за његову израду и упућивање Скупштини АПВ, као и обавеза његовог објављивања у јавности регулисана је чланом 21 Покрајинске скупштинске одлуке о Покрајинском заштитнику грађана - омбудсману.</p>
+										<p>На захтев Покрајинског заштитника грађана - омбудсмана Скупштина АПВ Годишњи извештај ставља на дневни ред једне од својих седница и расправља о њему. Скупштина на основу скупштинске расправе о Годишњем извештају Покрајинског заштитника грађана - омбудсмана може донети одређене закључке. Важно је напоменути да Скупштина не усваја нити одобрава Годишњи извештај Покрајинског заштитника грађана - омбудсмана будући да се ради о документу независне покрајинске институције у коме она износи мишљење о стању у области људских права у АП Војводини у одређеној години.</p>
+									</div>
+								</div>
+								<div class="naslov-upitnici">
+									<span>Годишњи извештаји</span>									
+								</div>
+								<div class="download-upitnici">
+									<ul>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2017-online.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2017. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2016.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2016. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2015.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2015. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG_2014.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2014. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji izvestaj_2013.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2013. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Izvestaj Pokrajinskog ombudsmana za 2012.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2012. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Izvestaj_PO_2011_Final_001.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2011. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2010.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2010. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2009.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2009. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2008.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2008. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2007.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2007. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2006.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2006. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2005.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2005. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/godisnji_izvestaj_PO_2004.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2004. годину</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-md-4">								
 								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
 										<div class="col-md-12 najnovije-vesti-modul">
 											<div class="najnovije-vesti-naslov">
-												<span>NAJNOVIJE VESTI</span>
+												<span>DOKUMENTI</span>
 											</div>
 											<div class="najnovije-vesti-links">
 												<ul class="najnovije-vesti-lista">
-																										
-													<?php
-												        $static = TRUE;
-												        $number = 5;
-												        $template = "sidebar-najnovije-vesti";
-												    	$category = "1,2,3";
-												    	$PHP_SELF = 'vest-one.php';
-												        include("../cnews/show_news.php");
-												    ?>
-
+													<li><a href="akt.php">Оснивачки акт</a></li>
+													<li class="active"><a class="isdisabled" href="izvestaji.php">Извештаји</a></li>
+													<li><a href="informator.php">Информатор о раду</a></li>
+													<li><a href="upitnici.php">Упитници</a></li>
 												</ul>
 											</div>
 										</div>

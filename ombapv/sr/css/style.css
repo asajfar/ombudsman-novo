@@ -1513,6 +1513,14 @@ i.fa.big-icon:hover {
   text-decoration: none;
 }
 
+.resize-add {
+  border-left: 8px solid white;
+  margin-left: -8px;
+  border-top: unset !important;
+  border-bottom: unset !important;
+  border-left: 8px solid white;
+}
+
 
 /* ----------------------------------------------------------------- OMBUDSMAN I ZAMENICI-------------------------------------------------------- */
 
@@ -2002,9 +2010,303 @@ h3.sva-istrazivanja-header {
 
 
 
+/*-------------------------------------------------------------- OSNIVACKI AKT --------------------------------------------------------------------------------*/
+
+.akt-naziv {
+  
+}
+
+.akt-naziv-header {
+  margin: 0px;
+  text-align: center;
+}
+
+.akt-linija {
+  border-bottom: 3px solid #ed145b;
+  margin-bottom: 30px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.akt-slika {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.akt-slika-img {
+  width: 100%;
+  padding: 4px;
+  box-shadow: 0px -3px 30px -13px #a2a2a2;
+  border: 1px solid #e2e2e2;
+  transition: ease-in-out 0.25s;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding-left: 19px;
+  padding-right: 19px;
+  width: 100%
+}
+
+.akt-slika:hover .middle {
+  opacity: 1;
+}
+
+.akt-slika-text {
+  background-color: rgba(0, 0, 0, 0.5);;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.akt-slika-text img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.download {
+  margin-bottom: 50px;
+}
+
+.download a {
+  text-decoration: none;
+  color: black;
+  border-left: 3px solid #ed145b;
+  padding-left: 5px;
+  font-weight: 300;
+}
+
+.download a:hover {
+  color: #ed145b;
+  text-decoration: none;
+}
+
+.strelice {
+  opacity: 0;
+}
+
+.download a:hover .strelice {
+  opacity: 1;
+}
+.najnovije-vesti-lista li.active{
+  background-color: #eaeaea;
+}
+
+.isdisabled {
+  color: currentColor;
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
+  cursor: default;
+}
+  
+
+/*-------------------------------------------------------------- INFORMATOR O RADU --------------------------------------------------------------------------------*/
+
+.row .informator {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.informator-naslov {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.row .informator-podaci {
+  margin-right: 0;  
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.row .informator-podaci h4{
+  border-left: 3px solid red;
+  padding-left: 5px;
+}
+
+.boldirano {
+  font-weight: 600;
+}
+
+/*-------------------------------------------------------------- UPITNICI --------------------------------------------------------------------------------*/
+
+.naslov-upitnici {
+  border-left: 3px solid #E91E63;
+  font-weight: 600;
+  line-height: 1.1em;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #efefef;
+  padding: 7px;
+}
+
+.download-upitnici {
+  margin-bottom: 50px;
+}
+
+.download-upitnici ul {
+  padding-left: 5px;
+}
+
+.download-upitnici li {
+  list-style: none;
+  border-bottom: 1px solid #c3c3c3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.download-upitnici li:hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+  -webkit-transition: all .30s ease-in-out;
+  -moz-transition: all .30s ease-in-out;
+  -ms-transition: all .30s ease-in-out;
+  -o-transition: all .30s ease-in-out;
+  transition: all .30s ease-in-out;
+}
+
+.download-upitnici li a {
+  color: #333333;
+  text-decoration: none;
+  padding-left: 8px;
+  display: inline-block;
+  font-weight: 100;
+}
 
 
 
+/*-------------------------------------------------------------- NAJAVE --------------------------------------------------------------------------------*/
+
+.najave-timeline {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  /*padding-top: 10px;*/
+}
+
+.najave-timeline-item {
+  position: relative;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.najava-datum-kolona {
+  position: relative;
+  
+}
+
+.najava-datum {
+  /*margin-left: 40px;*/
+  /*margin-right: 40px;*/
+ /* position: relative;*/
+}
+
+li.najave-timeline-item .line {
+  position: absolute;
+  left: 50%;
+  height: calc(100% + 40px);
+  border: 1px solid rgba(0,0,0,0.1);
+  top: 0px;
+}
+
+li.poslednja-najava .line {
+  height: calc(100% + 0px);
+}
+
+.najava-datum-text {
+  background-color: #ed145b;
+  color:#fbfbfb;
+  /* top: 0px; */
+  /* margin: 0px auto; */
+  border-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  position: relative;
+}
+
+.najava-text-kolona {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,.05);
+  margin-bottom:30px;
+}
+
+.naslov-najave {
+  border-bottom: 1px dotted #e1e1e1;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+
+.text-najave p img {
+  width: 100%;
+}
+
+/*-------------------------------------------------------------- KONTAKT --------------------------------------------------------------------------------*/
+
+.kontakt-map {
+  margin: 0;
+  padding: 0;
+}
+
+.map-section {
+  overflow:hidden;
+}
+
+.kontakt-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kontakt-podaci .col-md-4 {
+  padding: 0 30px 0 30px;
+}
+
+ul.information-list {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+    
+ul.information-list li {
+  list-style: none;
+  overflow: hidden;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+}
+
+
+ul.information-list li i {
+  float: left;
+  color: #434343;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 24px
+}
+
+ul.information-list li span {
+  display: block;
+  font-size: 14px;
+  color: #888888;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 15px;
+  margin-bottom: 8px;
+  margin-left: 25px;
+  color: #434343;
+}
+
+;
 
 /**************************************** KONTAKT ***************************************************/
 
@@ -8508,6 +8810,12 @@ footer .up-footer .flickr-widget ul li a:hover {
   }
 }
 @media (max-width: 1199px) {
+  .header3 header.active .navbar-nav > li > a, .header4 header.active .navbar-nav > li > a {
+    padding: 16px 17px;
+  }
+  .header3 .navbar-nav > li > a, .header4 .navbar-nav > li > a{
+    padding: 16px 17px;
+  }
   .portfolio-box .work-post {
     width: 33.33%;
   }
@@ -8803,10 +9111,12 @@ footer .up-footer .flickr-widget ul li a:hover {
     display: none;
   }
   .header3 .navbar-nav > li > a, .header4 .navbar-nav > li > a {
-    padding: 16px 8px;
+    padding: 16px 6px;
+    font-size: 1em;
   }
   .header3 header.active .navbar-nav > li > a, .header4 header.active .navbar-nav > li > a {
-    padding: 16px 8px;
+    padding: 16px 6px;
+    font-size: 1em;
   }
   .pretraga {
     float: left;

@@ -153,8 +153,8 @@
 						</div>
 					</div>
 				</div>	
-				<?php include 'include/logo-baner.php' ?>
-				<?php include 'include/meni.php' ?>
+				<?php include 'include/logo-baner.php'; ?>
+				<?php include 'include/meni.php'; ?>
 			</nav>
 		</header>
 		
@@ -293,7 +293,7 @@
 
 		<!-- footer 
 			================================================== -->
-		<?php include 'include/footer.php' ?>
+		<?php include 'include/footer.php'; ?>
 
 		<!-- End footer -->
 	</div>
