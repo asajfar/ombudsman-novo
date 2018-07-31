@@ -732,7 +732,7 @@ $(document).ready(function($) {
 			window.addEventListener( 'scroll', function() {
 				if( !didScroll ) {
 					didScroll = true;
-					setTimeout( scrollPage, 100 );
+					setTimeout( scrollPage, 10 );
 				}
 			}, false );
 		}
@@ -756,9 +756,9 @@ $(document).ready(function($) {
 		
 	})();
 
-/* ---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /*	Alenov script
-/* ---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 /*---------------- Prikaz clanova saveta na stranici o nama-------------- */
 
@@ -787,7 +787,7 @@ $(document).ready(function () {
 	var reset = $('p').css('fontSize');
 
 	//font resize these elements
-	var elm = $('p.fontaccess, p.ending, h4.fontaccessh4');  
+	var elm = $('p.fontaccess, p.ending, h4.fontaccessh4, h2.fontaccess');  
 	
 	//set the default font size and remove px from the value
 	var size = str_replace(reset, 'px', '');
@@ -864,3 +864,15 @@ function str_replace(haystack, needle, replacement) {
         });
 });
 })(jQuery);
+
+
+// Smanjivanje headera pri skrolovanju
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 40){  
+        $('.prostor').addClass("smanji-header");
+    }
+    else{
+        $('.prostor').removeClass("smanji-header");
+    }
+});

@@ -513,7 +513,7 @@
 						<div class="row">
 							<div class="col-md-4">
 								<div class="team-post">
-									<a href="#"><i class="fa fa-bar-chart big-icon hvr-float" aria-hidden="true"></i></a>
+									<a href="istrazivanja.php" target="_blank"><i class="fa fa-bar-chart big-icon hvr-float" aria-hidden="true"></i></a>
 									<div class="team-content">
 										<h2>ИСТРАЖИВАЊА</h2>
 										<!-- <span>Podnaslov ako ga ima</span> -->
@@ -528,7 +528,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="team-post">
-									<a href="#"><i class="fa fa-info big-icon hvr-float" aria-hidden="true"></i></a>
+									<a href="informator.php" target="_blank"><i class="fa fa-info big-icon hvr-float" aria-hidden="true"></i></a>
 									<div class="team-content">
 										<h2>ИНФОРМАТОР О РАДУ</h2>
 										<!-- <span>Podnaslov ako ga ima</span> -->
@@ -543,7 +543,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="team-post">
-									<a href="#"><i class="fa fa-file-text-o big-icon hvr-float" aria-hidden="true"></i></a>
+									<a href="izvestaji.php" target="_blank"><i class="fa fa-file-text-o big-icon hvr-float" aria-hidden="true"></i></a>
 									<div class="team-content">
 										<h2>ИЗВЕШТАЈИ</h2>
 										<!-- <span>Podnaslov ako ga ima</span> -->

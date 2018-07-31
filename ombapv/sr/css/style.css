@@ -66,11 +66,20 @@ p {
   text-align: justify;
 }
 
-/*-------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
 /* 0. Alenov CSS
-/*-------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*b2b-prituzba-fixno-sa-strane*/
+
+/*---------------------------------------- OPSTE -------------------------------------------------------------------------------------------*/
+
+/* klasa koja se dodaje linku da bi se ponasao kao da nije link. Najcesce se dodaje linkovima koji otvaraju padajuci meni*/
+.not-active {
+  cursor: default;
+  text-decoration: none;
+}
+
+/*-------------------------------------- b2b-prituzba-fixno-sa-strane ---------------------------------------------------------------------*/
 #side-tab a.b2b {
   background: url(../images/b2btab/B2Bbanner.jpg);
   background-repeat: no-repeat;
@@ -116,6 +125,16 @@ p {
 .prostor {
   padding-top: 20px;
   padding-bottom: 20px;
+  -webkit-transition: all .4s ease;
+     -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+       -o-transition: all .4s ease;
+          transition: all .4s ease;
+}
+
+.prostor.smanji-header {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .naziv {
@@ -153,7 +172,7 @@ p {
   font-size: 24px
 }
 
-/*-------------------------------------------VESTI na naslovnoj-------------------------------------------------------*/
+/*----------------------------------------------------------VESTI na naslovnoj------------------------------------------------------------------*/
 
 .artikal:first-child {
   margin-top: 0px;
@@ -164,7 +183,7 @@ p {
   padding-bottom: 15px;
   /*border-bottom: 1px dotted #0000002b;*/
   margin-bottom: 15px;
-  min-height: 345px;
+  min-height: 366px;
 }
 
 .fontaccess {
@@ -221,7 +240,7 @@ h6.datum{
 .vest-sa-slikom {
   display: inline-block;
 }
-/* -------------------------------------------------------Sweep To Right - Button - effect ------------------------------------------------------*/
+/* ----------------------Sweep To Right - Button - effect-------------------------*/
 .hvr-sweep-to-right {
   display: inline-block;
   vertical-align: middle;
@@ -345,25 +364,26 @@ h6.datum{
 }
 
 span.cn-current-page-news {
-  display: inline-block;
+  font-weight: 400;
+  /*display: inline-block;*/ 
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   color: #fff;
-  font-size: 13px;
-  padding: 4px 6px;
+  font-size: 14px;
+  padding: 4px 8px 4px 8px;
   border: 1px solid #ed145b;
   /* min-width: 32px; */
   text-align: center;
   background-color: #ed145b;
   line-height: 10px;
   -webkit-transition: all .25s ease-in-out;
-     -moz-transition: all .25s ease-in-out;
-      -ms-transition: all .25s ease-in-out;
-       -o-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 
 a.cn-page-news {
@@ -371,10 +391,12 @@ a.cn-page-news {
   text-decoration: none;
   font-weight: 400;
   -webkit-transition: ease-in-out .25s;
-     -moz-transition: ease-in-out .25s;
-      -ms-transition: ease-in-out .25s;
-       -o-transition: ease-in-out .25s;
-          transition: ease-in-out .25s;
+  -moz-transition: ease-in-out .25s;
+  -ms-transition: ease-in-out .25s;
+  -o-transition: ease-in-out .25s;
+  transition: ease-in-out .25s;
+  border: 1px solid #305277;
+  padding: 4px 8px 4px 8px;
 }
 
 a.cn-page-news:hover {
@@ -446,6 +468,8 @@ a.cn-next-news:hover, a.cn-previous-news:hover {
 .pretraga {
   float: right;
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*CSS za formu*/
 .sbx-custom {
@@ -636,9 +660,15 @@ a.cn-next-news:hover, a.cn-previous-news:hover {
   }
 }
 
-/*CSS za sidebar -----------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------CSS za sidebar ----------------------------------------------------------*/
 
 /* The advanced sidebar */
+
+.sidebar-border {
+  padding: 4px;
+  box-shadow: 0px -3px 30px -13px #a2a2a2;
+  border: 1px solid #e2e2e2;
+}
 
 .sidebar-advanced {
   font-family: Arial, Helvetica, sans-serif;
@@ -1240,7 +1270,7 @@ text-decoration:none;
 }
 
 
-/* MODAL ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ MODAL ---------------------------------------------------------------- */
 
 #indexModal .modal-dialog {
   top: 100px;
@@ -1313,7 +1343,7 @@ a.btn-modal:hover {
     /*border-top: 1px solid #e5e5e5;*/
 }
 
-/*---NASLOVNA----effect za sliku*/
+/*----------------------------------------------NASLOVNA----effect za sliku-------------------------------------------------------------*/
 .slika-effect1 {
  background-image: url(../images/trame.svg);
     background-repeat: repeat;
@@ -1340,7 +1370,48 @@ a.btn-modal:hover {
 }
 
 
-/* NASLOVNA - LINKOVI pre footera ------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------- NASLOVNA - linkovi-1-section  ---------------------------------------------*/
+
+.section-content.services-section.linkovi {
+  padding-top: 0px;
+}
+
+.linkovi-1 {
+  background-color: #e1e1e1;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 0px !important;
+}
+
+a.button-linkovi-1 {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  padding: 6px 18px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 8px 0;
+  background: #ed145b;
+}
+
+a.button-linkovi-1:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkovi-1-link, a.linkovi-1-link:visited, a.linkovi-1-link:hover, a.linkovi-1-link:active, a.linkovi-1-link:focus {
+  text-decoration: none;
+}
+
+
+/*------------------------------------------------------------- NASLOVNA - links-section ---------------------------------------------*/
 
 i.fa.big-icon {
   font-size: 7.2rem;
@@ -1360,6 +1431,16 @@ i.fa.big-icon:hover {
   -webkit-transition: All 0.3s ease;
   -moz-transition: All 0.3s ease;
   -o-transition: All 0.3s ease;
+}
+
+/*------------------------------------------------------------- NASLOVNA - YouTube-Facebook-section -------------------------------------*/
+
+.black-background {
+  background-color: #1f2021;
+}
+
+.grey-background {
+  background-color: #cacaca;
 }
 
 /* -------------------------------------------------------------INSTITUCIJA I POSTUPAK -------------------------------------------*/
@@ -1766,7 +1847,8 @@ p.left-border-red-thin {
 }
 
 ul.font-sizer a:hover {
-  font-weight: bold;
+  text-decoration: none;
+  color: #ed145b !important;
 }
 
 ul.font-sizer a {
@@ -1957,7 +2039,7 @@ h6.sve-vesti-datum {
   padding-left: 0px;
   /*border-bottom: 1px dotted #0000002b;*/
   margin-bottom: 15px;
-  min-height: 345px;
+  min-height: 300px;
 }
 
 h3.sva-istrazivanja-header {
@@ -2006,6 +2088,13 @@ h3.sva-istrazivanja-header {
 
 .naslov-istrazivanje h4:hover {
     color: #ed145b;
+}
+
+.vest-sadrzaj .single-vest-content ul li {
+  margin-bottom: 15px;
+  color: #666;
+  font-weight: 300;
+  line-height: 22px;
 }
 
 
@@ -2306,7 +2395,15 @@ ul.information-list li span {
   color: #434343;
 }
 
-;
+/*---------------------------------------------------------- FAQ stranica -------------------------------------------------------------*/
+.faq-box {
+  margin-top: 50px;
+}
+
+
+
+
+
 
 /**************************************** KONTAKT ***************************************************/
 
@@ -3185,7 +3282,7 @@ website:    http://www.themepunch.com
   z-index: 3;
   text-align: left;
   padding: 12px 0;
-  background:rgba(0, 0, 0, 0.65);
+  background:rgba(0, 0, 0, 0.8);
   border-top: 3px solid #5AC8FB;
   box-shadow: 0 0 4px #bdbdbd;
   -webkit-box-shadow: 0 0 4px #bdbdbd;
@@ -3226,8 +3323,8 @@ website:    http://www.themepunch.com
   float: right;
 }
 .navbar-nav li ul.drop-down li a:hover {
-  color: #a21f1e;
-  background-color: rgba(0, 0, 0, .015);
+  /*color: #a21f1e;*/
+  background-color: rgba(208, 208, 208, 0.2);
 }
 .navbar-nav li ul.drop-down.right-side {
   left: inherit;
@@ -3952,12 +4049,12 @@ li.megadrop:hover .megadrop-down {
   font-size: 13px;
   background: transparent;
 
-  border: 2px solid #f2f2f2;
+  border: 2px solid #ed145b;
   padding: 0.7em 2em;
 }
 
 #slider .tp-caption.medium_thin_grey a:hover{
-  background-color: rgba(162,31,30,0.5);
+  background-color: rgb(237, 20, 91);
 }
 
 .slotholder:after {
@@ -6835,7 +6932,7 @@ a.next-link:hover {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: #f7f7f7;
+  background: #cacaca;
   text-align: center;
   margin-bottom: 30px;
   transition: all 0.2s ease-in-out;
@@ -6844,7 +6941,7 @@ a.next-link:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 .services-box3 .services-post span i {
-  color: #5AC8FB;
+  color: #ed145b;
   font-size: 30px;
   line-height: 90px;
   transition: all 0.2s ease-in-out;
@@ -6860,9 +6957,10 @@ a.next-link:hover {
 }
 .services-box3 .services-post p {
   margin-bottom: 0;
+  text-align: center;
 }
 .services-box3 .services-post:hover span {
-  background: #5AC8FB;
+  background: #ed145b;
 }
 .services-box3 .services-post:hover span i {
   color: #ffffff;
@@ -7614,6 +7712,7 @@ blockquote.style-second p {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
 }
 .accord-title h2 a,
 .toogle-title h2 a {
@@ -7654,7 +7753,7 @@ blockquote.style-second p {
 }
 .accord-elem.active .accord-title h2 a,
 .toogle-elem.active .toogle-title h2 a {
-  background: #5AC8FB;
+  background: #ed155c;
 }
 .accord-elem.active .accord-title h2 a:after,
 .toogle-elem.active .toogle-title h2 a:after {
@@ -8628,9 +8727,10 @@ footer .up-footer .footer-widget ul.social-list li a {
   text-align: center;
 }
 footer .up-footer .footer-widget ul.social-list li a i {
-  font-size: 22px;
+  font-size: 27px;
   color: #ebebeb;
   line-height: 28px;
+  padding-left: 3px;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;

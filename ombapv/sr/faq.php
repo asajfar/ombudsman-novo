@@ -1,51 +1,6 @@
 <?php 
-	$page = "dokumenti";
+	$page = "onama";
 ?>
-
-<!-- Preuzimanje naslova vesti u promenljivu $title -->
-<?php
-	include_once '../cnews/cn_api.php';
-	$entry = cn_api_get_entry();
-
-	if ($entry['t']) 
-	{
-	     // ........
-	     $header_title = $entry['t'];
-	     $str = $entry['s'];
-	     $rawdesc = $entry['f'];
-	     
-	function get_string_between($string, $start, $end){
-	    $string = " ".$string;
-	    $ini = strpos($string,$start);
-	    if ($ini == 0) return "";
-	    $ini += strlen($start);
-	    $len = strpos($string,$end,$ini) - $ini;
-	    return substr($string,$ini,$len);
-	}
-
-	function stripBBCode($text_to_search) {
-	 $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
-	 $replace = '';
-	 return preg_replace($pattern, $replace, $text_to_search);
-	}
-
-	$rawdesc2 = stripBBCode($rawdesc);
-
-	$pattern = "/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i";
-	$replacement = "";
-	$sdesc = preg_replace($pattern, $replacement, $rawdesc2);
-	$fdesc = strip_tags($sdesc);
-
-	$image = get_string_between($str, "[img]", "[/img]");
-
-
-	      $title = "<title>".$header_title."</title>\n";
-	      
-	} else {
-	      
-	       $title = "<title>ОСНИВАЧКИ АКТ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА - ОМБУДСМАН</title>\n";
-	    }
- ?>
 
 <!doctype html>
 
@@ -53,8 +8,7 @@
 <html lang="sr" class="no-js">
 
 <head>
-	<!-- Postavljanje title taga -->
-	<?php echo $title ?>
+	<title>Покрајински заштитник грађана - омбудсман ::: Најчешће постављана питаља</title>
 
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex, nofollow" />
@@ -64,7 +18,11 @@
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<!-- Skripte ccs za mapu -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUD3htZ3Nz_OHmAUygmFand6GDGrYu_vU&extension=.js"></script> 
+	<script src="https://cdn.mapkit.io/v1/infobox.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
+	<link href="https://cdn.mapkit.io/v1/infobox.css" rel="stylesheet" >
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
 	<!-- <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen"> -->	
@@ -95,8 +53,12 @@
 	<script type="text/javascript" src="js/plugins-scroll.js"></script>
 	<script type="text/javascript" src="js/waypoint.min.js"></script>
 
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="css/YTPlayer.css" media="screen"> -->
-	
+	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/cyrlatconverter_ignore_list_rs.js"></script>
 	<script type="text/javascript" src="js/cyrlatconverter.js"></script>
 
@@ -115,7 +77,7 @@
 	    "addressLocality" : "Нови Сад",
 	    "addressCountry" : "Србија"
 	  },
-	  "url" : "http://www.ombudsmanapv.org/ombapv/sr/"
+	  "url" : "http://www.ombudsmanapv.org/sr/"
 	}
 	</script>
 
@@ -165,79 +127,92 @@
 
 			<!-- pristupacnost 
 			================================================== -->
-			
+			<div class="section-content page-banner-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="podvuci">
+								<div class="pristupacnost">
+									Величина фонта:
+								</div>
+								<div class="resizer">
+									<!-- Koriscena Jquery skripta postavljena u fajl script.js -->
+									<a href="#" class="fontSizeMinus" title="Смањи фонт" style="color: #000; font-size: 0.7em; cursor: pointer;">A</a> 
+									<a class="fontReset" title="Ресетуј фонт" style="color: #000; cursor: pointer;">А</a> 
+									<a href="#" class="fontSizePlus" title="Повећај фонт" style="color: #000; font-size: 1.2em; cursor: pointer;">А</a>
+								</div>
+								<div>
+									<img src="" alt="">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
 
-			<!-- vesti i sidebar
+			<!-- faq i sidebar
 				================================================== -->
-			<!-- articles-section
+			<!-- faq section
 				================================================== -->
 			<div class="section-content articles-section">
 				<div class="container">
 					<div class="zivot-box">
 						<div class="row sticky-parent-element-1">
-							<div class="col-md-8">
-								<div class="row akt">
-									<div class="akt-naziv">
-										<h3 class="akt-naziv-header">ОСНИВАЧКИ АКТ</h3>
+							<div class="col-md-12">
+								<div class="deo-teksta">
+									<div class="naslov-artikla">
+										<h2 id="faq">НАЈЧЕШЋЕ ПОСТАВЉАНА ПИТАЊА</h2>
 									</div>
-								</div>
-								<div class="row akt">
-									<div class="akt-linija">
-										<h3 class="akt-linija-header"></h3>
-									</div>
-								</div>
-								<div class="row akt">
-									<div class="akt-slika triggerAnimation animated fadeInRight" data-animate="fadeInRight">
-										<a href="../sr/doc/dokumenti/Pso_o_Pokrajinskom_zastitniku_gradjana-ombudsmanu.pdf" target="_blank">
-											<img class="akt-slika-img" src="../sr/images/dokumenti/osnivacki-akt.jpg" alt="foto-akt-o-osnivanju">
-											<div class="middle">
-												<div class="akt-slika-text">
-													<img src="../sr/images/dokumenti/pdf-icon.png" alt="pdf icon">
-												</div>
+									<div class="toogle-box faq-box">
+										<div class="toogle-elem active">
+											<div class="toogle-title">
+												<h2 class="fontaccess"><a class="toogle-link" href="#"></a>Како да поднесем притужбу?</h2>
 											</div>
-										</a>
-									</div>
-								</div>
-								<div class="download">
-									<a href="../sr/doc/dokumenti/Pso_o_Pokrajinskom_zastitniku_gradjana-ombudsmanu.pdf" target="_blank">Preuzmite dokument <span class="CyrLatIgnore">:: pdf :: 1.5MB</span> <span class="strelice">>>></span></a>
-								</div>
-							</div>
-							<div class="col-md-4">								
-								<div class="sidebar right-documents">
-									<div class="najnovije-vesti-right">
-										<div class="col-md-12 najnovije-vesti-modul">
-											<div class="najnovije-vesti-naslov">
-												<span>DOKUMENTI</span>
-											</div>
-											<div class="najnovije-vesti-links">
-												<ul class="najnovije-vesti-lista">
-													<li class="active"><a class="isdisabled" href="akt.php">Оснивачки акт</a></li>
-													<li><a href="izvestaji.php">Извештаји</a></li>
-													<li><a href="informator.php">Информатор о раду</a></li>
-													<li><a href="upitnici.php">Упитници</a></li>
-												</ul>
+											<div class="toogle-content">
+												<p class="fontaccess">Можете нам се обратити лично, телефоном, путем онлајн обрасца, поштом или имејлом. Све ове опције су вам доступне на страници "Обратите нам се". Покрајинском заштитнику грађана - омбудсману подноси се притужба на темељу које се у институцији отвара Ваш предмет под одређеним бројем. Предмет служи као основ за даљње поступање, тј. за вођење истраге.</p>
 											</div>
 										</div>
-										<div class="col-md-12 sidebar-social-resize">
-											<div class="vest-social a2a_kit a2a_kit_size_32 a2a_default_style">
-												<ul class="social-list">
-													<li><a class="a2a_button_facebook" href="#"><i class="fa fa-facebook-official hvr-grow"></i></a></li>
-													<li><a class="a2a_button_twitter" href="#"><i class="fa fa-twitter-square hvr-grow"></i></a></li>
-													<li><a class="a2a_button_google_gmail" href="#"><i class="fa fa-envelope-square hvr-grow"></i></a></li>
-												</ul>
-												<ul class="font-sizer">
-													<li><a href="#" class="fontSizeMinus" title="Смањи фонт" style="color: #000; cursor: pointer;">A-</a></li>
-													<li><a class="fontReset" title="Ресетуј фонт" style="color: #000; cursor: pointer;">А</a></li>
-													<li><a href="#" class="fontSizePlus" title="Повећај фонт" style="color: #000; cursor: pointer;">А+</a></li>
-												</ul>
+
+										<div class="toogle-elem">
+											<div class="toogle-title">
+												<h2 class="fontaccess"><a class="toogle-link" href="#"></a>Да ли морам да закажем долазак?</h2>
 											</div>
-											<script async src="https://static.addtoany.com/menu/page.js"></script>
+											<div class="toogle-content">
+												<p class="fontaccess">Долазак се не заказује. Можете нас посетити у било којем тренутку у току радног времена. Јавите се у канцеларију бр. 4 и секретарица ће Вас упитити код одговарајкућег сарадника.</p>
+											</div>
+										</div>
+
+										<div class="toogle-elem">
+											<div class="toogle-title">
+												<h2 class="fontaccess"><a class="toogle-link" href="#"></a>Које је ваше радно време?</h2>
+											</div>
+											<div class="toogle-content">
+												<p class="fontaccess">Наше радно време је од понедељка до петка, од 08.00 до 16.00 часова. Суботом и недељом не радимо.</p>
+											</div>
+										</div>
+
+										<div class="toogle-elem">
+											<div class="toogle-title">
+												<h2 class="fontaccess"><a class="toogle-link" href="#"></a>Зашто ми се нико не јавља на телефон?</h2>
+											</div>
+											<div class="toogle-content">
+												<p class="fontaccess">Када нас позовете на један од наша два броја телефона, а линије су тренутно заузете, ваш позив се не прекида сигналом заузећа, већ централа ваш позив ставља на чекање. Док чекате да се линија ослободи централа Вам даје сигнал позивања који може да Вас наведе да се у канцеларији нико не јавља.</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<!-- banner-text1-section
+				================================================== -->
+			<div class="section-content banner-text2-section">
+				<div class="container">
+					<h1>Увек смо спремни да вас саслушамо <a href="kontakt.php">Јавите нам се</a></h1>					
 				</div>
 			</div>
 			
@@ -284,6 +259,15 @@
 		});
 	</script>
 
+	<!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
+<script>
+	$(document).on('click', 'a.taraba', function(event){
+	    event.preventDefault();
+
+	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
+	});
+</script>
+
 	<!-- Skripta za aktivaciju linkova #lat i #cyr -->
 	<script>
 		$.CyrLatConverter({
@@ -295,31 +279,11 @@
 	$.CyrLatConverter('L2C');
 </script>
 
-<!-- Skripta koja po ucitavanju stranice dodaje elementu .single-vest-content p klasu fontaccess. Ovo se radi zato sto bi u suprotnom korisnik koji unoisi vest morao sam ya svaki paragraf dodavati ovu klasu. SKRIPTA script.js se PRESELILA IZ HEADERA ISPOD OVE SKRIPTE JER SE U NJOJ NALAZI KOD ZA SMANJIVANJE I POVECAVANJE FONTOVA U PARAGRAFU SA KLASOM FONTACCESS. Prvo mora da se doda klasa a tek onda da se izvrsi skripta za resize fontova.-->
-<script>
-	$(document).ready(function() {
-	  $('.single-vest-content p').addClass('fontaccess');
-	});
+<!-- Skripta za formu -->
+<script type="text/javascript">
+  document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
 </script>
 
-
-<!-- Skripta koja po ucitavanju stranice dodaje klasu hvr-sweep-to-right elementu .vest a. Ovo se radi yato sto jenemoguce ovu klasu dodati u templejtu u CuteNews-u ([full-link]Опширније...[/full-link])-->
-<script>
-	$(document).ready(function() {
-	  $('.sve-vesti-vest a').addClass('sve-vesti-slika');
-	});
-</script>
-
-<script type="text/javascript" src="js/script.js"></script>
-
-<!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
-<!-- <script>
-	$(document).on('click', 'a.taraba', function(event){
-	    event.preventDefault();
-
-	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
-	});
-</script> -->
 
 
 </body>

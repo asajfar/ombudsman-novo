@@ -23,12 +23,12 @@
 				</ul> -->
 			</li>
             <li class="drop"><a <?php if($page == 'vesti'): ?> class="active"<?php endif ?> href="vesti_all.php">ВЕСТИ</a>
-            	<ul class="drop-down">
+            	<!-- <ul class="drop-down">
             		<li><a href="najave.php">НАЈАВЕ ДОГАЂАЈА</a></li>
-				</ul>
+				</ul> -->
 			</li>
             <li class="drop"><a <?php if($page == 'istrazivanja'): ?> class="active"<?php endif ?> href="istrazivanja.php">ИСТРАЖИВАЊА</a></li>
-            <li class="drop"><a <?php if($page == 'dokumenti'): ?> class="active"<?php endif ?> href="#">ДОКУМЕНТИ</a>
+            <li class="drop not-active"><a <?php if($page == 'dokumenti'): ?> class="active"<?php endif ?> href="#">ДОКУМЕНТИ</a>
 				<ul class="drop-down">
                     <li><a href="akt.php">ОСНИВАЧКИ АКТ</a></li>
                     <li><a href="izvestaji.php">ИЗВЕШТАЈИ</a></li>
@@ -46,10 +46,11 @@
 					<li><a href="android.php">Android aplikacije</a></li> -->
 				</ul>
             </li>
-			<li class="drop"><a <?php if($page == 'onama'): ?> class="active"<?php endif ?> href="#">О НАМА</a>
+			<li class="drop not-active"><a <?php if($page == 'onama'): ?> class="active"<?php endif ?> href="#">О НАМА</a>
 				<ul class="drop-down">
                     <li><a href="institucija-i-postupak.php">О ИНСТИТУЦИЈИ И ПОСТУПКУ</a></li>
                     <li><a href="ombudsman-i-zamenici.php">ОМБУДСМАН И ЗАМЕНИЦИ</a></li>
+                    <li><a href="faq.php">НАЈЧЕШЋЕ ПОСТАВЉАНА ПИТАЊА</a></li>
                 </ul>
 			</li>
 			<li class="drop"><a <?php if($page == 'kontakt'): ?> class="active"<?php endif ?> href="kontakt.php">КОНТАКТ</a></li>

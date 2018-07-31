@@ -34,9 +34,9 @@
 					<div class="widget footer-widget more-links-widget">
 						<h2>ВАЖНИ ЛИНКОВИ</h2>
 						<ul>
-							<li><a href="#" target="_blank">Скупштина Аутономне покрајине Војводине</a></li>
-							<li><a href="#" target="_blank">Статут Аутономне покрајине Војводине</a></li>
-							<li><a href="#" target="_blank">Одлука о покрајинском заштитнику грађана - омбудсману</a></li>
+							<li><a href="http://www.skupstinavojvodine.gov.rs/" target="_blank">Скупштина Аутономне покрајине Војводине</a></li>
+							<li><a href="http://www.skupstinavojvodine.gov.rs/Strana.aspx?s=statut" target="_blank">Статут Аутономне покрајине Војводине</a></li>
+							<li><a href="../sr/akt.php" target="_blank">Одлука о покрајинском заштитнику грађана - омбудсману</a></li>
 						</ul>
 					</div>							
 				</div>
@@ -53,12 +53,12 @@
 				</div>
 				<div class="col-md-6">
 					<ul class="footer-menu">
-						<li><a href="#">Поднесите притужбу</a></li>
-						<li><a href="#">О нама</a></li>
-						<li><a href="#">Обратите нам се</a></li>
-						<li><a href="z#">Истраживања</a></li>
-						<li><a href="#">Извештаји</a></li>
-						<li><a href="#">Контакт</a></li>
+						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeFZpArObbVv7yML33si_OjTKcIiAF5sk3YAZWmL4BVmn5XUQ/viewform">Поднесите притужбу</a></li>
+						<li><a href="../sr/institucija-i-postupak.php">О нама</a></li>
+						<li><a href="../sr/obratite-nam-se.php">Обратите нам се</a></li>
+						<li><a href="../sr/istrazivanja.php">Истраживања</a></li>
+						<li><a href="../sr/izvestaji.php">Извештаји</a></li>
+						<li><a href="../sr/kontakt.php">Контакт</a></li>
 					</ul>
 				</div>						
 			</div>					

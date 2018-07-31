@@ -90,8 +90,19 @@
 		<h3>Нови Сад</h3> -->
 	</div>
 
-	<!-- Tab sa strane ciji link vodi ka B2B stranici  -->
+	<!-- JavaScriptSDK za Facebook -->
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=134142830009100&autoLogAppEvents=1';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 
+	<!-- Tab sa strane ciji link vodi ka B2B stranici  -->
 	<div id="side-tab">
 	  <a class="b2b" onmouseover="changeb2b(this)" onmouseout="normalb2b(this)" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeFZpArObbVv7yML33si_OjTKcIiAF5sk3YAZWmL4BVmn5XUQ/viewform?usp=sf_link"></a>
 	</div>
@@ -144,7 +155,7 @@
 						<!-- SLIDE  -->
 						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" >
 							<!-- MAIN IMAGE -->
-							<img src="upload/slide/ombudsman01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="20% 30%" data-bgrepeat="no-repeat">
+							<img src="upload/slide/tastatura.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="20% 30%" data-bgrepeat="no-repeat">
 							<div class="slika-effect1"></div>
 							<!-- LAYERS -->
 
@@ -190,6 +201,58 @@
 
 							
 						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" >
+							<!-- MAIN IMAGE -->
+							<img src="upload/slide/odluka-slider.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="20% 30%" data-bgrepeat="no-repeat">
+							<div class="slika-effect1"></div>
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption lft large_bold_white customout"
+								data-x="0"
+								data-y="140"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="700"
+								data-start="1200"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 4; min-width: 500px; max-width: 500px; white-space: inherit; line-height: 55px;">ШТА ЈЕ ОМБУДСМАН?
+							</div>
+							
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption lfl medium_thin_grey"
+								data-x="0"
+								data-y="260"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="1600"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14">
+							</div>
+							
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption lfb medium_thin_grey"
+								data-x="0"
+								data-y="280"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="2000"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14"><a href="institucija-i-postupak.php" class="btn btn-primary">САЗНАЈТЕ ВИШЕ</a>
+							</div>
+
+							
+						</li>	
+
+
 						<!-- SLIDE  -->
 						<!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="500" > -->
 							<!-- MAIN IMAGE -->
@@ -379,7 +442,7 @@
 								</div>
 								
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 sidebar-border">
 								<aside class="sidebar-advanced">
 
 									<div class="photo-stream">
@@ -453,66 +516,13 @@
 					</div>
 				</div>
 			
-			<!-- links-section ======================================================================================== -->
-			<div class="section-content team-section">
-				<!-- <div class="title-section title2">
-					<div class="container triggerAnimation animated" data-animate="bounceIn">
-						<h1>Kratak naslov</h1>
-						<p>Kratak tekst ko su ova preduzeća i zašto se linkovi ka njihovim veb stranicama nalaze ovde </p>
-					</div>
-				</div> -->
-				<div class="team-box2">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="team-post">
-									<a href="#"><i class="fa fa-bar-chart big-icon hvr-float" aria-hidden="true"></i></a>
-									<div class="team-content">
-										<h2>ИСТРАЖИВАЊА</h2>
-										<!-- <span>Podnaslov ako ga ima</span> -->
-										<!-- <p>ЈGSP Nоvi Sаd је prеduzеćе kоје је nizоm dugоrоčnih оprеdеljеnjа usrеdsrеđеnо nа svаkоdnеvnо pоbоljšаnjе kvаlitеtа prеvоzа putnikа u grаdskоm, prigrаdskоm i mеđumеsnоm sаоbrаćајu</p> -->
-										<!-- <ul class="team-social">
-											<li><a class="world" href="http://www.gspns.rs/" target="_blank"><i class="icon-world"></i></a></li>
-											<li><a class="facebook" href="https://www.facebook.com/JgspNoviSad" target="_blank"><i class="icon-facebook"></i></a></li>
-											<li><a class="twitter" href="https://twitter.com/JGSPNoviSad" target="_blank"><i class="icon-twitter"></i></a></li>
-										</ul> -->
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="team-post">
-									<a href="#"><i class="fa fa-info big-icon hvr-float" aria-hidden="true"></i></a>
-									<div class="team-content">
-										<h2>ИНФОРМАТОР О РАДУ</h2>
-										<!-- <span>Podnaslov ako ga ima</span> -->
-										<!-- <p>Јаvnо kоmunаlnо prеduzеćе "PUТ" Nоvi Sаd оsnоvао је Grаd Nоvi Sаd zа  pоtrеbе izgrаdnjе i оdržаvаnjа putеvа i ulicа nа tеritоriјi  Nоvоg Sаdа i prigrаdskih nаsеljа.</p> -->
-										<!-- <ul class="team-social">
-											<li><a class="world" href="http://www.jkpput.rs/" target="_blank"><i class="icon-world"></i></a></li>
-											<li><a class="facebook" href="https://www.facebook.com/jkpput/" target="_blank"><i class="icon-facebook"></i></a></li>
-											<li><a class="twitter" href="#" target="_blank"><i class="icon-twitter"></i></a></li>
-										</ul> -->
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="team-post">
-									<a href="#"><i class="fa fa-file-text-o big-icon hvr-float" aria-hidden="true"></i></a>
-									<div class="team-content">
-										<h2>ИЗВЕШТАЈИ</h2>
-										<!-- <span>Podnaslov ako ga ima</span> -->
-										<!-- <p>Dеlаtnоst prеduzеćа je оdržаvаnjе, urеđеnjе i kоrišćеnjе pаrkingа i јаvnih gаrаžа, kао i uslugе drumskоg sаоbrаćаја.</p> -->
-										<!-- <ul class="team-social">
-											<li><a class="world" href="http://www.parkingns.rs/" target="_blank"><i class="icon-world"></i></a></li>
-											<li><a class="facebook" href="#" target="_blank"><i class="icon-facebook"></i></a></li>
-											<li><a class="twitter" href="#" target="_blank"><i class="icon-twitter"></i></a></li>
-										</ul> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<!-- YouTube and Facebook section ========================================================================= -->
+			<?php include 'include/youtube-facebook-section.php'; ?>	
+
+			<!-- linkovi-1-section
+				================================================== -->
+			<?php include 'include/linkovi-1-section.php'; ?>
+
 		</div>
 
 		<!-- footer 
