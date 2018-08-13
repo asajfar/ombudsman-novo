@@ -127,7 +127,7 @@
 									<ul class="language-choose">
 										<li><a href="#lat"><span class="CyrLatIgnore">LAT</span></a> </li>
 										<li><a href="#cyr"><span class="CyrLatIgnore">ЋИР</span></a></li>
-										<li><a href="#"><span class="CyrLatIgnore">ENG</span></a></li>
+										<li><a href="../en/index.php"><span class="CyrLatIgnore">ENG</span></a></li>
 									</ul>
 								</div>
 							</div>
@@ -517,7 +517,7 @@
 				</div>
 			
 			<!-- YouTube and Facebook section ========================================================================= -->
-			<?php include 'include/youtube-facebook-section.php'; ?>	
+			<?php include 'include/youtube-social-section.php'; ?>	
 
 			<!-- linkovi-1-section
 				================================================== -->

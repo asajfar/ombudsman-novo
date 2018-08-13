@@ -75,6 +75,7 @@
 	<link rel="stylesheet" type="text/css" href="css/icomoon.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/hover.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
     <!-- REVOLUTION BANNER CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
 	
@@ -91,6 +92,7 @@
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
 	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
 	
 	<script type="text/javascript" src="js/plugins-scroll.js"></script>
 	<script type="text/javascript" src="js/waypoint.min.js"></script>
