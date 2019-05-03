@@ -181,8 +181,8 @@
 								<div class="sve-vesti">
 									<h3 class="sve-vesti-header">VESTI</h3>
 									<?php
-								        $number = 3;
-								        $template = "sve-vesti";
+								        $number = 6;
+								        $template = "Sve-vesti";
 								    	$category = "1,2,3";
 								    	
 								        include("../cnews/show_news.php");
@@ -285,7 +285,7 @@
 	</script>
 
 <script>
-	$.CyrLatConverter('L2C');
+	$.CyrLatConverter();
 </script>
 
 <!-- Skripta koja po ucitavanju stranice dodaje elementu .single-vest-content p klasu fontaccess. Ovo se radi zato sto bi u suprotnom korisnik koji unoisi vest morao sam ya svaki paragraf dodavati ovu klasu. SKRIPTA script.js se PRESELILA IZ HEADERA ISPOD OVE SKRIPTE JER SE U NJOJ NALAZI KOD ZA SMANJIVANJE I POVECAVANJE FONTOVA U PARAGRAFU SA KLASOM FONTACCESS. Prvo mora da se doda klasa a tek onda da se izvrsi skripta za resize fontova.-->

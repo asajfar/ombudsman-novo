@@ -1,0 +1,117 @@
+
+RewriteEngine on
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 213.251.182.115
+deny from 142.54.183.226
+deny from 10.3.88.174
+deny from 10.3.0.62
+deny from 10.3.30.229
+deny from 94.73.149.109
+deny from 67.222.107.79
+deny from 212.113.133.133
+deny from 63.247.141.93
+deny from 160.153.154.24
+deny from 61.155.174.102
+deny from 89.111.178.111
+deny from 205.144.171.160
+deny from 185.92.73.172
+deny from 216.15.222.157
+deny from 37.144.71.140
+deny from 222.237.78.73
+deny from 205.144.171.166
+deny from 79.96.226.99
+deny from 185.92.73.109
+deny from 196.15.219.211
+deny from 5.3.155.214
+deny from 89.180.147.17
+deny from 198.71.239.6
+deny from 162.243.7.179
+deny from 164.132.53.56
+deny from 70.90.83.180
+deny from 157.7.188.132
+deny from 58.171.194.231
+
+# ----------------------------------------------------------------------
+# | Expires headers                                                    |
+# ----------------------------------------------------------------------
+
+# Serve resources with far-future expires headers.
+#
+# (!) If you don't control versioning with filename-based
+# cache busting, you should consider lowering the cache times
+# to something like one week.
+#
+# https://httpd.apache.org/docs/current/mod/mod_expires.html
+
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# Images
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+
+# Video
+ExpiresByType video/mp4 "access plus 1 year"
+ExpiresByType video/mpeg "access plus 1 year"
+
+# CSS, JavaScript
+# ExpiresByType text/css "access plus 1 year"
+# to cache all css except style.css i omb.css
+ExpiresByType text/css "access plus 1 year"
+<FilesMatch "style\\.css$">
+# ExpiresByType text/css "now"
+ExpiresByType text/css "access plus 1 month"
+</FilesMatch>
+<FilesMatch "omb\\.css$">
+# ExpiresByType text/css "now"
+ExpiresByType text/css "access plus 1 month"
+</FilesMatch>
+ExpiresByType text/javascript "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+
+# Others
+ExpiresByType application/pdf "access plus 1 year"
+ExpiresByType application/x-shockwave-flash "access plus 1 year"
+</IfModule>
+
+# Disable ETags
+<IfModule mod_headers.c>
+Header unset ETag
+</IfModule>
+FileETag None
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php55 .php .phtml
+# php -- END cPanel-generated handler, do not edit
+deny from 50.87.249.202
+deny from 50.87.144.54
+deny from 108.179.230.37
+deny from 45.62.196.10
+deny from 5.135.86.36
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^/?$ "https\:\/\/www\.ombudsmanapv\.org\/riv\/index\.php\?lang\=sr\-RS" [R=301,L]
+
+# --- CUTENEWS[ST]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ /ombapv/cnews/show_news.php?cn_rewrite_url=$1 [L]
+# --- CUTENEWS[ED]
+
+

@@ -507,9 +507,10 @@ Based on:
 			/***********************************************
 			 * HELPERS
 			 ***********************************************/
+			 /* Umesto false ubaceno je {passive: false} i sada se ne prikazuje greska u chrome inspectoru prilikom skrolovanja mišem */
 
 			function addEvent(type, fn, bubble) {
-				window.addEventListener(type, fn, (bubble||false));
+				window.addEventListener(type, fn, (bubble||{passive: false}));
 			}
 
 			function removeEvent(type, fn, bubble) {

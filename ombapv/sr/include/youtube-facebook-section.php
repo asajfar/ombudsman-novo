@@ -6,7 +6,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="triggerAnimation animated fadeInRight" data-animate="fadeInRight" style="">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfBL1Fp_S286yjOzOYoEzDqTi1XqfYJqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfBL1Fp_S286yjOzOYoEzDqTi1XqfYJqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							</div>
 						</div>
 						<div class="col-md-6">

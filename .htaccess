@@ -1,0 +1,193 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^/?$ "http\:\/\/www\.ombudsmanapv\.org\/riv\/index\.php\?lang\=sr\-RS" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^kodeks$ "http\:\/\/www\.ombudsmanapv\.org\/riv\/index\.php\/dokumenti\/upitnici\/1339\-\—\É\–\ø\–\∏\—\Ç\–\Ω\–\∏\–\∫\-\–\æ\-\–\ø\—\Ä\–\∏\–\º\–\µ\–\Ω\–\∏\-\–\∫\–\æ\–\¥\–\µ\–\∫\—\Å\–\∞\-\–\ø\–\æ\–\Ω\–\∞\—\à\–\∞\—\ö\–\∞\-\—\É\-\–\ø\–\æ\–\∫\—\Ä\–\∞\—\ò\–\∏\–\Ω\—\Å\–\∫\–\∏\–\º\-\–\æ\—\Ä\–\≥\–\∞\–\Ω\–\∏\–\º\–\∞" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^patronaza$ "http\:\/\/www\.ombudsmanapv\.org\/riv\/index\.php\/dokumenti\/upitnici\/1343\-\—\É\–\ø\–\∏\—\Ç\–\Ω\–\∏\–\∫\-\–\ø\–\∞\—\Ç\—\Ä\–\æ\–\Ω\–\∞\–\∂\–\Ω\–\µ\-\—\Å\–\ª\—\É\–\∂\–\±\–\µ\-\–\¥\–\æ\–\º\–\æ\–\≤\–\∞\-\–\∑\–\¥\—\Ä\–\∞\–\≤\—\ô\–\∞" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^istrazivanja$ "http\:\/\/www\.ombudsmanapv\.org\/riv\/index\.php\/istrazivanja" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^mip2014$ "https\:\/\/docs\.google\.com\/spreadsheets\/d\/17w_Juxlu8K7vxKzmEWRsbhu7_TGI8sy7IwqVLDcoXnc\/edit\?usp\=sharing" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^saveti2014$ "http\:\/\/goo\.gl\/mpiZ2H" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^mip2015$ "https\:\/\/docs\.google\.com\/spreadsheets\/d\/1utFMK0GyfE6za7czPDTpASirhoXOY4dG8c\-eIsu3nZE\/edit\?usp\=sharing" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ombudsmanapv\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ombudsmanapv\.org$
+RewriteRule ^Misljenja_i_preporuke_2015$ "https\:\/\/docs\.google\.com\/spreadsheets\/d\/1Hnb4bQXXOlgZ3uOR\-n1gAqvgFQZTMjNJEzlyoVIGzuE\/edit\?usp\=sharing" [R=301,L]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 213.251.182.115
+deny from 142.54.183.226
+deny from 10.3.88.174
+deny from 10.3.0.62
+deny from 10.3.30.229
+deny from 94.73.149.109
+deny from 67.222.107.79
+deny from 212.113.133.133
+deny from 63.247.141.93
+deny from 160.153.154.24
+deny from 61.155.174.102
+deny from 89.111.178.111
+deny from 205.144.171.160
+deny from 185.92.73.172
+deny from 216.15.222.157
+deny from 37.144.71.140
+deny from 222.237.78.73
+deny from 205.144.171.166
+deny from 79.96.226.99
+deny from 185.92.73.109
+deny from 196.15.219.211
+deny from 5.3.155.214
+deny from 89.180.147.17
+deny from 198.71.239.6
+deny from 162.243.7.179
+deny from 164.132.53.56
+deny from 70.90.83.180
+deny from 157.7.188.132
+deny from 58.171.194.231
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php55 .php .phtml
+# php -- END cPanel-generated handler, do not edit
+
+# ----------------------------------------------------------------------
+# | Expires headers                                                    |
+# ----------------------------------------------------------------------
+
+# Serve resources with far-future expires headers.
+#
+# (!) If you don't control versioning with filename-based
+# cache busting, you should consider lowering the cache times
+# to something like one week.
+#
+# https://httpd.apache.org/docs/current/mod/mod_expires.html
+
+<IfModule mod_expires.c>
+
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+  # CSS
+
+    ExpiresByType text/css                              "access plus 1 week"
+
+
+  # Data interchange
+
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rdf+xml                   "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/ld+json                   "access plus 0 seconds"
+    ExpiresByType application/schema+json               "access plus 0 seconds"
+    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/calendar                         "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+
+  # Favicon (cannot be renamed!) and cursor images
+
+    ExpiresByType image/vnd.microsoft.icon              "access plus 1 year"
+    ExpiresByType image/x-icon                          "access plus 1 year"
+
+  # HTML
+
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+
+  # JavaScript
+
+    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/x-javascript              "access plus 1 year"
+    ExpiresByType text/javascript                       "access plus 1 year"
+
+
+  # Manifest files
+
+    ExpiresByType application/manifest+json             "access plus 1 week"
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+
+  # Markdown
+
+    ExpiresByType text/markdown                         "access plus 0 seconds"
+
+
+  # Media files
+
+    ExpiresByType audio/ogg                             "access plus 1 year"
+    ExpiresByType image/bmp                             "access plus 1 year"
+    ExpiresByType image/gif                             "access plus 1 year"
+    ExpiresByType image/jpeg                            "access plus 1 year"
+    ExpiresByType image/png                             "access plus 1 year"
+    ExpiresByType image/svg+xml                         "access plus 1 year"
+    ExpiresByType image/webp                            "access plus 1 year"
+    ExpiresByType video/mp4                             "access plus 1 year"
+    ExpiresByType video/ogg                             "access plus 1 year"
+    ExpiresByType video/webm                            "access plus 1 year"
+
+
+  # WebAssembly
+
+    ExpiresByType application/wasm                      "access plus 1 year"
+
+
+  # Web fonts
+
+    # Collection
+    ExpiresByType font/collection                       "access plus 1 month"
+
+    # Embedded OpenType (EOT)
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType font/eot                              "access plus 1 month"
+
+    # OpenType
+    ExpiresByType font/opentype                         "access plus 1 month"
+    ExpiresByType font/otf                              "access plus 1 month"
+
+    # TrueType
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+    ExpiresByType font/ttf                              "access plus 1 month"
+
+    # Web Open Font Format (WOFF) 1.0
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/x-font-woff               "access plus 1 month"
+    ExpiresByType font/woff                             "access plus 1 month"
+
+    # Web Open Font Format (WOFF) 2.0
+    ExpiresByType application/font-woff2                "access plus 1 month"
+    ExpiresByType font/woff2                            "access plus 1 month"
+
+
+  # Other
+
+    ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
+
+</IfModule>

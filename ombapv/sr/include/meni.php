@@ -33,6 +33,7 @@
                     <li><a href="akt.php">ОСНИВАЧКИ АКТ</a></li>
                     <li><a href="izvestaji.php">ИЗВЕШТАЈИ</a></li>
 					<li><a href="informator.php">ИНФОРМАТОР О РАДУ</a></li>
+					<li><a href="publikacije.php">ПУБЛИКАЦИЈЕ</a></li>
                     <li><a href="upitnici.php">УПИТНИЦИ</a></li>
 					<!-- <li><a href="javne-nabavke.php">Javne nabavke</a></li>
 					<li><a href="kampanje.php">Kampanje</a></li>
@@ -72,7 +73,7 @@
   <button class="search-close">x</button>
   <div class="inner row">
     <div class="small-12 columns">
-      <form target="_blank" action="http://www.google.com/search" method="GET">
+      <form target="_blank" action="https://www.google.com/search" method="GET">
 	      <label class="placeholder" for="search-field">Тражи</label>
 	      <input type="hidden" name="q" value="site:http://ombudsmanapv.org">
 	      <input type="text" id="search-field" name="q">
