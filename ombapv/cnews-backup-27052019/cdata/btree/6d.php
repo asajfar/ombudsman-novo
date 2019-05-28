@@ -1,0 +1,2 @@
+<?php die('Direct call - access denied'); ?>
+YToyOntzOjY6Im50c19pZCI7YToxOntzOjMyOiI2ZDI4Yjg1NjEzM2NjNjhjYTRhZWQ3MTJkM2MxMmNhMCI7aTo3NTt9czo1OiJ0c19wZyI7YToxOntzOjMyOiI2ZDI4Yjg1NjEzM2NjNjhjYTRhZWQ3MTJkM2MxMmNhMCI7czo0NToiUHJlZHN0YXZsamFuamUtcHVibGlrYWNpamUtdS1BcmhpdnUtVm9qdm9kaW5lIjt9fQ==

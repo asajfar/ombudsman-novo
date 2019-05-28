@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
-				"ba",
-				"background-repeat"
+				"naslov",
+				"naslov-artikla\t(style.css)"
+			],
+			[
+				"back",
+				"background-color\tproperty"
 			],
 			[
 				"In",
@@ -122,6 +126,10 @@
 			[
 				"fonta",
 				"fontaccess\t(style.css)"
+			],
+			[
+				"ba",
+				"background-color"
 			],
 			[
 				"margin-",
@@ -506,14 +514,6 @@
 			[
 				"background-",
 				"background-size"
-			],
-			[
-				"max-",
-				"max-width"
-			],
-			[
-				"baz",
-				"baza_all.php"
 			]
 		]
 	},
@@ -601,55 +601,53 @@
 	},
 	"expanded_folders":
 	[
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv"
 	],
 	"file_history":
 	[
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/PHP skripte/2019-03-08_CuteNews_2.1.2/CuteNews/skins/base/help/manual/wrong_include.tpl",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/razor-agent.log",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.bash_logout",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.bash_profile",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.bashrc",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/cpbackup-exclude.conf",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/php.ini",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.ftpquota",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/error_log",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.lastlogin",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.contactemail",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.htaccess",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.htaccess.suspend.1552126175",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/.htaccess 2",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/upitnici.php",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/omb.css",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/bootstrap.js",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/upitnici.php",
-		"/C/Users/d2/Desktop/bootstrap_229f764c80c115c484601bbd8a42aca5.js",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/style.css",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/publikacije.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/istrazivanja.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/istrazivanja.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/footer.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/informator.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/izvestaji.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/kontakt.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/najave.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/obratite-nam-se.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/ombudsman-i-zamenici.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/akt.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/faq.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index-backup-17082018.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index-backup-29082018.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index-stari.php",
-		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/youtube-social-section.php",
-		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/configuration.php",
+		"//OMB-PR-C-10-DTD/htdocs/ts-expo/en/php/baza_app.php",
+		"//OMB-PR-C-10-DTD/htdocs/ts-expo/en/php/baza.php",
+		"//OMB-PR-C-10-DTD/htdocs/ts-expo/en/php/session.php",
+		"//OMB-PR-C-10-DTD/htdocs/ts-expo/en/php/db.php",
+		"//OMB-PR-C-10-DTD/htdocs/ts-expo/en/php/baza_all.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/baza_app.php",
+		"/C/Users/alen.sajfar/Desktop/sitemap.xml",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/configuration.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/configuration 2.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/configuration 3.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/configuration 4.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/class.user.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/plugins-scroll.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/cnews-backup-08032019/cdata/btree/03.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/news.php",
+		"/C/Users/alen.sajfar/Desktop/news.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/edit_news.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/istrazivanja.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/omb.css",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/.htaccess 2",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/options.css.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/general.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/upitnici.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/ko-smo-mi-section.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/faq.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/index.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.appear.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.colorbox.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.imagesloaded.min.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/jquery.countTo.js",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/settings.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/hover.css",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/footer.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/cnews-backup-14112018/core/includes/active_news.php",
+		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/active_news.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/cnews-backup-14112018/core/db/coreflat.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/cnews-backup-14112018/core/core.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
 		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/footer.php",
 		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/youtube-social-section.php",
 		"/C/Users/d2/AppData/Local/Temp/fz3temp-1/index.php",
@@ -664,24 +662,38 @@
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/index.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/let-us-know.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/include_en/footer.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/footer.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/kontakt.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index-backup-29082018.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/obratite-nam-se.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/ombudsman-i-zamenici.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/faq.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/include_en/youtube-social-section.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/include_en/youtube-facebook-section.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/youtube-facebook-section.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/youtube-social-section.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/akt.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/include_en/youtube-facebook-section-backup.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/en/indexbackup110820181142.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/istrazivanja.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
 		"/D/SkyDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/kontakt.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/ytp-regular-2.html",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/najave.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/upitnici.php",
+		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
 		"/D/SkyDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/pretraga.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style.css",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vesti_all.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/meni.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest-one.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index.php",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/arhiva.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/script.js",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/index.php",
 		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/vesti.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/include/footer.php",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox2 3.js",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox2 4.js",
 		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/slimbox.js",
@@ -696,7 +708,6 @@
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/vest.php",
 		"/C/Users/alen.sajfar/Desktop/Export panorame/Sajam.html",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/obratite-nam-se.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/institucija-i-postupak.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/css/style2.css",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/index2.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/ombapv/sr/js/map.js",
@@ -720,34 +731,21 @@
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/include/logo-baner.php",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/js/jquery.easing.1.3.js",
 		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/js/plugins-scroll.js",
-		"/C/Users/alen.sajfar/AppData/Local/Temp/fz3temp-1/configuration.php",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/ytp-regular-2.html",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/ytp-regular.html",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/grabbing.html",
-		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/AjaxLoader.html",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/owl.carousel.css",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/owl.theme.css",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/icomoon.css",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/settings.css",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/style.css",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/images/controls.html",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/jquery.bxslider.css",
-		"/D/OneDrive/WEB Design/Agencija za bezbednost/HTML/asdfg310/css/magnific-popup.css",
-		"/C/Users/alen.sajfar/Desktop/predlog/index.html"
+		"/D/OneDrive/WEB Design/Ombudsman-sajt/Code/css/ytp-regular-2.html"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
-		"height": 279.0,
+		"height": 135.0,
 		"where_history":
 		[
-			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv",
-			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr",
-			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr\\include,D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr",
-			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr\\include",
+			"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\cnews-backup-08032019",
+			"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\cnews-backup-02122018",
+			"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr",
+			"D:\\OneDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\cnews-backup-10122018",
 			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\cnews-backup-14112018",
 			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr",
 			"D:\\SkyDrive\\WEB Design\\Ombudsman-sajt\\Code\\ombapv\\sr\\css",
@@ -790,27 +788,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"r57shell_php_php",
-			";",
-			"defer",
-			"weight",
-			"roboto",
-			"robotp",
-			"naziv",
-			"Naziv",
-			"Merriweather",
-			"preloader",
-			"Design\\Ombudsman-sajt\\Code\\ombapv\\sr\\include\\footer.php",
-			"© 2018 Покрајински заштитник грађана - омбудсман",
-			"<script>\n\t$.CyrLatConverter('L2C');\n</script>",
-			"anal",
-			"preloader",
-			"http://www.google.com/search",
-			"search",
-			"action",
-			"form",
+			"$searchValue",
 			"http",
+			"host",
+			"addEventListener",
+			"scroll",
+			"civilno",
+			"цивилно",
+			"цивилно друштво за одговорну",
+			"''",
+			"cn_helper_category($e)",
+			"div.six.columns",
+			".top-bar ul {",
+			"app",
+			"hvr",
+			"http",
+			"<meta name=\"robots\" content=\"noindex, nofollow\" />",
+			"analy",
 			"live",
+			"pagination",
+			"@media (max-width: 991px)\n.footer-line p {",
+			"@",
 			"you",
 			"add",
 			"addthi",
@@ -925,7 +923,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"<script>\n\t$.CyrLatConverter();\n</script>",
 			"<?php include 'include/youtube-social-section.php'; ?>",
 			"<ul class=\"dropdown\">\n<li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n              </li>\n              <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n              </li>\n              <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n              </li>\n            </ul>",
 			"<ul class=\"dropdown\">\n                  <li><a href=\"izlagaci-2017.html\">SPISAK IZLAGAČA 2017</a>\n                  </li>\n                  <li><a href=\"profil-izlagaca.html\">PROFILI IZLAGAČA</a>\n                  </li>\n                  <li><a href=\"uslovi-izlaganja.html\">USLOVI ZA IZLAGANJE</a>\n                  </li> \n                </ul>",
@@ -951,7 +948,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -992,7 +989,7 @@
 	"project": "ombudsman-project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1012,7 +1009,7 @@
 		[
 			[
 				"",
-				"D:\\SkyDrive\\WEB Design\\tsexpo.rs\\tteesstt\\ts-expo-tteesstt-project.sublime-project"
+				"D:\\OneDrive\\WEB Design\\tsexpo.rs\\tteesstt\\ts-expo-tteesstt-project.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1034,7 +1031,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 320.0,
+	"side_bar_width": 270.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
