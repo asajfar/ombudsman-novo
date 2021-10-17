@@ -7,15 +7,31 @@
 <html lang="sr" class="no-js">
 
 <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133007365-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-133007365-1');
+	</script>
 	
-	<title>ИЗВЕШТАЈИ :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА ОМБУДСМАН</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://schema.org">
+	<link rel="preconnect" href="https://goo.gl">
+	<link rel="preconnect" href="https://docs.google.com">
+	
+	<title>ИЗВЕШТАЈИ | Покрајински заштитник грађана - омбудсман</title>
 	<meta charset="utf-8">
-	<meta name="robots" content="noindex, nofollow" />
+	<meta name="robots" content="index, follow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Покрајински заштитник грађана – омбудсман је независан и самосталан орган Аутономне покрајине Војводине који штити права грађана и врши надзор над радом покрајинских органа управе, јавних предузећа и установа које врше управна и јавна овлашћења, а чији је оснивач Аутономна покрајина Војводина,  у вези са њиховим поступањем у извршавању одлука и других правних аката АП Војводине." />
+	<meta name="description" content="Покрајински заштитник грађана - омбудсман сваке године подноси извештај скупштини АПВ који се упућује до 31. марта текуће године и односи се на претходну календарску годину" />
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="canonical" href="https://www.ombudsmanapv.org/riv/index.php/dokumenti/godisnji-izvestaj.html" />
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
@@ -57,18 +73,18 @@
 	<script type="application/ld+json">
 	{
 	  "@context" : "http://schema.org",
-	  "@type" : "LocalBusiness",
-	  "name" : "Покрајински заштитник грађана - омбудсман",
-	  "image" : "http://sbsns.rs/sr/images/logo/ns-logo.png",
-	  "telephone" : [ "+381-(0)21-487-41-44", "+381-(0)21-55-77-27" ],
-	  "email" : "office@ombudsmanapv.org",
-	  "address" : {
-	    "@type" : "PostalAddress",
-	    "streetAddress" : "Булевар Михајла Пупина 25",
-	    "addressLocality" : "Нови Сад",
-	    "addressCountry" : "Србија"
+	  "@type" : "Article",
+	  "name" : "ГОДИШЊИ ИЗВЕШТАЈИ",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Покрајински заштитник грађана - ОМБУДСМАН"
 	  },
-	  "url" : "http://www.ombudsmanapv.org/ombapv/sr/"
+	  "articleBody" : "Годишњи извештај је документ који Покрајински заштитник грађана - омбудсман сваке године подноси скупштини АПВ. Извештај се скупштини АПВ упућује до 31. марта текуће године и односи се на претходну календарску годину. Садржај извештаја, рокови за његову израду и упућивање Скупштини АПВ, као и обавеза његовог објављивања у јавности регулисана је чланом 21 Покрајинске скупштинске одлуке о Покрајинском заштитнику грађана - омбудсману.",
+	  "url" : "https://www.ombudsmanapv.org/ombapv/sr/izvestaji.php",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Покрајински заштитник грађана - омбудсман"
+	  }
 	}
 	</script>
 
@@ -150,6 +166,9 @@
 								</div>
 								<div class="download-upitnici">
 									<ul>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2020.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2020. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2019.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2019. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2018_konacno.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2018. годину</a></li>
 										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2017-online.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2017. годину</a></li>
 										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2016.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2016. годину</a></li>
 										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2015.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2015. годину</a></li>
@@ -180,6 +199,7 @@
 													<li class="active"><a class="isdisabled" href="izvestaji.php">Извештаји</a></li>
 													<li><a href="informator.php">Информатор о раду</a></li>
 													<li><a href="upitnici.php">Упитници</a></li>
+													<li><a href="ostali-dokumenti.php">Остали документи</a></li>
 												</ul>
 											</div>
 										</div>

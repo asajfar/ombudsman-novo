@@ -35,6 +35,7 @@
 					<li><a href="informator.php">ИНФОРМАТОР О РАДУ</a></li>
 					<li><a href="publikacije.php">ПУБЛИКАЦИЈЕ</a></li>
                     <li><a href="upitnici.php">УПИТНИЦИ</a></li>
+					<li><a href="ostali-dokumenti.php">ОСТАЛИ ДОКУМЕНТИ</a></li>
 					<!-- <li><a href="javne-nabavke.php">Javne nabavke</a></li>
 					<li><a href="kampanje.php">Kampanje</a></li>
 					<li><a href="#">Najave događaja<i class="fa fa-angle-right"></i></a>
@@ -51,6 +52,7 @@
 				<ul class="drop-down">
                     <li><a href="institucija-i-postupak.php">О ИНСТИТУЦИЈИ И ПОСТУПКУ</a></li>
                     <li><a href="ombudsman-i-zamenici.php">ОМБУДСМАН И ЗАМЕНИЦИ</a></li>
+                    <li><a href="sistematizacija.php">СИСТЕМАТИЗАЦИЈА И ОРГАНИЗАЦИЈА</a></li>
                     <li><a href="faq.php">НАЈЧЕШЋЕ ПОСТАВЉАНА ПИТАЊА</a></li>
                 </ul>
 			</li>

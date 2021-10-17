@@ -217,6 +217,42 @@ p {
   font-size: 24px
 }
 
+
+/*--------------------------------------------------------- Banner iznad Vesti i Sidebara ------------------------------------------------------*/
+
+.container.full {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.banner-iznad {
+  background-color: #ed145b;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-size: 1.5em;
+   -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+
+.banner-iznad a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-iznad a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-iznad:hover {
+  background-color: #820a31;
+
+}
 /*----------------------------------------------------------VESTI na naslovnoj------------------------------------------------------------------*/
 
 .artikal:first-child {
@@ -9926,6 +9962,26 @@ footer .up-footer .flickr-widget ul li a:hover {
   }
   .naslovna-content {
     top: 9px;
+  }
+
+  .single-vest-content p {
+    text-align: left !important;
+  }
+
+  .vest-zaglavlje {
+    margin-bottom: 0px;
+  }
+
+  .footer-widget {
+    margin-bottom: 0px;
+  }
+
+  .header3 .navbar-nav > li > a, .header4 .navbar-nav > li > a {
+    font-size: 1.3em;
+  }
+
+  .navbar-nav li ul.drop-down li a {
+    font-size: 1.1em;
   }
 
 }

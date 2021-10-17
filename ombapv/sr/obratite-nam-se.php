@@ -8,15 +8,31 @@
 <html lang="sr" class="no-js">
 
 <head>
-	<title>Покрајински заштитник грађана - омбудсман</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133007365-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-133007365-1');
+	</script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://schema.org">
+	<link rel="preconnect" href="https://goo.gl">
+	<link rel="preconnect" href="https://docs.google.com">
+	
+	<title>КАКО ПОДНЕТИ ПРИТУЖБУ | Покрајински заштитник грађана - омбудсман</title>
 
 	<meta charset="utf-8">
-	<meta name="robots" content="noindex, nofollow" />
+	<meta name="robots" content="index, follow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Покрајински заштитник грађана – омбудсман је независан и самосталан орган Аутономне покрајине Војводине који штити права грађана и врши надзор над радом покрајинских органа управе, јавних предузећа и установа које врше управна и јавна овлашћења, а чији је оснивач Аутономна покрајина Војводина,  у вези са њиховим поступањем у извршавању одлука и других правних аката АП Војводине." />
+	<meta name="description" content="Обратите се Покрајинском заштитнику грађана - омбудсману. Можете нам се обратити лично, телефоном, поштон, путем сајта или електронском поштом." />
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="canonical" href="https://www.ombudsmanapv.org/riv/index.php/obratite-nam-se.html" />
 
 	<!-- Skripte ccs za mapu -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -65,18 +81,14 @@
 	<script type="application/ld+json">
 	{
 	  "@context" : "http://schema.org",
-	  "@type" : "LocalBusiness",
-	  "name" : "Покрајински заштитник грађана - омбудсман",
-	  "image" : "http://sbsns.rs/sr/images/logo/ns-logo.png",
-	  "telephone" : [ "+381-(0)21-487-41-44", "+381-(0)21-55-77-27" ],
-	  "email" : "office@ombudsmanapv.org",
-	  "address" : {
-	    "@type" : "PostalAddress",
-	    "streetAddress" : "Булевар Михајла Пупина 25",
-	    "addressLocality" : "Нови Сад",
-	    "addressCountry" : "Србија"
+	  "@type" : "Article",
+	  "name" : "Поднесите притужбу",
+	  "author" : {
+	    "@type" : "",
+	    "name" : "Покрајински заштитник грађана - ОМБУДСМАН"
 	  },
-	  "url" : "http://www.ombudsmanapv.org/sr/"
+	  "image" : "https://www.ombudsmanapv.org/ombapv/sr/images/logo/ombudsman-logo.png",
+	  "articleBody" : "Покрајинском заштитнику грађана - омбудсману можете се обратити лично, телефоном, путем онлајн обрасца, поштом или имејлом. Покрајинском заштитнику грађана -  омбудсману подноси се притужба на темељу које се у институцији отвара Ваш предмет под одређеним бројем. Предмет служи као основ за даљње поступање, тј. за вођење истраге"
 	}
 	</script>
 

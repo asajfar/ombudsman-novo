@@ -49,7 +49,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<p>© 2019 Покрајински заштитник грађана - омбудсман</p>
+					<p>© 2021 Покрајински заштитник грађана - омбудсман</p>
 				</div>
 				<div class="col-md-6">
 					<ul class="footer-menu">

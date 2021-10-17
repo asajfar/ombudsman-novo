@@ -167,6 +167,19 @@
 				</div>
 			</div>
 
+			<!-- kontakt-imena-section -->
+			<div section-content aricles-section style="background-color: #525252;">
+				<div class="container" style="padding-top: 17px">
+					<div class="zivot-box">
+						<div class="col-md-12">
+							<div><p style="text-align: center; color: #dcdcdc;">Лице за заштиту података о личности: Нина Јанић Брусњаи,Тел: 021/4881-772, <span class="CyrLatIgnore">e-mail: nina.janic@vojvodina.gov.rs</span></p></div>
+						</div>
+						<div class="col-md-12">
+							<div><p style="text-align: center; color: #dcdcdc;">Лице одговорно за одржавање интернет презентације: Ален Шајфар, Тел: 021/487-41-44, <span class="CyrLatIgnore">e-mail: alen.sajfar@vojvodina.gov.rs</span></p></div>
+						</div>
+					</div>
+				</div>				
+			</div>
 
 			
 			<!-- linkovi-1-section

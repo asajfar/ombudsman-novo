@@ -8,20 +8,31 @@
 <html lang="sr" class="no-js">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133007365-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-133007365-1');
+	</script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://schema.org">
 	<link rel="preconnect" href="https://goo.gl">
 	<link rel="preconnect" href="https://docs.google.com">
 
-	<title>Покрајински заштитник грађана - омбудсман</title>
+	<title>НАСЛОВНА СТРАНА | Покрајински заштитник грађана - омбудсман</title>
 
 	<meta charset="utf-8">
-	<meta name="robots" content="noindex, nofollow" />
+	<meta name="robots" content="index, follow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="Покрајински заштитник грађана – омбудсман је независан и самосталан орган Аутономне покрајине Војводине који штити права грађана." />
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="canonical" href="https://www.ombudsmanapv.org/riv/" />
 
 	<!-- Skripte ccs za mapu -->
 	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUD3htZ3Nz_OHmAUygmFand6GDGrYu_vU&extension=.js"></script> --> 
@@ -404,6 +415,22 @@
 		<!-- content 
 			================================================== -->
 		<div class="naslovna-content" id="content">
+
+			<!-- baner iznad vesti i sidebara
+				================================================== -->
+
+			<div class="section-content services-section">
+
+				<div class="services-box1">
+					<div class="container full">
+						<div class="row">
+
+							<div class="col-md-12">
+								<div class="banner-iznad"><a href="covid-19.php">#БудимоОдговорни</a></div> 								
+							</div>			
+						</div>
+					</div>
+				</div>
 
 
 			<!-- vesti i sidebar

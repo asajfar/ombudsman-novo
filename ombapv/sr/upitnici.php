@@ -151,28 +151,29 @@
 									</div>
 								</div>
 								<div class="naslov-upitnici">
-									<span>Упитници - Поступање институција у случајевима насиља у породици током 2018. године</span>									
+									<span>Упитници - Поступање институција у случајевима насиља у породици током 2020. године</span>									
 								</div>
 								<div class="download-upitnici">
+									<p>
+										Покрајински заштитник грађана – омбудсман, у оквиру овлашћења да прати примену међународних уговора, стандарда и прописа из области људских права, као и да спроводи истраживања како би стекао увид у стање људсих права, идентификовао проблеме и формулисао препоруке у циљу остваривања, заштите и унапређења људских права, 15. годину за редом прикупља податке о поступању институција у случајевима насиља у породици.
+									</p>
+									<p>
+										Као координатор мреже „Живот без насиља“, Покрајински омбудсман позива надлежне институције да га известе о поступању у случајевима насиља у породици током 2020. године.
+									</p>
+									<p>
+										Молимо да преузмедте и попуните упитник са странице и да га <strong>доставите поштом до 1. маја 2021. године</strong>, на адресу: Булевар Михајла Пупина 25, 21101 Нови Сад.
+									</p>
+									<p>
+										За сва питања и информације у вези самог упитника можете се обратити Светлани Нешић Бајго, а у вези техничке подршке Алену Шајфару на број телефона 021/487-41-44.
+									</p>
 									<ul>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-policiju.pdf" target="_blank">Упитник за полицију</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-sudove-krivicni-zakonik.pdf" target="_blank">Упитник за судове - кривични законик</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-sudove-porodicni-zakon.pdf" target="_blank">Упитник за судове - породични закон</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-sudove-za-prekrsaje.pdf" target="_blank">Упитник за судове за прекршаје</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-centre-za-socijalni-rad.pdf" target="_blank">Упитник за центре за социјални рад</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-domove-zdravlja.pdf" target="_blank">Упитник за домове здравља</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Upitnik-za-tuzilastva.pdf" target="_blank">Упитник за тужилаштва</a></li>
-									</ul>
-								</div>
-								<div class="naslov-upitnici">
-									<span>2018: Истраживање о поступању органа старатељства и других надлежних органа и институција у случајевима заштите деце од насиља, злостављања и занемаривања, као и заштите права деце у сукобу са законом</span>									
-								</div>
-								<div class="download-upitnici">
-									<ul>
-										<li><a href="doc/dokumenti/upitnici/2018-Centar-za-socijalni-rad-upitnik.docx" target="_blank">Упитник за центре за социјални рад</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Prekrsajni-sudovi-upitnik.docx" target="_blank">Упитник за судове за прекршаје</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Osnovne-skole-upitnik.docx" target="_blank">Упитник за основне школе</a></li>
-										<li><a href="doc/dokumenti/upitnici/2018-Srednje-skole-upitnik.docx" target="_blank">Упитник за средње школе</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-policiju-2020.docx" target="_blank">Упитник за полицију</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-sudove-krivicni-zakonik-2020.docx" target="_blank">Упитник за судове - кривични законик</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-sudove-porodicni-zakon-2020.docx" target="_blank">Упитник за судове - породични закон</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-sudove-za-prekrsaje-2020.docx" target="_blank">Упитник за судове за прекршаје</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-centre-za-socijalni-rad-2020.docx" target="_blank">Упитник за центре за социјални рад</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-domove-zdravlja-2020.docx" target="_blank">Упитник за домове здравља</a></li>
+										<li><a href="doc/dokumenti/upitnici/Upitnik-za-tuzilastva-2020.docx" target="_blank">Упитник за тужилаштва</a></li>
 									</ul>
 								</div>
 							</div>
@@ -189,6 +190,7 @@
 													<li><a href="izvestaji.php">Извештаји</a></li>
 													<li><a href="informator.php">Информатор о раду</a></li>
 													<li class="active"><a class="isdisabled" href="upitnici.php">Упитници</a></li>
+													<li><a href="ostali-dokumenti.php">Остали документи</a></li>
 												</ul>
 											</div>
 										</div>
