@@ -159,7 +159,16 @@
 								</div>
 								<div class="download-upitnici">
 									<ul>
-										<li><a href="doc/dokumenti/ostali-dokumenti/Pravilnik-opt-uzbunjivanje-2020.pdf" target="_blank">Правилник о поступку унутрашњег узбуњивања у Покрајинском заштинику грађана - омбудсману <span class="CyrLatIgnore">:: [pdf] :: 2.6MB</span></a></li>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Pravilnik-opt-uzbunjivanje.pdf" target="_blank">Правилник о поступку унутрашњег узбуњивања у Покрајинском заштинику грађана - омбудсману <span class="CyrLatIgnore">:: [pdf] :: 2.6MB</span></a></li>
+									</ul>
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupku-uzbunjivanja-2023.pdf" target="_blank">Извештај о примени правилника о поступку узбуњивања у 2023. години <span class="CyrLatIgnore">:: [pdf] :: 152KB</span></a></li>
+									</ul>
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupku-uzbunjivanja-2022.pdf" target="_blank">Извештај о примени правилника о поступку узбуњивања у 2022. години <span class="CyrLatIgnore">:: [pdf] :: 152KB</span></a></li>
+									</ul>
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupku-uzbunjivanja-2021.pdf" target="_blank">Извештај о примени правилника о поступку узбуњивања у 2021. години <span class="CyrLatIgnore">:: [pdf] :: 152KB</span></a></li>
 									</ul>
 									<ul>
 										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupku-uzbunjivanja-2020.pdf" target="_blank">Извештај о примени правилника о поступку узбуњивања у 2020. години <span class="CyrLatIgnore">:: [pdf] :: 152KB</span></a></li>
@@ -179,14 +188,23 @@
 								</div>
 
 								<div class="naslov-upitnici">
-									<span>ПРАВИЛНИК О ПОСТУПАЉУ ПО ПРИТУЖБАМА</span>									
+									<span>ПРАВИЛНИК О ПОСТУПАЊУ ПО ПРИТУЖБАМА</span>									
 								</div>
 								<div class="download-upitnici">
 									<ul>
 										<li><a href="doc/dokumenti/ostali-dokumenti/pravilnik-o-postupanju-po-prituzbama.pdf" target="_blank">Правилник о поступању по притужбама на рад запослених у Покрајинском заштитнику грађана - омбудсману <span class="CyrLatIgnore">:: [pdf] :: 600КB</span></a></li>
 									</ul>
 									<ul>
-										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupanju-po-prituzbama-2020.pdf" target="_blank">Извештај о примени правилника о поступању по притужбама на рад запослених у Покрајинском заштитнику грађана - омбудсману <span class="CyrLatIgnore">:: [pdf] :: 160KB</span></a></li>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupanju-po-prituzbama-2023.pdf" target="_blank">Извештај о примени правилника о поступању по притужбама на рад запослених у Покрајинском заштитнику грађана - омбудсману за 2023. годину <span class="CyrLatIgnore">:: [pdf] :: 160KB</span></a></li>
+									</ul>
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupanju-po-prituzbama-2022.pdf" target="_blank">Извештај о примени правилника о поступању по притужбама на рад запослених у Покрајинском заштитнику грађана - омбудсману за 2022. годину <span class="CyrLatIgnore">:: [pdf] :: 160KB</span></a></li>
+									</ul>
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupanju-po-prituzbama-2021.pdf" target="_blank">Извештај о примени правилника о поступању по притужбама на рад запослених у Покрајинском заштитнику грађана - омбудсману за 2021. годину <span class="CyrLatIgnore">:: [pdf] :: 160KB</span></a></li>
+									</ul>
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Izvestaj-o-primeni-pravilnika-o-postupanju-po-prituzbama-2020.pdf" target="_blank">Извештај о примени правилника о поступању по притужбама на рад запослених у Покрајинском заштитнику грађана - омбудсману за 2020. годину <span class="CyrLatIgnore">:: [pdf] :: 160KB</span></a></li>
 									</ul>
 								</div>
 
@@ -195,7 +213,16 @@
 								</div>
 								<div class="download-upitnici">
 									<ul>
-										<li><a href="doc/dokumenti/ostali-dokumenti/Broj-zaposlenih-i-radno-angazovanih-lica.pdf" target="_blank">Број запослених и радно ангажованих лица у Покрајинском заштитнику гтрађана - омбудсману <span class="CyrLatIgnore">:: [pdf] :: 185КB</span></a></li>
+										<li><a href="doc/dokumenti/ostali-dokumenti/2023-11-14_Broj zaposlenih i radno angazovanih lica.pdf" target="_blank">Број запослених и радно ангажованих лица у Покрајинском заштитнику грађана - омбудсману <span class="CyrLatIgnore">:: [pdf] :: 185КB</span></a></li>
+									</ul>
+								</div>
+
+								<div class="naslov-upitnici">
+									<span>ПРАВИЛНИК О БЛИЖЕМ УРЕЂИВАЊУ ПОСТУПКА ЈАВНЕ НАБАВКЕ</span>									
+								</div>
+								<div class="download-upitnici">
+									<ul>
+										<li><a href="doc/dokumenti/ostali-dokumenti/Pravilnik-o-blizem-uredjenju-postupka-javne-nabavke-2022.pdf" target="_blank">Правилник о ближем уређивању поступка јавне набавке и спровођење поступка набавки на које се закон не примењује у Покрајинском заштитнику грађана - омбудсману. <span class="CyrLatIgnore">:: [pdf] :: 575КB</span></a></li>
 									</ul>
 								</div>
 

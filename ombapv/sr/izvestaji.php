@@ -166,6 +166,8 @@
 								</div>
 								<div class="download-upitnici">
 									<ul>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2022.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2022. годину</a></li>
+										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2021.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2021. годину</a></li>
 										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2020.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2020. годину</a></li>
 										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2019.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2019. годину</a></li>
 										<li><a href="doc/dokumenti/izvestaji/Godisnji_izvestaj_PZG-ombudsmana_2018_konacno.pdf" target="_blank">Годишњи извештај Покрајинског заштитника грађана - омбудсмана за 2018. годину</a></li>

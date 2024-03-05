@@ -49,7 +49,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<p>© 2018 Provincial  Protector of Citizens - Ombudsman</p>
+					<p>© <script>document.write(/\d{4}/.exec(Date())[0])</script> Provincial  Protector of Citizens - Ombudsman</p>
 				</div>
 				<div class="col-md-6">
 					<ul class="footer-menu">

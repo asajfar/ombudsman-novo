@@ -15,8 +15,8 @@
 				<div class="col-md-4 col-sm-12">
 					<div class="widget footer-widget text-widget">
 						<h2>ОБРАТИТЕ НАМ СЕ</h2>
-						<p>Булевар Михајла Пупина 25 <br> Novi Sad</p>
-						<p>Telefon: 021/487-41-44; 021/55-77-27 <br> Имејл: <span class="CyrLatIgnore">office@ombudsmanapv.org</span></p>
+						<p>Булевар Михајла Пупина 25 <br> Нови Сад</p>
+						<p>Телефон: 021/487-41-44; 021/55-77-27 <br> Имејл: <span class="CyrLatIgnore">office@ombudsmanapv.org</span></p>
 						<ul class="social-list">
 							<li><a class="facebook" href="https://www.facebook.com/ombudsmanapv/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
 							<li><a class="twitter" href="https://twitter.com/ombudsmanapv" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
@@ -49,7 +49,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<p>© 2021 Покрајински заштитник грађана - омбудсман</p>
+					<p>© <script>document.write(/\d{4}/.exec(Date())[0])</script> Покрајински заштитник грађана - омбудсман</p>
 				</div>
 				<div class="col-md-6">
 					<ul class="footer-menu">
@@ -151,5 +151,6 @@ window.cookieconsent.initialise({
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b75783042f501d4"></script> -->
 
+<?php include 'statcounter.txt'; ?>
 
 <?php  ?>

@@ -28,25 +28,33 @@
 				</ul> -->
 			</li>
             <li class="drop"><a <?php if($page == 'istrazivanja'): ?> class="active"<?php endif ?> href="istrazivanja.php">ИСТРАЖИВАЊА</a></li>
+            <li class="drop"><a <?php if($page == 'postupci'): ?> class="active"<?php endif ?> href="postupci.php">ПОСТУПЦИ</a>
+            	<ul class="drop-down">
+                  <li><a href="misljenja-i-preporuke.php">МИШЉЕЊА И ПРЕПОРУКЕ</a></li>
+                  <!-- <li><a href="ombudsman-i-zamenici.php">ОМБУДСМАН И ЗАМЕНИЦИ</a></li> -->
+                  <!-- <li><a href="sistematizacija.php">СИСТЕМАТИЗАЦИЈА И ОРГАНИЗАЦИЈА</a></li> -->
+                  <!-- <li><a href="faq.php">НАЈЧЕШЋЕ ПОСТАВЉАНА ПИТАЊА</a></li> -->
+              </ul>
+            </li>
             <li class="drop not-active"><a <?php if($page == 'dokumenti'): ?> class="active"<?php endif ?> href="#">ДОКУМЕНТИ</a>
-				<ul class="drop-down">
-                    <li><a href="akt.php">ОСНИВАЧКИ АКТ</a></li>
-                    <li><a href="izvestaji.php">ИЗВЕШТАЈИ</a></li>
-					<li><a href="informator.php">ИНФОРМАТОР О РАДУ</a></li>
-					<li><a href="publikacije.php">ПУБЛИКАЦИЈЕ</a></li>
-                    <li><a href="upitnici.php">УПИТНИЦИ</a></li>
-					<li><a href="ostali-dokumenti.php">ОСТАЛИ ДОКУМЕНТИ</a></li>
-					<!-- <li><a href="javne-nabavke.php">Javne nabavke</a></li>
-					<li><a href="kampanje.php">Kampanje</a></li>
-					<li><a href="#">Najave događaja<i class="fa fa-angle-right"></i></a>
-						<ul class="drop-down level3">
-							<li><a href="najave2017.php">2017. godina</a></li>
-							<li><a href="najave2016.php">2016. godina</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Međunarodna saradnja</a></li>
-					<li><a href="android.php">Android aplikacije</a></li> -->
-				</ul>
+							<ul class="drop-down">
+			                    <li><a href="akt.php">ОСНИВАЧКИ АКТ</a></li>
+			                    <li><a href="izvestaji.php">ИЗВЕШТАЈИ</a></li>
+								<li><a href="informator.php">ИНФОРМАТОР О РАДУ</a></li>
+								<li><a href="publikacije.php">ПУБЛИКАЦИЈЕ</a></li>
+			                    <li><a href="upitnici.php">УПИТНИЦИ</a></li>
+								<li><a href="ostali-dokumenti.php">ОСТАЛИ ДОКУМЕНТИ</a></li>
+								<!-- <li><a href="javne-nabavke.php">Javne nabavke</a></li>
+								<li><a href="kampanje.php">Kampanje</a></li>
+								<li><a href="#">Najave događaja<i class="fa fa-angle-right"></i></a>
+									<ul class="drop-down level3">
+										<li><a href="najave2017.php">2017. godina</a></li>
+										<li><a href="najave2016.php">2016. godina</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Međunarodna saradnja</a></li>
+								<li><a href="android.php">Android aplikacije</a></li> -->
+							</ul>
             </li>
 			<li class="drop not-active"><a <?php if($page == 'onama'): ?> class="active"<?php endif ?> href="#">О НАМА</a>
 				<ul class="drop-down">

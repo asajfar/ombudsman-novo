@@ -43,7 +43,7 @@
 							</div>
 
 							<div class="col-md-3">
-								<a href="izvestaji.php" class="linkovi-1-link">
+								<a href="informator.php" class="linkovi-1-link">
 									<div class="services-post triggerAnimation animated" data-animate="fadeInUp">
 										<span><i class="icon-focus"></i></span>
 										<div class="services-content">

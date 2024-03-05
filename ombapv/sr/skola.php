@@ -1,6 +1,51 @@
 <?php 
-	$page = "skola";
+	$page = "dokumenti";
 ?>
+
+<!-- Preuzimanje naslova vesti u promenljivu $title -->
+<?php
+	include_once '../cnews/cn_api.php';
+	$entry = cn_api_get_entry();
+
+	if ($entry['t']) 
+	{
+	     // ........
+	     $header_title = $entry['t'];
+	     $str = $entry['s'];
+	     $rawdesc = $entry['f'];
+	     
+	function get_string_between($string, $start, $end){
+	    $string = " ".$string;
+	    $ini = strpos($string,$start);
+	    if ($ini == 0) return "";
+	    $ini += strlen($start);
+	    $len = strpos($string,$end,$ini) - $ini;
+	    return substr($string,$ini,$len);
+	}
+
+	function stripBBCode($text_to_search) {
+	 $pattern = '|[[\/\!]*?[^\[\]]*?]|si';
+	 $replace = '';
+	 return preg_replace($pattern, $replace, $text_to_search);
+	}
+
+	$rawdesc2 = stripBBCode($rawdesc);
+
+	$pattern = "/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i";
+	$replacement = "";
+	$sdesc = preg_replace($pattern, $replacement, $rawdesc2);
+	$fdesc = strip_tags($sdesc);
+
+	$image = get_string_between($str, "[img]", "[/img]");
+
+
+	      $title = "<title>".$header_title."</title>\n";
+	      
+	} else {
+	      
+	       $title = "<title>Škola ljudskih prava</title>\n";
+	    }
+ ?>
 
 <!doctype html>
 
@@ -8,13 +53,9 @@
 <html lang="sr" class="no-js">
 
 <head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://schema.org">
-	<link rel="preconnect" href="https://goo.gl">
-	<link rel="preconnect" href="https://docs.google.com">
-	<link rel="preconnect" href="https://static.addtoany.com">
+	<!-- Postavljanje title taga -->
+	<?php echo $title ?>
 
-	<title>ШКОЛА ЉУДСКИХ ПРАВА :: ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА - ОМБУДСМАН</title>
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex, nofollow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -23,7 +64,7 @@
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
 	<!-- <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen"> -->	
@@ -33,30 +74,28 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/icomoon.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
-	<!-- <link rel="stylesheet" type="text/css" href="css/hover.css" media="screen"> -->
+	<link rel="stylesheet" type="text/css" href="css/hover.css" media="screen">
     <!-- REVOLUTION BANNER CSS SETTINGS -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" /> -->
+	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
 	
-	<script type="text/javascript" src="js/jquery.min.js" async></script>
-	<!-- <script type="text/javascript" src="js/jquery.migrate.js" async></script> -->
-	<!-- <script type="text/javascript" src="js/jquery.magnific-popup.min.js" async></script> -->
-	<!-- <script type="text/javascript" src="js/owl.carousel.min.js" async></script> -->
-	<!-- <script type="text/javascript" src="js/jquery.bxslider.min.js" async></script> -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.migrate.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/jquery.appear.js"></script>
-	<!-- <script type="text/javascript" src="js/jquery.countTo.js" async></script> -->
-	<script type="text/javascript" src="js/bootstrap.js" async></script>
-	<!-- <script type="text/javascript" src="js/jquery.imagesloaded.min.js" async></script> -->
-	<!-- <script type="text/javascript" src="js/jquery.colorbox.js" async></script> -->
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
 	
 	<script type="text/javascript" src="js/plugins-scroll.js"></script>
 	<script type="text/javascript" src="js/waypoint.min.js"></script>
 
 	<!-- <link rel="stylesheet" type="text/css" href="css/YTPlayer.css" media="screen"> -->
-
-	<script type="text/javascript" src="js/script.js"></script>
 	
 	<script type="text/javascript" src="js/cyrlatconverter_ignore_list_rs.js"></script>
 	<script type="text/javascript" src="js/cyrlatconverter.js"></script>
@@ -64,10 +103,10 @@
 	<!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
 	<script type="application/ld+json">
 	{
-	  "@context" : "https://schema.org",
+	  "@context" : "http://schema.org",
 	  "@type" : "LocalBusiness",
 	  "name" : "Покрајински заштитник грађана - омбудсман",
-	  "image" : "https://ombudsmanapv.org/ombapv/sr/images/logo/ombudsman-logo.png",
+	  "image" : "https://www.ombudsmanapv.org/ombapv/sr/images/logo/ombudsman-logo.png",
 	  "telephone" : [ "+381-(0)21-487-41-44", "+381-(0)21-55-77-27" ],
 	  "email" : "office@ombudsmanapv.org",
 	  "address" : {
@@ -84,12 +123,13 @@
 <body class="CyrLatConvert">
 
 	<!-- Preloader-->
-	<!-- <div class="preloader">
-		
-	</div> -->
+	<div class="preloader">
+		<!-- <h2>Покрајински заштитник грађана - омбудсман</h2>
+		<h3>Нови Сад</h3> -->
+	</div>
 
 	<!-- Container - dodati klasu active zbog ukidanja preloadera  -->
-	<div id="container" class="header3 active">
+	<div id="container" class="header3">
 		<header class="clearfix">
 			<!-- Static navbar -->
 			<nav class="navbar navbar-default navbar-fixed-top">
@@ -106,7 +146,7 @@
 									<ul class="language-choose">
 										<li><a href="#lat"><span class="CyrLatIgnore">LAT</span></a> </li>
 										<li><a href="#cyr"><span class="CyrLatIgnore">ЋИР</span></a></li>
-										<!-- <li><a href="#"><span class="CyrLatIgnore">ENG</span></a></li> -->
+										<li><a href="#"><span class="CyrLatIgnore">ENG</span></a></li>
 									</ul>
 								</div>
 							</div>
@@ -114,7 +154,7 @@
 					</div>
 				</div>	
 				<?php include 'include/logo-baner.php'; ?>
-				<?php// include 'include/meni.php'; ?>
+				<?php include 'include/meni.php'; ?>
 			</nav>
 		</header>
 		
@@ -135,11 +175,10 @@
 				<div class="container">
 					<div class="zivot-box">
 						<div class="row sticky-parent-element-1">
-							<div class="col-md-12">
+							<div class="col-md-8">
 								<div class="row akt">
 									<div class="akt-naziv">
-										<h3 class="akt-naziv-header" style="/*padding-bottom: 6px;">ШКОЛА ЉУДСКИХ ПРАВА 2021</h3>
-										<!-- <h5 class="akt-naziv-header">ПОКРАЈИНСКОГ ЗАШТИТНИКА ГРАЂАНА - ОМБУДСМАНА</h5> -->
+										<h3 class="akt-naziv-header"><span class="CyrLatIgnore">Школа људских права</h3>
 									</div>
 								</div>
 								<div class="row akt">
@@ -147,126 +186,62 @@
 										<h3 class="akt-linija-header"></h3>
 									</div>
 								</div>
-
-								<div>
-									<div class="naslov-upitnici" style="line-height: 60px;">
-										<span>ПРЕЗЕНТАЦИЈЕ</span>
-										<a href="doc/publikacije/predavanje-skola-2021.zip" class="button-two" style="float: right;">Преузимање [3,6 MB]</a>									
-									</div>
-								</div>
-
-								<div>
-									<div class="naslov-upitnici" style="line-height: 60px;">
-										<span>ФОТОГРАФИЈЕ</span>
-										<a href="images/skola2021/Skola-ljudskih-prava-2021.zip" class="button-two" style="float: right;">Преузимање [237 MB]</a>									
-									</div>
-								</div>
-		
-								<div>
-									<div class="naslov-upitnici" style="line-height: 60px;">
-										<span>ЛИТЕРАТУРА</span>
-										<a href="doc/publikacije/LITERATURA-Skola-ljudskih-prava-2021.zip" class="button-two" style="float: right;">Преузмите све [40 MB]</a>									
-									</div>
-								</div>
 								
-								<div class="download-upitnici">
-									<ul>
-										<li>Oдгoj - плурaлизaм - тoлeрaнциja <span class="CyrLatIgnore">:: [pdf] :: 78KB</span></li>
-									</ul>
-									<ul>
-										<li>Филoзoфиja и прoблeм вeрскe тoлeрaнциje <span class="CyrLatIgnore">:: [pdf] :: 4,7МB</span></li>
-									</ul>
-									<ul>
-										<li>Гoвoр мржњe у прaкси Eврoпскoг судa зa људскa прaвa <span class="CyrLatIgnore">:: [pdf] :: 528KB</span></li>
-									</ul>
-									<ul>
-										<li>Eкспaнзиja мржњe - oснoвнa oбeлeжja мaсoвних злoчинa мржњe <span class="CyrLatIgnore">:: [pdf] :: 174KB</span></li>
-									</ul>
-									<ul>
-										<li>Цивилнo друштвo прoтив злoчинa из мржњe <span class="CyrLatIgnore">:: [pdf] :: 244KB</span></li>
-									</ul>
-									<ul>
-										<li>Злочини мржње - теоријска парадигма <span class="CyrLatIgnore">:: [pdf] :: 258KB</span></li>
-									</ul>
-									<ul>
-										<li>Зaштитa прaвa нa слoбoду изрaжaвaњa <span class="CyrLatIgnore">:: [pdf] :: 3,4MB</span></li>
-									</ul>
-									<ul>
-										<li>Зaбрaнa дискриминaциje у Србиjи и рaњивe друштвeнe групe <span class="CyrLatIgnore">:: [pdf] :: 1,5MB</span></li>
-									</ul>
-									<ul>
-										<li>Зaбрaнa дискриминaциje - Oдaбрaнe прeсудe Eвропског суда за људска права <span class="CyrLatIgnore">:: [pdf] :: 1,3MB</span></li>
-									</ul>
-									<ul>
-										<li>Вриjeднoст тoлeрaнциje <span class="CyrLatIgnore">:: [pdf] :: 14MB</span></li>
-									</ul>
-									<ul>
-										<li>Toлeрaнциja и дoктринaрнo злo <span class="CyrLatIgnore">:: [pdf] :: 582KB</span></li>
-									</ul>
-									<ul>
-										<li>Штa je сeксуaлнo уцeњивaњe и узнeмирaвaњa жeнa нa пoслу или у шкoли <span class="CyrLatIgnore">:: [docx] :: 22KB</span></li>
-									</ul>
-									<ul>
-										<li>Сeксуaлнo узнeмирaвaњe у Рeпублици Србиjи <span class="CyrLatIgnore">:: [pdf] :: 611KB</span></li>
-									</ul>
-									<ul>
-										<li>Рoднa дискриминaциja у oблaсти зaпoшљaвaњa <span class="CyrLatIgnore">:: [pdf] :: 923KB</span></li>
-									</ul>
-									<ul>
-										<li>Рaвнoпрaвнoст у прaкси <span class="CyrLatIgnore">:: [pdf] :: 2,4MB</span></li>
-									</ul>
-									<ul>
-										<li>Приручник зa прeпoзнaвaњe случajeвa дискриминaциje <span class="CyrLatIgnore">:: [pdf] :: 1,1MB</span></li>
-									</ul>
-									<ul>
-										<li>Прaвилник o прaвилимa пoнaшaњa пoслoдaвaцa и зaпoслeних у вeзи сa прeвeнциjom и заштитом oд злoстaвљaњa нa рaду <span class="CyrLatIgnore">:: [pdf] :: 320KB</span></li>
-									</ul>
-									<ul>
-										<li>Прaктикум зa зaштиту oд дискриминaциje <span class="CyrLatIgnore">:: [pdf] :: 1MB</span></li>
-									</ul>
-									<ul>
-										<li>Пoлитичкa тoлeрaнциja у Србиjи и Eврoпи <span class="CyrLatIgnore">:: [pdf] :: 404KB</span></li>
-									</ul>
-									<ul>
-										<li>Пoлитичкa културa <span class="CyrLatIgnore">:: [pdf] :: 7,6MB</span></li>
-									</ul>
-									<ul>
-										<li>Пoлитичкa културa - Eнциклoпeдиja пoлитичких нaукa <span class="CyrLatIgnore">:: [pdf] :: 3,3MB</span></li>
-									</ul>
-									<ul>
-										<li>Пoлитичкa културa - Латинка Перовић <span class="CyrLatIgnore">:: [doc] :: 49КB</span></li>
-									</ul>
-									<ul>
-										<li>Писмo o тoлeрaнциjи <span class="CyrLatIgnore">:: [pdf] :: 529KB</span></li>
-									</ul>
-									<ul>
-										<li>Oглeди o пoлитичкoj култури <span class="CyrLatIgnore">:: [pdf] :: 659KB</span></li>
-									</ul>
-									<ul>
-										<li>Meтoдoлoгиja - Гoвoр мржњe и злoчин мржњe <span class="CyrLatIgnore">:: [pdf] :: 305KB</span></li>
-									</ul>
-									<ul>
-										<li>Злочин из мржње - Заштита људских права <span class="CyrLatIgnore">:: [pdf] :: 2MB</span></li>
-									</ul>
-									<ul>
-										<li>Грaницe тoлeрaнциje <span class="CyrLatIgnore">:: [pdf] :: 295KB</span></li>
-									</ul>
-								</div>
+								<hr id="preporuke">
+								<div class="deo-teksta" style="margin-top: 20px;">
+									<div class="naslov-artikla">
+										<h2>Школа људских права <strong>2022</strong></h2>
+									</div>
+									<div class="article-content triggerAnimation animated fontaccess" data-animate="fadeInLeft">
+										<p class="fontaccess"><img style="width: 100%;" src="../sr/images/skola2022/Skola-ljudskih-prava.jpg" alt="Škola ljudsih prava 2022"></p>
+										<p class="fontaccess">Покрајински заштитник грађана – омбудсман и ове године ће, пети пут заредом, организовати школу људских права.
+										<p class="fontaccess">Школа људских права представља облик неформалног образовања о људским правима и намењена је ученицима и ученицама завршних разреда средњих школа, као и студентима и студенткињама факултета друштвено-хуманистичких наука из АП Војводине. </p>
+										<p class="fontaccess">Циљ Школе је да прошири знања младих људи о људским правима, да их подстакне да се за своја и права других људи енергично залажу, као и да својим активностима допринесу промоцији културе људских права.</p>
+										<p class="fontaccess">Рад Школе ће се одвијати у виду предавања, дебата и радионица и у њеном раду ће учествовати стручњаци и стручњакиње из области људских права.</p>
+										<p class="fontaccess">Школа људских права ће трајати три дана - у периоду од 23. до 25. августа и бесплатна је за полазнике и полазнице.</p>
+										<p class="fontaccess">Покрајински заштитник грађана - омбудсман позива средњошколце/ке и студенте/киње да се пријаве и  учествују у раду школе.</p>
+										<p class="fontaccess">Будући да је број полазника Школе ограничен на 20 учесника/ца, одабир кандидата/киња вршиће се по редоследу пријављивања.</p>
+										<p class="fontaccess">Заинтересовани ученици/це и студенти/киње пријаве могу да поднесу путем имејла на <span class="CyrLatIgnore">pavel.domonji@vojvodina.gov.rs</span>.</p>
+										<p class="fontaccess">Све потребне информације о Школи могу се добити позивом на бројеве 021/487-4144 и 060/4243-800 - контакт особа је Павел Домоњи, саветник у Покрајинском заштитнику грађана – омбудсману.</p>
+										<p class="fontaccess">Школа људских права се одржава захваљујући разумевању и подршци <a href="https://www.osce.org/sr/mission-to-serbia" target="_blank">Мисије ОЕБС-а у Србији.</a></p>
+										<p class="fontaccess">Ваши лични подаци биће коришћени искључиво у сврху остваривања комуникације између организатора и учесника/ца Школе људских права. По завршетку Школе људских права ваши лични подаци биће обрисани.</p>
+										
+										<div class="naslov-artikla">
+											<h2>Контакт</h2>
+										</div>
+										<p class="fontaccess">Контакт особа: Павел Домоњи</p>
+										<p class="fontaccess">Телефон: 021/487-4144</p>
+										<p class="fontaccess">Мобилни: 060/4243-800</p>
+										<p class="fontaccess">Имејл: <span class="CyrLatIgnore">pavel.domonji@vojvodina.gov.rs</span></p>
+
+
+										<!-- <p class="fontaccess" style="margin-left: 20px; padding-left: 5px; border-left: 3px solid #c7c7c7;"><a href="https://www.vojvodina.gov.rs/vesti/obelezavanje-dana-rodne-ravnopravnos?id=107838" target="_blank" rel="noopener">Покрајинска влада</a></p> -->
+										
+										<p>&nbsp;</p>
+										
+										
+									</div>
+								</div>															
 							</div>
-							<!-- <div class="col-md-4">								
+							<div class="col-md-4">								
 								<div class="sidebar right-documents">
 									<div class="najnovije-vesti-right">
 										<div class="col-md-12 najnovije-vesti-modul">
 											<div class="najnovije-vesti-naslov">
-												<span>DOKUMENTI</span>
+												<span>NAJNOVIJE VESTI</span>
 											</div>
 											<div class="najnovije-vesti-links">
 												<ul class="najnovije-vesti-lista">
-													<li><a href="akt.php">Оснивачки акт</a></li>
-													<li><a href="izvestaji.php">Извештаји</a></li>
-													<li><a href="informator.php">Информатор о раду</a></li>
-													<li><a href="upitnici.php">Упитници</a></li>
-                                                    <li class="active"><a class="isdisabled" href="ostali-dokumenti.php">Остали документи</a></li>
+																										
+													<?php
+												        $static = TRUE;
+												        $number = 5;
+												        $template = "sidebar-najnovije-vesti";
+												    	$category = "1,2,3";
+												    	$PHP_SELF = 'vest-one.php';
+												        include("../cnews/show_news.php");
+												    ?>
+
 												</ul>
 											</div>
 										</div>
@@ -287,7 +262,7 @@
 										</div>
 									</div>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -307,7 +282,7 @@
 
 	<!-- End Container -->
 	
-	<script type="text/javascript" src="js/jquery.sticky-kit.js" async></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.js"></script>
 
 	<!-- SKRIPTA ZA LEPLJENJE SIDEBAR ELEMENTA ILI NEKOG DRUGOG ELEMENTA NA STRANICI. KORISTI SE UZ FAJL jquery.sticky-kit.js koji smo pozvali u gornjoj liniji  -->
 	<script>
@@ -348,28 +323,30 @@
 </script>
 
 <!-- Skripta koja po ucitavanju stranice dodaje elementu .single-vest-content p klasu fontaccess. Ovo se radi zato sto bi u suprotnom korisnik koji unoisi vest morao sam ya svaki paragraf dodavati ovu klasu. SKRIPTA script.js se PRESELILA IZ HEADERA ISPOD OVE SKRIPTE JER SE U NJOJ NALAZI KOD ZA SMANJIVANJE I POVECAVANJE FONTOVA U PARAGRAFU SA KLASOM FONTACCESS. Prvo mora da se doda klasa a tek onda da se izvrsi skripta za resize fontova.-->
-<!-- <script>
+<script>
 	$(document).ready(function() {
 	  $('.single-vest-content p').addClass('fontaccess');
 	});
-</script> -->
+</script>
 
 
 <!-- Skripta koja po ucitavanju stranice dodaje klasu hvr-sweep-to-right elementu .vest a. Ovo se radi yato sto jenemoguce ovu klasu dodati u templejtu u CuteNews-u ([full-link]Опширније...[/full-link])-->
-<!-- <script>
+<script>
 	$(document).ready(function() {
 	  $('.sve-vesti-vest a').addClass('sve-vesti-slika');
 	});
-</script> -->
+</script>
+
+<script type="text/javascript" src="js/script.js"></script>
 
 <!-- Skripta koja omogucava sda se link ka anchoru ne zalepi na vrh stranice vec 180px ispod vrha -->
-<!-- <script>
+<script>
 	$(document).on('click', 'a.taraba', function(event){
 	    event.preventDefault();
 
 	    $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top - 250}, 800);
 	});
-</script> -->
+</script>
 
 
 </body>

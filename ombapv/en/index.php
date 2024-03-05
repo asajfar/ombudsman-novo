@@ -467,9 +467,9 @@
 									<div class="photo-stream">
 
 										<div class="gallery">
-											<a href="ombudsman-i-zamenici.php"><img class="hvr-shrink" src="../sr/images/naslovna/ombudsman.jpg" alt="Ombudsman"/></a>
+											<a href="ombudsman-i-zamenici.php"><img class="hvr-shrink" src="../sr/images/naslovna/Dragana-Coric-250x250.jpg" alt="Ombudsman"/></a>
 										</div>
-										<h3>prof. Zoran Pavlović, PhD <br><div class="funkcija">Provincial  Protector of Citizens - Ombudsman</div></h3>
+										<h3>Dragana Ćorić, PhD <br><div class="funkcija">Provincial  Protector of Citizens - Ombudsman</div></h3>
 									</div>
 
 									<div class="company-info">

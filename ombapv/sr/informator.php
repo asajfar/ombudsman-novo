@@ -198,15 +198,15 @@
 								<div class="row informator">
 									<div class="informator-naslov">
 										<h4>ИНФОРМАТОР О РАДУ ПОКРАЈИНСКОГ ЗАШТИТНИКА ГРАЂАНА</h4>
-										<h5>ажуриран 19.01.2021. године</h5>
+										<!-- <h5>ажуриран 19.01.2021. године</h5> -->
 									</div>
-									<div class="informator-tekst">
+									<!-- <div class="informator-tekst">
 										<p>Информатор о раду Покрајинског заштитника грађана - омбудсмана садржи податке значајне за рад Покрајинског заштитника грађана - омбудсмана у области остваривања, заштите и унапређења људских права на територији АП Војводине, као и за начине остваривања права заинтересованих лица на приступ информацијама од јавног значаја. Сврха његовог објављивања је информисање јавности о документима и информацијама којима располаже Покрајински заштитник грађана - омбудсман у оквиру својих надлежности.</p>
 										<p>Информатор о раду Покрајинског заштитника грађана - омбудсмана објављује се у складу са чланом 39. Закона о слободном приступу индормацијама од јавног значаја ("Службени гласник РС", број 120/04, 54/07, 104/2009, 36/2010) и Упутством за објављивање информатора о раду државног органа ("Службени гласник РС", број 57/05).</p>
 										<p>Информатор се објављује у електронској верзији на Интернет презентацији Покрајинског заштитника грађана - омбудсмана, а на захтев заинтересованог лица текст Информатора се може бесплатно преснимити или одштампати.</p>
-									</div>
+									</div> -->
 								</div>
-								<div class="row informator-podaci">
+								<!-- <div class="row informator-podaci">
 									<h4>ОСНОВНИ ПОДАЦИ О ДРЖАВНОМ ОРГАНУ И ИНФОРМАТОРУ</h4>
 									<p><span class="boldirano">Назив органа: </span>Покрајински заштитник грађана - омбудсман</p>
 									<p><span class="boldirano">Адреса седишта: </span>Булевар Михајла Пупина 25, 21101 Нови Сад</p>
@@ -214,23 +214,23 @@
 									<p><span class="boldirano">Порески идентификациони број: </span>103746241</p>
 									<p><span class="boldirano">Адреса за пријем поднесака: </span>Булевар Михајла Пупина 25, 21101 Нови Сад</p>
 									<p><span class="boldirano">Адреса за пријем електронских поднесака: </span><span class="CyrLatIgnore">predstavke@ombudsmanapv.org</span></p>
-								</div>
+								</div> -->
 								<div class="row akt">
 									<div class="akt-slika triggerAnimation animated fadeInRight" data-animate="fadeInRight">
-										<a href="../sr/doc/dokumenti/INFORMATOR_PZGO-azuriran-13-01-2020.pdf" target="_blank">
+										<a href="https://informator.poverenik.rs/informator?org=b9zHSgf2hQca3TA6c" target="_blank">
 											<img class="akt-slika-img" src="../sr/images/dokumenti/informator.jpg" alt="foto-informator-o-radu">
 											<div class="middle">
 												<div class="akt-slika-text">
-													<img src="../sr/images/dokumenti/pdf-icon.png" alt="pdf icon">
+													<!-- <img src="../sr/images/dokumenti/pdf-icon.png" alt="pdf icon"> -->Погледај...
 												</div>
 											</div>
 										</a>
 									</div>
 								</div>
-								<div class="download">
+								<!-- <div class="download">
 									<a href="../sr/doc/dokumenti/INFORMATOR_PZGO-azuriran-19-01-2021.pdf" target="_blank">Preuzmite dokument <span class="CyrLatIgnore">:: .pdf :: 3.2MB</span> <span class="strelice">>>></span></a>
 									<a href="../sr/doc/dokumenti/INFORMATOR_PZGO-azuriran-19-01-2021.docx" target="_blank">Preuzmite dokument <span class="CyrLatIgnore">:: .doc :: 1.2MB</span> <span class="strelice">>>></span></a>
-								</div>
+								</div> -->
 							</div>
 							<div class="col-md-4">								
 								<div class="sidebar right-documents">

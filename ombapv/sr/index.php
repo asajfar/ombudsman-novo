@@ -23,7 +23,7 @@
 	<link rel="preconnect" href="https://goo.gl">
 	<link rel="preconnect" href="https://docs.google.com">
 
-	<title>НАСЛОВНА СТРАНА | Покрајински заштитник грађана - омбудсман</title>
+	<title>ПОКРАЈИНСКИ ЗАШТИТНИК ГРАЂАНА - ОМБУДСМАН</title>
 
 	<meta charset="utf-8">
 	<meta name="robots" content="index, follow" />
@@ -92,7 +92,7 @@
 	    "addressLocality" : "Нови Сад",
 	    "addressCountry" : "Србија"
 	  },
-	  "url" : "http://www.ombudsmanapv.org/sr/"
+	  "url" : "https://www.ombudsmanapv.org/sr/index.php"
 	}
 	</script>
 
@@ -160,6 +160,58 @@
 			<div class="tp-banner-container">
 				<div class="tp-banner" >
 					<ul>
+
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" >
+							<!-- MAIN IMAGE -->
+							<img src="upload/slide/20-godina.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="20% 0%" data-bgrepeat="no-repeat">
+							<div class="slika-effect1"></div>
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<!-- <div class="tp-caption lft large_bold_white customout"
+								data-x="0"
+								data-y="140"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="700"
+								data-start="1200"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 4; min-width: 500px; max-width: 500px; white-space: inherit; line-height: 55px;">КАКО ПОДНЕТИ ПРИТУЖБУ?
+							</div> -->
+							
+							<!-- LAYER NR. 2 -->
+							<!-- <div class="tp-caption lfl medium_thin_grey"
+								data-x="0"
+								data-y="260"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="1600"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14">
+							</div> -->
+							
+							<!-- LAYER NR. 3 -->
+							<!-- <div class="tp-caption lfb medium_thin_grey"
+								data-x="0"
+								data-y="280"
+								data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="1000"
+								data-start="2000"
+								data-easing="Back.easeInOut"
+								data-endspeed="400"
+								data-endeasing="Back.easeIn"
+								style="z-index: 14"><a href="obratite-nam-se.php" class="btn btn-primary">САЗНАЈТЕ ВИШЕ</a>
+							</div> -->
+
+							
+						</li>
+
+
 						<!-- SLIDE  -->
 						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" >
 							<!-- MAIN IMAGE -->
@@ -425,9 +477,26 @@
 					<div class="container full">
 						<div class="row">
 
-							<div class="col-md-12">
-								<div class="banner-iznad"><a href="covid-19.php">#БудимоОдговорни</a></div> 								
-							</div>			
+							<div class="col-md-2" style="padding: 0;">
+								<div class="banner-iznad"><a href="covid-19.php">#ОстанимоОдговорни</a></div>
+							</div>
+
+							<div class="col-md-2" style="padding: 0;">
+								<div class="banner-iznad"><a target="_blank" href="decji-savet.php">Дечји савет</a></div>
+							</div>
+
+							<div class="col-md-4" style="padding: 0;">
+								<div class="banner-iznad" style="background-color: #363435;"><a href="smernice-2023.php">Смернице за родитеље и школе</a></div>
+							</div>
+
+							<div class="col-md-2" style="padding: 0;">
+								<div class="banner-iznad"><a href="skola.php">Школа људских права</a></div>	
+							</div>
+
+							<div class="col-md-2" style="padding: 0;">
+								<div class="banner-iznad"><a href="mreza-zivot-bez-nasilja.php">Mreža "Život bez nasilja"</a></div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -475,9 +544,9 @@
 									<div class="photo-stream">
 
 										<div class="gallery">
-											<a href="ombudsman-i-zamenici.php"><img class="hvr-shrink" src="images/naslovna/ombudsman.jpg" alt="Ombudsman"/></a>
+											<a href="ombudsman-i-zamenici.php"><img class="hvr-shrink" src="images/naslovna/Dragana-Coric-250x250.jpg" alt="Ombudsman"/></a>
 										</div>
-										<h3>Проф. др Зоран Павловић <br><div class="funkcija">Покрајински заштитник грађана - омбудсман</div></h3>
+										<h3>Доц. др Драгана Ћорић <br><div class="funkcija">Покрајински заштитник грађана - омбудсман</div></h3>
 									</div>
 
 									<div class="company-info">

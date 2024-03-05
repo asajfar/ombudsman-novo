@@ -3760,7 +3760,7 @@ li.megadrop:hover .megadrop-down {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  padding: 16px 22px;
+  padding: 16px 20px;
   /*margin-bottom: -2px;*/
 }
 .header3 .navbar-nav > li > a:hover,
@@ -4030,7 +4030,7 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 header.active .navbar-nav > li > a,
 .header4 header.active .navbar-nav > li > a {
-  padding: 16px 22px;
+  padding: 16px 20px;
 }
 .header3 header.active .right-align,
 .header4 header.active .right-align {
@@ -10013,6 +10013,12 @@ footer .up-footer .flickr-widget ul li a:hover {
   }
   .naslovna-content {
     top: -84px;
+  }
+  .accord-title h2, .toogle-title h2 {
+    font-size: 12px;
+  }
+  .banner-text2-section h1 a {
+    margin: 11px 65px 0px 65px;
   }
 }
 

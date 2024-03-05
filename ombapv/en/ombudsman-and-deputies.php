@@ -76,7 +76,7 @@
 	    "addressLocality" : "Novi Sad",
 	    "addressCountry" : "Serbia"
 	  },
-	  "url" : "http://www.ombudsmanapv.org/ombapv/en/ombudsman-and-deputies.php"
+	  "url" : "https://www.ombudsmanapv.org/ombapv/en/ombudsman-and-deputies.php"
 	}
 	</script>
 
@@ -105,7 +105,7 @@
 							<div class="col-md-3 col-sm-4">
 								<div class="flags-section">
 									<ul class="language-choose">
-										<li><a href="../sr/index.php"><span class="CyrLatIgnore" title="Serbian language">SRB</span></a></li>
+										<li><a href="https://www.ombudsmanapv.org/ombapv/sr/ombudsman-i-zamenici.php"><span class="CyrLatIgnore" title="Serbian language">SRB</span></a></li>
 									</ul>
 								</div>
 							</div>
@@ -163,35 +163,34 @@
 						<div class="row sticky-parent-element">
 							<div class="col-md-8">
 								<div class="ombudsman">
-									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/ombudsman.jpg" alt=""><a class="taraba" href="#zamenica-op"><i class="fa fa-angle-double-down"></i></a></div>
+									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Dragana-Coric-250x250.jpg" alt=""><a class="taraba" href="#zamenica-op"><i class="fa fa-angle-double-down"></i></a></div>
 									<div class="col-md-8 ombudsman-text">
 										<h2 id="ombudsman">Provincial  Protector of Citizens - Ombudsman</h2>
-										<h3>prof. Zoran Pavlović, PhD</h3>
-										<p class="fontaccess">Prof. Zoran S. Pavlović, PhD, assumed the office of the Provincial Protector of Citizens - Ombudsman on 1st December 2016 as a full professor and the head of the Criminal Law Department at the Faculty of Law for Commerce and Justice of the University “Business Academy” in Novi Sad.</p>
-										<p class="fontaccess">He started a career as a law graduate and trainee judge at the Municipal Court in Novi Sad and passed the bar examination in 1991.  After two years of practising law, he worked as a Deputy Public Prosecutor of the Municipal Court in Novi Sad for eight years.  He became Deputy Public Prosecutor of Novi Sad District in 2002. In 2004, he became the District Public Prosecutor, then the Head of the Office of the Special Prosecutor for Organised Crime in Novi Sad and afterwards its deputy.</p>
-										<p class="fontaccess">He participated in numerous expert and scientific events in the country and abroad and took part on projects of the Ministry of Justice and Ministry of Science. He was also a member of the team for preparing the proposal of the Draft Law on Criminal Procedure in 2006. During his academic career he published more than fifty scientific and expert papers in the field of criminal material law, criminal procedure law, international criminal law, international private and international public law, as well as two monographs and two textbooks in the field of law theory, criminology and victimology and criminal procedure law.   He is a member of The Hague Academy for International Law and the Victimology Society of Serbia.</p>
-										<p class="fontaccess">He is married with two children.</p>
+										<h3>Dragana Ćorić, PhD</h3>
+										<p class="fontaccess"></p>
+										<p class="fontaccess"></p>
+										<p class="fontaccess"></p>
+										<p class="fontaccess"></p>
 									</div>									
 								</div>
 								<div class="ombudsman">
-									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Aniko-Sirkova-small.jpg" alt=""><a class="taraba" href="#zamenik-zd"><i class="fa fa-angle-double-down"></i></a></div>
+									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Jovana-Aleksic.jpg" alt=""><a class="taraba" href="#zamenik-zd"><i class="fa fa-angle-double-down"></i></a></div>
 									<div class="col-md-8 ombudsman-text">
 										<h2 id="zamenica-op">Deputy Provincial Protector of Citizens - Ombudsman</h2>
-										<h3>Aniko Širkova</h3>
-										<p class="fontaccess">Aniko Širkova was elected a Deputy Provincial Ombudsman on 11 December 2015.</p>
+										<h3>Jovana Đurić</h3>
+										<p class="fontaccess">Jovana Đurić was elected for Deputy Provincial Ombudsman on December 16, 2021.</p>
 										<p class="fontaccess">She graduated from the Faculty of Law in Novi Sad.</p>
-										<p class="fontaccess">She worked at the Municipal Administration of Senta municipality in charge of various administrative and legal affairs until 1991, after which she worked for ten years in a number of preceding organisational units of the Tax Administration.</p>
-										<p class="fontaccess">In December 2004 she was appointed the Secretary of the Assembly of Senta municipality. She was the Deputy President of Senta municipality from 2008 to 2010 and afterwards she was elected the President of Senta municipality.</p>
-										<p class="fontaccess">She remained the President of Senta municipality until July 2012, when she was elected a Deputy Provincial Ombudsman.</p>
-										<p class="fontaccess">She was born in 1960 in Senta and has two adult children.</p>
+										<p class="fontaccess">From 2006, she worked in the District Court in Novi Sad, and after the reform of the judiciary in the High Court in Novi Sad until September 2010. After that, she worked in the company "Agroživ" a.d. Žitište in the period from 2011 to 2014.</p>
+										<p class="fontaccess">From February 2016, she enrolled in the Vojvodina Bar Association and until the election for the Deputy Provincial Ombudsman, she practiced law.</p>
+										<p class="fontaccess">She was born in 1984 in Novi Sad. She is married.</p>
 									</div>									
 								</div>
 								<div class="ombudsman">
-									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Milan-Dakic-250x250.jpg" alt=""><a class="taraba" href="#zamenica-rp"><i class="fa fa-angle-double-down"></i></a></div>
+									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Joland-Korora-250x250.jpg" alt=""><a class="taraba" href="#zamenica-rp"><i class="fa fa-angle-double-down"></i></a></div>
 									<div class="col-md-8 ombudsman-text">
 										<h2 id="zamenik-zd">Deputy Provincial Protector of Citizens -Ombudsman for the Rights of the Child.</h2>
-										<h3>Milan Dakić</h3>
-										<p class="fontaccess">Milan Dakić, LLB, was born in Belgrade on 8 September 1978 and lives in Novi Sad.    From June 2010 to June 2017, he was employed at the Provincial Protector of Citizens - Ombudsman as an expert associate for international relations, expert associate and independent expert associate for protection of human rights and independent counsellor in charge of complaints handling procedure.  He takes part in the work of the National Mechanism for the Prevention of Torture.</p>
+										<h3>Joland Korora</h3>
+										<p class="fontaccess"></p>
 									</div>									
 								</div>
 								<div class="ombudsman">
@@ -210,15 +209,11 @@
 									</div>									
 								</div>
 								<div class="ombudsman">
-									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Janos-Oros-250x250.jpg" alt=""></div>
+									<div class="col-md-4 ombudsman-slika"><img src="../sr/images/onama/Mihalj-Njilas-250x250.jpg" alt=""></div>
 									<div class="col-md-8 ombudsman-text">
 										<h2 id="zamenik-nm">Provincial Protector of Citizens - Ombudsman Deputy for the Protection of National Minority Rights</h2>
-										<h3>Janoš Oros</h3>
-										<p class="fontaccess">Janoš Oros, the Deputy Provincial Protector of Citizens - Ombudsman for National Minority Rights was elected on 12 October 2017.</p>
-										<p class="fontaccess">He was born on 6 November 1958 in Novi Sad by a Hungarian father and Slovakian mother.</p>
-										<p class="fontaccess">He completed primary and secondary education in the Hungarian language.   He graduated in Novi Sad from the Faculty of Law in 1981. He worked at the Provincial Committee for International Cooperation, and before assuming this office, he worked for the Provincial Secretariat for Education, Regulations, Administration and National Minorities - National Communities for more than twenty years.  During four terms of office, he was the Assistant Provincial Secretary in charge of the exercise of national minority rights.</p>
-										<p class="fontaccess">He published a number of texts on this topic and held lectures in the country and abroad. He is also a translator and a court interpreter for the Hungarian language. He published Serbian-Hungarian and Hungarian-Serbian dictionary of legal and administrative terms.</p>
-										<p class="fontaccess"> He is fluent in English. He is married with one child and lives in Novi Sad.</p>
+										<h3>Mihalj Njilaš</h3>
+										<p class="fontaccess"></p>
 									</div>									
 								</div>
 								
@@ -227,11 +222,11 @@
 								<div class="sidebar right-menu triggerAnimation animated" data-animate="fadeInRight">
 									<div class="module-right-menu">
 										<ul>
-											<li><img src="../sr/images/onama/ombudsman.jpg" alt=""><a class="taraba" href="#ombudsman">Provincial Protector of Citizens - Ombudsman</a></li>
-											<li><img src="../sr/images/onama/Aniko-Sirkova-small.jpg" alt=""><a class="taraba" href="#zamenica-op" target="_blank">Deputy Provincial Protector of Citizens - Ombudsman</a></li>
-											<li><img src="../sr/images/onama/Milan-Dakic-250x250.jpg" alt=""><a class="taraba" href="#zamenik-zd" target="_blank">Deputy Provincial Protector of Citizens - Ombudsman for the Rights of the Child</a></li>
+											<li><img src="../sr/images/onama/Dragana-Coric-250x250.jpg" alt=""><a class="taraba" href="#ombudsman">Provincial Protector of Citizens - Ombudsman</a></li>
+											<li><img src="../sr/images/onama/Jovana-Aleksic.jpg" alt=""><a class="taraba" href="#zamenica-op" target="_blank">Deputy Provincial Protector of Citizens - Ombudsman</a></li>
+											<li><img src="../sr/images/onama/Joland-Korora-250x250.jpg" alt=""><a class="taraba" href="#zamenik-zd" target="_blank">Deputy Provincial Protector of Citizens - Ombudsman for the Rights of the Child</a></li>
 											<li><img src="../sr/images/onama/Snezana-Knezevic-250x250.jpg" alt=""><a class="taraba" href="#zamenica-rp" target="_blank">Deputy Provincial Protector of Citizens - Ombudsman for Gender Equality</a></li>
-											<li><img src="../sr/images/onama/Janos-Oros-250x250.jpg" alt=""><a class="taraba" href="#zamenik-nm" target="_blank">Deputy Provincial Ombudsman for the Protection of National Minority Rights</a></li>
+											<li><img src="../sr/images/onama/Mihalj-Njilas-250x250.jpg" alt=""><a class="taraba" href="#zamenik-nm" target="_blank">Deputy Provincial Ombudsman for the Protection of National Minority Rights</a></li>
 
 										</ul>
 									</div>							
